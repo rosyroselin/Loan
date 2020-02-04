@@ -1,0 +1,1490 @@
+.cc .completed-details {
+    background: none;
+}
+
+.cc .input {
+    z-index: auto;
+}
+
+#check-eligibility-page .fa {
+    margin: 3px 0px 0 1px;
+    vertical-align: middle;
+}
+
+#employerPage .select-wrapper {
+    margin-top: 1.5em;
+}
+
+.cc .mobile.input.input--hoshi,
+.cc .std-phone .input.input--hoshi {
+    overflow: visible;
+}
+
+#upload-documents-page .creditCardDocs .list-group,
+#upload-documents-page .creditCardDocs {
+    background-color: transparent;
+}
+
+#upload-documents-page .creditCardDocs .list-group a {
+    background-color: #fff;
+}
+
+#upload-documents-page .creditCardDocs .list-group a:first-child {
+   /* margin-bottom: 1.5em;*/
+}
+
+.cc #upload-documents-page .creditCardDocs .list-group a:first-child {
+   /* margin-bottom: 5px;*/
+}
+
+.documents-main-menu.creditDocuments .list-group a.list-group-item:first-child span {
+   /* border-bottom: 1px solid transparent;*/
+}
+
+#keyInformation-modal.creditLoan-info .step.checkbox_wrapper {
+    margin: 0px 0 -15px 0px;
+}
+
+.creditCardTerms {
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+    border: 1px solid #e77817;
+    padding: 0.3em;
+    font-weight: bold;
+}
+
+.textTrim {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 15px;
+    position: relative;
+    height: 17px;
+}
+
+.cc .creditMobileList .textTrim {
+    height: 20px;
+}
+
+#completeConfirmationPage .section3 {
+    border-color: #D8D8D8 #DDD #DDD;
+    border-image: none;
+    box-shadow: 0px 20px 20px -20px #ddd inset;
+    border-style: solid;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+.textPadding {
+    padding: 5px;
+}
+
+.mobileCredit {
+    margin-top: 38px;
+    padding-bottom: 0px;
+}
+
+#completeConfirmationPage.colorText {
+    color: #000;
+}
+
+.creditCardTerms img {
+    margin-right: 10px;
+}
+
+.creditCardTerms a {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.cc .creditCardTerms a {
+    margin-top: 6px;
+}
+
+.cc .creditCardTerms a span {
+    color: #333;
+    text-decoration: underline;
+}
+
+.creditCardTerms a.showmore {
+    display: inline-block;
+}
+
+.addDeleteIcon {
+    margin-right: 0.5em;
+}
+
+.addDeleteCard {
+    margin-top: 15px;
+}
+
+.addDeleteCard>a {
+    color: #0645ad;
+}
+
+.addDeleteCard a.disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+
+/*.creditCardLimit {
+    margin-top: -30px;
+}
+*/
+
+#supplementary-info-page .step.checkbox_wrapper {
+    margin-top: 0;
+}
+
+.offersConfirmation .modal-header {
+    padding: 0 !important;
+}
+
+.offersConfirmation #header img {
+    margin-left: 15px !important;
+}
+
+.cc .callAndApply {
+    text-align: center;
+}
+
+.cc .callAndApply .applyNowBtn,
+.cc .callAndApply .callMeBtn {
+    width: auto;
+    min-width: 113px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.cc #step2-page .know-more {
+    padding: 0;
+    margin: 0;
+}
+
+.showmore {
+    color: #00376d;
+}
+
+.icici_account {
+    margin-bottom: 30px;
+}
+
+
+/* changes for arrows */
+
+#step3Page .list-group .list-group-item.selected-tab {
+    background: url('../images/uploaddocuments_normal.png') no-repeat 92%;
+}
+
+#step3Page .list-group .list-group-item.selected-tab.status-completed {
+    background: url('../images/tick.png') no-repeat 92%;
+    color: #000
+}
+
+
+/* changes for arrows */
+
+#creditCardsDiv.mainbox .list-group .list-group-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    padding: 20px 15px 20px 0;
+}
+
+#creditCardsDiv.mainbox .list-group .list-group-item span {
+    margin-right: 13px;
+    width: 29%;
+    max-width: 120px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+#creditCardsDiv.mainbox .list-group .list-group-item span.ellipsis {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+#creditCardsDiv.mainbox .list-group .list-group-item span img {
+    max-height: 44px;
+}
+
+#creditCardsDiv.mainbox .list-group .list-group-item:hover {
+    background: none
+}
+
+.selectCard {
+    padding: 1em;
+    padding-left: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.step3-rightNav .border {
+    border: none;
+}
+
+#creditCardsDiv.mainbox {
+    padding: 0;
+}
+
+#creditCardsDiv.mainbox .list-group {
+    padding-left: 15px;
+    box-shadow: 0px 20px 20px -20px #ddd inset;
+    margin-bottom: 0
+}
+
+#creditCardsDiv.mainbox .row {
+    margin: 0;
+}
+
+#creditCardsDiv.mainbox .list-group .list-group-item .rightArrow {
+    float: right;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    height: 12px;
+}
+
+#creditCardsDiv.mainbox .list-group .list-group-item .ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#creditCardsDiv.mainbox .list-group .row {
+    margin-top: 5px
+}
+
+#creditCardsDiv.mainbox .list-group .row div:last-child .list-group-item {
+    border-bottom: 0
+}
+
+#step2-page #creditCardsDiv {
+    margin-bottom: 1em;
+}
+
+#step2-page #creditCardsDiv {
+    margin-bottom: 1.1em;
+    margin-top: 0px;
+    padding-bottom: 0;
+}
+
+.creditcardInfo {
+    padding: 20px;
+    overflow: hidden;
+    box-shadow: 0px 20px 20px -20px #ddd inset;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.creditcardInfo.fdMobile {
+    margin-top: 0px;
+    border-top: 0px;
+}
+
+#step3Page .mainbox.isFdFlow .select-dropdown {
+    max-width: 100%;
+}
+
+.creditcardInfo ul {
+    margin-left: 1.2em;
+}
+
+.creditcardInfo ul li {
+    margin-top: 1em;
+}
+
+.creditcardInfo img {
+    max-width: 100%
+}
+
+.creditCardDetails .selectedCreditCard {
+    width: 100%;
+    color: #333;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.creditcardInfo .CCDetails {
+    border-bottom: 1px solid #ccc;
+    padding: 30px 0 25px 1px;
+}
+
+.detailedInfo {
+    padding: 10px;
+    padding-left: 22px;
+}
+
+.creditCardDetails .dropdown-menu {
+    width: 100%
+}
+
+.callAndApply {
+    text-align: center;
+    margin: 25px 0
+}
+
+.creditcardInfo p {
+    font-size: 1.25em;
+    margin: 20px 0;
+    color: #333;
+}
+
+.mobileModal {
+    padding: 1.25em 0
+}
+
+.offersConfirmation .mobileModal img {
+    max-width: 100%
+}
+
+#creditCardsDiv .select-dropdown {
+    margin-top: 0
+}
+
+#creditCardsDiv .chosen-container {
+    color: #333;
+    font-weight: bold;
+    padding: 8px 10px 0 19px;
+}
+
+#creditCardsDiv .chosen-container a {
+    border-bottom: 0;
+}
+
+#creditCardsDiv .chosen-container a .search-choice-close {
+    display: none;
+}
+
+#creditCardsDiv .chosen-container span {
+    color: #333;
+    font-weight: bold;
+}
+
+.callAndApply button {
+    width: 122px;
+}
+
+.callAndApply .applyNowBtn {
+    margin-left: 16px;
+    width: auto;
+}
+
+.modal-dialog.modal-df #keyInformation-modal .modal-body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modal-dialog.modal-df #keyInformation-modal .modal-body .mobileModal {
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+.modal-dialog.modal-df #keyInformation-modal .modal-body .mobileModal div {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.modal-dialog.modal-df #keyInformation-modal .modal-body .mobileModal div.confirmBtn {
+    padding: 0 15px;
+}
+
+.modal-dialog.modal-df .light-orange {
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.CCMobileCarousel {
+    margin-bottom: 35px;
+}
+
+.cc .onlyDesktop .nav-tabs > li.active > a,
+.cc .onlyDesktop .nav-tabs > li.active > a:focus,
+.cc .onlyDesktop .nav-tabs > li.active > a:hover {
+    border: 0;
+}
+
+
+/* mobile carousel on offer for you */
+
+#creditCardsDiv select.form-control {
+    margin: 5px 0 0px 0;
+    padding: 0 15px;
+    background-position: 93% center;
+}
+
+.CCMobileCarousel .carousel-inner {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.CCMobileCarousel a.right.carousel-control,
+.CCMobileCarousel a.left.carousel-control {
+    background: none;
+    color: #000;
+}
+
+.CCMobileCarousel a.right.carousel-control span {
+    right: 26%;
+}
+
+.CCMobileCarousel a.left.carousel-control span {
+    left: 26%;
+}
+
+.CCCarouselHomeMobile .carousel-inner div {
+    padding: 0;
+}
+
+.CCCarouselHomeMobile .carousel-inner .item .col-xs-12 {
+    margin: 16px;
+}
+
+.CCCarouselHomeMobile .carousel-inner .item span h4 {
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.CCCarouselHomeMobile .carousel-inner .item span a {
+    font-size: 15px;
+    color: #0546ac;
+}
+
+.CCCarouselHomeMobile .carousel-inner {
+    /*  height: 123px; */
+    background-color: #ccc;
+}
+
+.CCCarouselHomeMobile .carousel-inner img {
+    /* width: 53%; */
+    width: auto;
+    height: auto;
+    padding-left: 0;
+}
+
+.CCCarouselHomeMobile .carousel-inner span {
+    width: 30%;
+    padding: 0;
+}
+
+.CCCarouselHomeMobile .carousel-indicators {
+    bottom: -28px;
+}
+
+.CCCarouselHomeMobile .carousel-indicators li.active {
+    background-color: #e77917;
+}
+
+.selctfullwid .col-sm-6 {
+    width: 100%;
+    padding: 0;
+}
+
+.cc #employerPage .selectbox-width.custom-adjust {
+    padding: 0 15px;
+}
+
+#step1-name {
+    text-transform: uppercase;
+}
+
+.cc #emailoffer .col-md-12,
+.cc #emailoffer .col-sm-12 {
+    width: 100%;
+}
+
+.cc .radio-btn input[type="radio"] {
+    opacity: 0;
+    margin-left: -20px;
+    display: inline-block;
+}
+
+.cc .radio-btn input[type="radio"]:focus + label span {
+    outline: 1px solid #5897fb;
+}
+
+.cc .radio-btn .radios label:focus {
+    outline: 1px dotted #053c6d;
+}
+
+.cc .dobnotchanged,
+.cc .disabledFont input {
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.cc .documents-main-menu .list-group-item span {
+    background: url('../images/uploaddocuments_normal.png') no-repeat right 13px;
+}
+
+.cc .creditCompleteApp .documents-main-menu .list-group-item.active span {
+    background: url('../images/uploaddocuments_selected.png') no-repeat right 13px;
+}
+
+.cc .creditCompleteApp .documents-main-menu .list-group-item.active.status-completed span {
+    background: url('../images/tick-white.svg') no-repeat right 8px;
+    background-size: 25px 25px;
+}
+
+.cc .creditCompleteApp .documents-main-menu .list-group-item.status-completed span {
+    background: url('../images/tick.png') no-repeat right 8px;
+}
+
+.cc .creditDocuments.documents-main-menu .list-group-item.status-completed span {
+    background: url('../images/tick.png') no-repeat right 8px;
+}
+
+
+/*.cc #upload-documents-page .step3-rightNav .content-area {
+    z-index: 999;
+}
+*/
+
+.cc .popoverElement div.fade.popover,
+.cc .popoverElement div.fade.popover.in {
+    left: auto !important;
+}
+
+.cc #cc-knowmore .bootstrap-select.bselect:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: auto;
+}
+
+.cc #creditCardsDiv .onlyDesktop .nav {
+    background: #d1cfbb;
+}
+
+.cc .creditCardDetails .bootstrap-select {
+    padding-top: 10px;
+    background-position: 96% 25px
+}
+
+.cc #cc-knowmore .bootstrap-select.bselect:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) .btn span,
+.cc .creditCardDetails .bootstrap-select.bselect:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) .btn span {
+    padding-right: 10px;
+}
+
+.cc #cc-knowmore .bootstrap-select.bselect:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) .btn,
+.cc .creditCardDetails .bootstrap-select.bselect:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) .btn {
+    border: none;
+    padding: 5px 10px 5px 0;
+    font-weight: bold;
+}
+
+.creditcardInfo .CCDetails ul li {
+    font-size: 15px;
+}
+
+.cc #cc-knowmore .btn-group .dropdown-menu.open ul {
+    padding: 0;
+}
+
+.cc #addressPage .radio-btn {
+    /* margin-top: 0;*/
+    padding-top: 0;
+}
+
+.cc #creditCardsDiv .creditCardDetails .select-dropdown .btn {
+    padding-left: 20px;
+}
+
+.cc #cc-knowmore .modal-header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #E77917;
+}
+
+.cc .dependants .bselect button.btn.btn-default {
+    padding-left: 3px;
+}
+
+.cc .bselect button.btn.btn-default:focus {
+    border-color: #e77817;
+    outline: none !important;
+}
+
+.cc #cc-knowmore .modal-header .close-img {
+    margin-top: 7px;
+}
+
+.cc .submyapp {
+    float: none;
+    margin: 0 auto;
+    clear: both;
+}
+
+.cc .submyapp.submyappFD {
+    margin-top: 20px;
+}
+
+.cc .sploffColor {
+    color: #9F423A;     
+}
+
+.cc .instaCcOffer .sploffColor {
+    color: #9F423A;
+    line-height: 1.8em;
+    font-size: 1.5em;
+}
+
+.cc .date-input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #d5dadf;
+    border-color: #d5dadf;
+    border-image: none;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    display: block;
+    float: right;
+    font-size: 1.25em;
+    position: relative;
+    width: 100%;
+}
+
+.cc .date-input:focus {
+    border-bottom: 1px solid #e57717;
+}
+
+.cc .custom-date-holder ul.dropdown-menu {
+    right: 0 !important;
+    top: 5.3em !important;
+}
+
+.cc .uploadProgress {
+    padding: 0 5px;
+}
+
+.cc .custom-date-holder .btn-default.active,
+.cc .custom-date-holder .btn-default:active,
+.cc .open > .custom-date-holder .dropdown-toggle.btn-default {
+    background: #e77817;
+    color: #fff;
+    border-color: #e77817;
+}
+
+.cc .custom-date-holder .btn.active span {
+    color: #fff;
+}
+
+.cc .custom-date-holder .dropdown-menu table {
+    z-index: 9999;
+}
+
+.cc .callme-modal #dobWidth .custom-date-holder ul.dropdown-menu {
+    top: auto !important;
+    bottom: 40px !important;
+}
+
+.no-padding {
+    padding: 0 3px;
+}
+
+.cc .mobileupload {
+    padding: 0 5px;
+}
+
+.cc .offers-text {
+    margin-top: 10px;
+}
+
+.cc .offers-text a {
+    color: #337ab7;
+}
+
+.cc .offersForYouCarousel {
+    display: none;
+}
+
+.cc #keyInformation-modal .termWrapperStep3 .col-xs-12,
+.cc #keyInformation-modal .termWrapperStep3 .termsStep3,
+.cc #keyInformation-modal .submyapp {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.cc.open #upload-documents-page .step3-leftNav {
+    display: none;
+}
+
+.cc .individual-doc-page {
+    min-height: auto;
+}
+
+.cc #addressPage #city-map-icon {
+    display: block !important;
+}
+
+.cc #addressPage .input--filled #city-map-icon {
+    display: none !important;
+}
+
+.cc .track-my-flow .step3-main-wrapper {
+    margin-top: 20px;
+}
+
+
+/*.cc .track-my-flow .input::before,
+.cc .track-my-flow .radio-btn:before,
+.cc .track-my-flow .selectbox-width:before,*/
+
+.cc .track-my-flow .step3-rightNav .mainbox form .row {
+    position: relative;
+    cursor: auto;
+}
+
+.cc .track-my-flow .step3-rightNav .mainbox form .row div:before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    cursor: auto;
+}
+
+.cc .isFdFlow .disabledFont form .row div:before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    cursor: auto;
+}
+
+/*.cc #upload-documents-page .mainbox.docsDiv {
+    margin-bottom: 0;
+}
+*/
+
+.cc .mandry-feild-high .input__field.ng-invalid,
+.cc .mandry-feild-high .select-dropdown.invalid button.btn.btn-default {
+    border-bottom: 1px solid #e77817;
+}
+
+.cc .inlb {
+    display: inline-block;
+}
+
+.growl-item button.close {
+    color: #000;
+}
+
+.growl-container.growl-fixed.top-right {
+    top: 10px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.cc #fdCompleteDetails .termWrapperStep3 .termsStep3 .checkbox_wrapper{
+    margin-top: 0.6em;
+}
+
+.cc .fdMobile .step.checkbox_wrapper{
+    margin: 10px 0 -20px -20px;
+}
+
+
+/*----------  dual footer hide -----------*/
+
+.open #mainContDiv #upload-documents-page > #footer,
+.al.open #upload-documents-page .step3-main-wrapper.subBtn,
+.al.open #upload-documents-page .steps,
+.al.open #upload-documents-page .check-eligibility-steps,
+.al.open #upload-documents-page .uploadProgress {
+    display: none;
+}
+
+
+/* .al.open .step3-main-wrapper.subBtn,
+.al.open .steps,
+.al.open .check-eligibility-steps,
+.al.open .uploadProgress {
+    display: block;
+}  */
+
+
+/*--------- dual footer hide -----------*/
+
+@media(min-width:360px) {
+    #creditCardsDiv.mainbox .list-group .list-group-item span img {
+        width: 100%;
+        max-height: 77px;
+    }
+    #creditCardsDiv.mainbox .list-group .list-group-item span {
+        width: 40%;
+    }
+    #creditCardsDiv.mainbox .list-group .list-group-item span.ellipsis {
+        width: 70%;
+    }
+}
+
+@media(min-width:768px) {
+    #keyInformation-modal.creditLoan-info .step.checkbox_wrapper {
+        margin: 0px 0 -15px 0px;
+    }
+    .mt20dt {
+        margin-top: 20px;
+    }
+    .cc .mobileupload {
+        padding: 0 15px;
+    }
+    .cc #keyInformation-modal .termWrapperStep3 .termsStep3 {
+        margin-bottom: 35px;
+    }
+    .cc #fdCompleteDetails .termWrapperStep3 .termsStep3{
+        padding: 0;
+        margin:20px auto 35px;
+    }
+    .cc #fdCompleteDetails .termWrapperStep3 .termsStep3 .checkbox_wrapper{
+        margin-top: 0.7em;
+    }
+    .cc .offersForYouCarousel {
+        display: inline-block;
+    }
+    .cc .location-drpdwn.location-drpdwn ul.dropdown-menu,.cc .two-line-label .location-drpdwn.location-drpdwn ul.dropdown-menu {
+        top: 75px !important;
+    }
+    .cc .offers-text a {
+        font-weight: bold;
+        color: #333;
+    }
+    .CCardInfo {
+        min-height: 180px;
+    }
+    .cc .offers-text {
+        margin-top: 20px;
+    }
+    .cc .CCardImg img {
+        width: 100%
+    }
+    .cc .uploadProgress {
+        padding: 0 13px;
+    }
+    .modal-dialog.modal-df #keyInformation-modal .modal-body .mobileModal div.col-sm-7 {
+        padding-left: 15px;
+    }
+    .cc .callme-modal .col-md-6 {
+        width: 100%;
+    }
+    .less-cards {
+        text-align: left;
+    }
+    .CCHomeCarousel .item img,
+    .less-cards .col-xs-3 img {
+        opacity: 0.7;
+        color: #ccc;
+        filter: alpha(opacity=70);
+    }
+    .less-cards .col-xs-3 {
+        float: none;
+        display: inline-block;
+    }
+    .CCHomeCarousel .item.active div:first-child img,
+    .less-cards .col-xs-3.active img {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    .less-cards .col-xs-3.active {
+        float: left;
+    }
+    .isFdCaseSlider .CCSlider .rotateslider-item img {
+        opacity: 0.7;
+        color: #ccc;
+        filter: alpha(opacity=70);
+    }
+    .isFdCaseSlider .CCSlider .rotateslider-item.active img {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    .CCHomeCarousel ul.nav.nav-tabs {
+        border: 1px solid #ccc;
+        position: relative;
+        border-bottom: none;
+    }
+    .CCHomeCarousel .tab-content .tab-pane:after {
+        clear: both;
+    }
+    .CCHomeCarousel ul.nav.nav-tabs li {
+        background-color: #cbc8b7;
+        height: 53px;
+        width: 16.667%;
+        display: table;
+    }
+    .CCHomeCarousel .nav-tabs li {
+        background-color: #d1cfbb;
+        border: 1px solid #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .CCHomeCarousel ul.nav.nav-tabs li.active {
+        background-color: #908e82;
+        border: 1px solid transparent;
+    }
+    .CCHomeCarousel .nav-tabs > li > a {
+        color: #333;
+        font-size: 0.95em;
+    }
+    .CCHomeCarousel .nav-tabs li a {
+        padding: 0;
+        /* height:100%;*/
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .CCHomeCarousel .nav-tabs>li.active>a,
+    .CCHomeCarousel .nav-tabs>li.active>a:focus,
+    .CCHomeCarousel .nav-tabs>li.active>a:hover {
+        background-color: #908e82;
+        border: none;
+        height: 100%;
+        color: #fff;
+    }
+    .CCHomeCarousel .nav>li>a:focus,
+    .CCHomeCarousel .nav>li>a:hover {
+        background: transparent;
+        border: 1px solid transparent;
+    }
+    .CCHomeCarousel .nav-tabs li.active:after {
+        content: " ";
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+        border-top: 8px solid #908e82;
+        position: absolute;
+        bottom: -8px;
+        left: 43%;
+    }
+    .CCHomeCarousel .CCardImg {
+        text-align: center;
+    }
+    .CCHomeCarousel .CCardInfo {
+        padding: 0;
+    }
+    .CCHomeCarousel .CCardInfo li {
+        /*list-style-position: inside;*/
+        margin-left: 12px;
+    }
+    .CCHomeCarousel .CCardTypes {
+        margin-top: 20px;
+    }
+    .CCHomeCarousel .carousel-inner .active.left {
+        left: -25%;
+    }
+    .CCHomeCarousel .carousel-inner .next {
+        left: 25%;
+    }
+    .CCHomeCarousel .carousel-inner .prev {
+        left: -25%;
+    }
+    .CCHomeCarousel .carousel-control {
+        width: 4%;
+        background: none;
+        color: #000;
+        opacity: 1;
+    }
+    .CCHomeCarousel .carousel-control .glyphicon-chevron-left {
+        left: -12px;
+    }
+    .CCHomeCarousel .carousel-control .glyphicon-chevron-right {
+        right: -12px;
+    }
+    .CCHomeCarousel ul.nav-tabs {
+        /*margin:15px 15px 0 15px;*/
+        background: #cbc8b7;
+    }
+    .CCHomeCarousel .tab-content {
+        /*margin:0px 15px 15px 15px;
+*/
+        border: 1px solid #ccc;
+        padding: 25px 2em;
+        background-color: #efeed9;
+    }
+    /*.CCHomeCarousel .carousel-control.left,.CCHomeCarousel .carousel-control.right {margin-left:15px;background-image:none;}*/
+    /* home carousel ends*/
+    .creditcardInfo p {
+        color: #053C6D;
+        font-size: 20px;
+    }
+    .CCSlider {
+        border-bottom: 1px solid #b1b0b0;
+        padding-bottom: 5px;
+    }
+    .textTrim {
+        display: inline-block;
+        white-space: normal;
+        line-height: 1.4em;
+        text-overflow: ellipsis;
+        height: auto;
+    }
+    .creditCardLimit {
+        margin-top: 0px;
+    }
+    .icici_account {
+        margin-bottom: 0px;
+    }
+    .creditCardTerms {
+        margin-top: 0;
+        padding: 1em 1em 0 1em;
+    }
+    .creditCardTerms a {
+        display: inline-block;
+        padding-left: 1.6em;
+        font-weight: normal;
+    }
+    .cc .addDeleteCard {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .addDeleteIcon {
+        margin-right: 7px;
+        vertical-align: text-top;
+    }
+    .detailedInfo {
+        margin-left: 1.6em;
+        padding: 0;
+    }
+    .modal-dialog.modal-df {
+        width: 707px;
+        margin-top: 50px;
+    }
+    .creditInfo {
+        margin-bottom: 15px;
+    }
+    .modal-dialog.modal-df #keyInformation-modal .modal-body .mobileModal div.confirmBtn {
+        margin-top: 30px;
+    }
+    /* for carousel offer for you page  starts*/
+    .rotateslider-container {
+        position: relative;
+        width: 100%;
+        height: 190px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .isFdCaseSlider .rotateslider-container {
+        height: 193px;
+    }
+    .rotateslider-container .rotateslider-item {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%) scale(0.9);
+        -ms-transform: translateY(-50%) translateX(-50%) scale(0.9);
+        transform: translateY(-50%) translateX(-50%) scale(0.9);
+        opacity: 0;
+        -webkit-filter: blur(0.02em);
+        filter: blur(0.02em);
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .rotateslider-container .rotateslider-item.next {
+        left: 80%;
+        opacity: 0.3;
+        -webkit-transform: translateY(-50%) translateX(-50%) scale(1.2);
+        -ms-transform: translateY(-50%) translateX(-50%) scale(1.2);
+        transform: translateY(-50%) translateX(-50%) scale(1.2);
+    }
+    .rotateslider-container .rotateslider-item.prev {
+        left: 20%;
+        opacity: 0.3;
+    }
+    .rotateslider-container .rotateslider-item.now {
+        opacity: 1;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        top: 50%;
+        left: 50.3%;
+        -webkit-transform: translateY(-50%) translateX(-50%) scale(1);
+        -ms-transform: translateY(-50%) translateX(-50%) scale(1);
+        transform: translateY(-50%) translateX(-50%) scale(1);
+    }
+    .rotateslider-container .arrow {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        position: absolute;
+        top: 44%;
+        margin-top: -25px;
+        cursor: pointer;
+        color: #000;
+        text-align: center;
+    }
+    .rotateslider-container .arrow.left {
+        left: 0;
+    }
+    .rotateslider-container .arrow.right {
+        right: 0;
+    }
+    /* for carousel offer for you page  ends */
+    .step1-wrapper #city-map-icon.input__label-content {
+        width: 5.3%;
+    }
+    .cc .callAndApply .applyNowBtn,
+    .cc .callAndApply .callMeBtn {
+        margin-bottom: 0;
+    }
+    .cc #step2-page .know-more {
+        margin-left: 16px;
+    }
+    .noslider .rotateslider-container .rotateslider-item {
+        display: inline-block;
+        filter: blur(0px);
+        left: auto;
+        opacity: 0.3;
+        position: relative;
+        top: auto;
+        transform: none;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        -webkit-filter: blur(0px);
+    }
+    .noslider .rotateslider-container .rotateslider-item.active {
+        opacity: 1;
+    }
+    #employerPage .selectbox-width.ad24 {
+        margin-top: 24px;
+    }
+    .mt35 {
+        margin-top: 35px;
+    }
+    .cc .reject .congratsName,
+    .cc .reject .congratsInfo div {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .growl-container.growl-fixed.top-right {
+        top: 10px;
+        right: 15px;
+        left: auto;
+        margin: 0 auto;
+    }
+    .cc .progressCompleted {
+        width: 93%;
+    }
+    .cc .fdMobile .step.checkbox_wrapper{
+        margin: 10px 0 -15px -15px;
+    }
+}
+
+@media(min-width:992px) {
+    .CCHomeCarousel .CCardInfo p {
+        font-size: 16px;
+    }
+    .mobileNext {
+        display: none;
+    }
+    .cc.open #upload-documents-page .step3-leftNav {
+        display: inline-block;
+    }
+    .creditCompleteApp #employer {
+        border-bottom: none;
+    }
+    .cc .creditDocuments.documents-main-menu .list-group-item.active span {
+        background: url('../images/uploaddocuments_selected.png') no-repeat right 13px;
+    }
+    .cc .creditDocuments.documents-main-menu .list-group-item.active.status-completed span {
+        background: url('../images/tick-white.svg') no-repeat right 8px;
+        background-size: 25px 25px;
+    }
+    .cc .hidden-desktop {
+        display: none;
+    }
+    .CCardInfo {
+        min-height: 180px;
+    }
+    .cc .CCardImg img {
+        width: auto;
+    }
+    .cc .uploadProgress {
+        padding: 0;
+    }
+    .cc #supplementary-info {
+        border-bottom: none;
+    }
+    .CCHomeCarousel .CCardInfo li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .CCardInfo {
+        min-height: 150px;
+    }
+    .CCHomeCarousel ul.nav.nav-tabs li,
+    .CCHomeCarousel ul.nav.nav-tabs li.active {
+        /* padding: 9px 0 0;*/
+        height: 40px;
+    }
+    .CCardTypes .carouselcontainer .carousel-inner div {
+        width: 25%;
+    }
+    #step3Page .list-group .list-group-item.selected-tab.active {
+        background: url('../images/uploaddocuments_selected.png') #e77e17 no-repeat 92%;
+    }
+    #step3Page .list-group .list-group-item.selected-tab.status-completed.active {
+        background: url('../images/tick.png') #e77e17 no-repeat 92%;
+    }
+    #creditCardsDiv {
+        min-height: 553px;
+    }
+    .mainbox .colorBlue {
+        color: #0645ad;
+    }
+    #step2-page #creditCardsDiv ul.nav.nav-tabs {
+        border-bottom: 2px solid #E57425;
+        position: relative;
+    }
+    #creditCardsDiv .nav-tabs li {
+        background-color: #d1cfbb;
+        border: 1px solid #fff;
+        border-bottom: none;
+        margin: 0;
+        padding: 0;
+        height: 53px;
+    }
+    .creditInfo {
+        margin-bottom: 15px;
+    }
+    /*.textTrim {
+    display: inline-block;
+    white-space: normal;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    position: relative;
+}
+*/
+    .submitMargin {
+        margin-bottom: 1.5em;
+    }
+    #upload-documents-page .step3-main-wrapper {
+        margin-bottom: 0;
+    }
+    #creditCardsDiv .nav-tabs li.active {
+        background-color: #fff;
+        border: none;
+    }
+    .cc #step2-page ul.nav.nav-tabs li:hover {
+        background: #fff none repeat scroll 0 0;
+        border-color: #ccc;
+    }
+    #creditCardsDiv .nav-tabs li.active::before {
+        border-bottom: 2px solid #fff;
+        bottom: -2px;
+        content: "";
+        left: -1px;
+        position: absolute;
+        right: 0;
+        width: 101%;
+    }
+    #creditCardsDiv .nav-tabs li.active:first-child:before {
+        width: 101.5%;
+    }
+    #creditCardsDiv .nav-tabs > li > a {
+        color: #333;
+        font-size: 0.95em;
+        font-weight: bold;
+    }
+    #creditCardsDiv .nav-tabs > li > a:hover,
+    .nav-tabs > li > a {
+        background: none;
+        border: none;
+    }
+    .callAndApply .emailPadding {
+        padding-left: 10px;
+    }
+    #creditCardsDiv .nav-tabs li a {
+        padding: 16px 0px;
+    }
+    #creditCardsDiv .nav-tabs > li > a,
+    #creditCardsDiv .nav-tabs > li.active > a,
+    #creditCardsDiv .nav-tabs > li.active > a:hover,
+    #creditCardsDiv .nav-tabs > li.active > a:focus,
+    {
+        border: none;
+        background: none;
+        outline: none;
+    }
+    #creditCardsDiv .list-group {
+        margin-bottom: 0px;
+    }
+    .onlyDesktop .tab-content .tab-pane {
+        padding: 35px 1.5em 0 2em;
+    }
+    .onlyDesktop.isFdCaseSlider {
+        padding: 2em 1.5em 0 2em;
+    }
+    .onlyDesktop .tab-content .tab-pane img {
+        width: 100%;
+    }
+    .creditcardInfo {
+        padding: 0;
+        box-shadow: none;
+        padding-top: 5px
+    }
+    .isFdCaseSlider .creditcardInfo {
+        padding-top: 15px
+    }
+    .creditcardInfo ul li {
+        margin-top: 0.5em;
+    }
+    .creditcardInfo p {
+        margin: 0;
+    }
+    .callAndApply {
+        margin: 30px 0;
+    }
+    .creditcardInfo {
+        border-top: 0;
+    }
+    .cc .selctfullwid .select-dropdown {
+        margin-top: 4px;
+    }
+    #employerPage .selctfullwid .selectbox-width {
+        padding: 0;
+        margin-top: 20px;
+    }
+    .cc .documents-main-menu .list-group a.list-group-item:active,
+    .cc .documents-main-menu .list-group a.list-group-item:focus {
+        border-bottom: 2px solid #d5dade;
+    }
+    .cc .documents-main-menu .list-group-item span,
+    .cc .documents-main-menu .list-group-item:focus span,
+    .cc .documents-main-menu .list-group-item:hover span {
+        color: #555;
+    }
+    .cc .documents-main-menu .list-group-item.active span,
+    .cc .documents-main-menu .list-group-item.active:focus span,
+    .cc .documents-main-menu .list-group-item.active:hover span {
+        color: #fff;
+    }
+    .cc .documents-main-menu .list-group-item.active .arrowb,
+    .cc .documents-main-menu .list-group-item.active:focus .arrowb,
+    .cc .documents-main-menu .list-group-item.active:hover .arrowb {
+        display: none;
+    }
+    .cc .documents-main-menu .list-group-item.active .arroww,
+    .cc .documents-main-menu .list-group-item.active:focus .arroww,
+    .cc .documents-main-menu .list-group-item.active:hover .arroww {
+        display: block;
+    }
+    .noslider .slidediv {
+        width: 33.3%;
+        padding: 1px 18px 0;
+        float: left;
+    }
+    .noslider .slidediv img{
+        width: 97.185% !important;
+    }
+    .noslider .arrow {
+        display: none;
+    }
+    .CCSliderarrow,
+    .active .CCSliderarrow1 {
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 13px solid #b1b1b1;
+        bottom: -13px;
+        height: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        width: 0;
+    }
+    .noslider .CCSliderarrow1 {
+        bottom: -21px;
+    }
+    .isFdCaseSlider .noslider .CCSliderarrow1 {
+        bottom: -50px;
+    }
+    .CCSliderarrow::before,
+    .noslider .active .CCSliderarrow1:before {
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 13px solid #fff;
+        bottom: 2px;
+        content: "";
+        height: 0;
+        left: -13px;
+        position: absolute;
+        width: 0;
+    }
+    .CCSliderarrow1,
+    .noslider .CCSliderarrow {
+        display: none;
+    }
+    .noslider .active .CCSliderarrow1 {
+        display: inline-block;
+    }
+    .noslider .rotateslider-item.slidediv > a {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .noslider .rotateslider-item.slidediv.active > a {
+        display: none;
+    }
+    .cc .progressCompleted {
+        width: 94.5%;
+    }
+    .cc .uploadProgress span {
+        padding-left: 0;
+    }
+    .open #mainContDiv #upload-documents-page > #footer,
+    .al.open #upload-documents-page .step3-main-wrapper.subBtn,
+    .al.open #upload-documents-page .steps,
+    .al.open #upload-documents-page .check-eligibility-steps,
+    .al.open #upload-documents-page .uploadProgress {
+        display: block;
+    }
+     #step3Page .mainbox.isFdFlow {
+        width: 940px;
+    }
+}
+
+@media(max-width:420px) {
+    .cc #apply-now-page .mainbox2 .carousel-inner .item,
+    .cc #apply-now-page .mainbox2 .carousel-inner .item .col-sm-12,
+    .cc #apply-now-page .mainbox2 .carousel-inner .item .col-xs-6 {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .CCCarouselHomeMobile .carousel-inner .item .col-xs-12 {
+        margin: 0;
+        padding: 0 15px;
+    }
+    .cc .creditCardTerms a {
+        margin-top: 6px;
+    }
+    .cc .textTrim {
+        height: 14px;
+    }
+}
+
+#keyInformation-modal .termWrapperStep3 .mask {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
