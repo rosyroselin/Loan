@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ICICI Bank</title>
+	<meta http-equiv="X-Frame-Options" content="deny">
+	<meta name="description" content="ICICI" />
+	<meta name="keywords" content="ICICI" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icici.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body class="cc">
+	<div class="container-fluid">
+		<!--Header Start-->
+		<div class="row">
+			<div class="col-xs-12 menu subheader-wrapper">
+				<div class="header-container">
+					<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+						<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+						<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+					</a>
+					<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+						<ul class="col-xs-12 menu-items">
+							<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+							<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+							<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+							<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+							<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+						</ul>
+						<div class="mask hamburgerIcon"></div>
+					</div>
+					<span>
+					<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+					</span>
+					<p class="pull-left"><span class="moduleName">Credit Cards</span></p>
+				</div>
+			</div>
+		</div>
+		<!--Header End-->
+		
+        <!--Main Content Start-->
+		<div id="content">
+			<div id="step2-page" class="ie10">
+			<div id="step2-page" class="ie10">
+				<div class="row">
+					<div class="col-xs-12 info clearfix subheader-wrapper subheader-wrapper-info">
+						<div class="header-container">
+							<p class="pull-left">Congratulations! We are pleased to offer you the below mentioned Credit Card(s)</p>
+						</div>
+					</div>
+				</div>
+		
+				<div class="row">
+					<div class="check-eligibility-steps text-center">
+						<div class="steps-inner-container">
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 1 of 4</p>
+								<p>Check Eligibility</p>
+							</div>
+							<div class="col-xs-12 col-sm-3 text-center">
+								<p class="steps-count">Step 2 of 4</p>
+								<p class="heading">Offer For You</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 3 of 4</p>
+								<p>Complete Application</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 4 of 4</p>
+								<p>Upload Documents</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="steps clearfix">
+					<div class="col-xs-3 text-center">
+						<a href="cc-check-eligibility.html"><span class="completed-step center-block check-eligibility"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<a href="cc-offer-for-u.html"><span class="current-step center-block offer-for-you"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block complete-application"></span>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block upload-doc"></span>
+					</div>
+				</div>
+		
+				<div class="row step2-completion-status"></div>
+				<div class="mainbox clearfix" id="creditCardsDiv">
+				<div class="row hidden-md hidden-lg clearfix">
+					<p class="selectCard"><strong>Please select a card type</strong></p>
+					<div class="list-group col-xs-12 center-block">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12">
+								<a href="#gemstone" data-types="tabs" class="list-group-item">
+									<span><img class="hidden-lg hidden-md" src="images/cms/offers/mobile/365_Gemstone.png"></span>
+									<span class="ellipsis">Gemstone Cards</span>
+									<img class="rightArrow" src="images/uploaddocuments_normal.png">
+								</a>
+							</div>
+							<div href="#airline" data-types="tabs" class="col-xs-12 col-sm-12">
+								<a class="list-group-item">
+									<span><img class="hidden-lg hidden-md" src="images/cms/offers/mobile/400_Airline.png"></span>
+									<span class="ellipsis">Airline Cards</span>
+									<img class="rightArrow" src="images/uploaddocuments_normal.png">
+								</a>
+							</div>
+							<div href="#contactless" data-types="tabs" class="col-xs-12 col-sm-12">
+								<a class="list-group-item">
+									<span><img class="hidden-lg hidden-md" src="images/cms/offers/mobile/389_Contactless.png"></span>
+									<span class="ellipsis">Contactless Cards</span>
+									<img class="rightArrow" src="images/uploaddocuments_normal.png">
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-12">
+								<a href="#fuel" data-types="tabs" class="list-group-item">
+									<span><img class="hidden-lg hidden-md" src="images/cms/offers/mobile/391_Fuel.png"></span>
+									<span class="ellipsis">Fuel Cards</span>
+									<img class="rightArrow" src="images/uploaddocuments_normal.png">
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-12">
+								<a href="#metro" data-types="tabs" class="list-group-item">
+									<span><img class="hidden-lg hidden-md" src="images/cms/offers/mobile/378_Metro.png"></span>
+									<span class="ellipsis">Metro Cards</span>
+									<img class="rightArrow" src="images/uploaddocuments_normal.png">
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-12">
+								<a href="#ferrari" data-types="tabs" class="list-group-item">
+									<span><img class="hidden-lg hidden-md" src="images/cms/offers/mobile/307_Ferrari_and_More.png"></span>
+									<span class="ellipsis">Ferrari and More Cards</span>
+									<img class="rightArrow" src="images/uploaddocuments_normal.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="creditCardDetails hidden-md hidden-lg hidden">
+					<div class="select-dropdown">
+						<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Airline Cards" aria-expanded="false"><span class="filter-option pull-left">Airline Cards</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+						<div class="dropdown-menu open" style="max-height: 338px; overflow: hidden; min-height: 101px;">
+							<ul class="dropdown-menu inner" role="menu" style="max-height: 336px; overflow-y: auto; min-height: 99px;">
+								<li class="disabled-result result-selected visible-xs"><a class="hidden-xs" data-types="tabs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li class="selected"><a href="#gemstone" data-types="tabs"><span class="text">Gemstone Cards</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a href="#airline" data-types="tabs"><span class="text">Airline Cards</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a href="#contactless" data-types="tabs"><span class="text">Contactless Cards</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a href="#fuel" data-types="tabs"><span class="text">Fuel Cards</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a href="#metro" data-types="tabs"><span class="text">Metro Cards</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a href="#ferrari" data-types="tabs"><span class="text">Ferrari and More Cards</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+							</ul>
+						</div>
+						<select class="bselect">
+							<option value="" class="hidden-xs">Select</option>
+							<option value="Gemstone">Gemstone Cards</option>
+							<option value="Airline">Airline Cards</option>
+							<option value="Contactless">Contactless Cards</option>
+							<option value="Fuel">Fuel Cards</option>
+							<option value="Metro">Metro Cards</option>
+							<option value="Ferrari and More">Ferrari and More Cards</option>
+						</select>
+						</div>
+					</div>
+					<div class="creditcardInfo">
+						<div class="hidden-lg CCMobileCarousel">
+							<p><strong>Jet Airways ICICI Bank Coral American Express Credit Card</strong></p>
+							<ul>
+								<li>Earn up to 10,000 bonus PAYBACK points every anniversary year </li>
+								<li>1 complimentary domestic airport lounge visits per quarter.</li>
+								<li>1 complimentary domestic airport lounge visits per quarter.</li>
+							</ul>
+							<div class="clearfix callAndApply">
+								<button class="btn blue callMeBtn" type="button" data-target="#callme" data-toggle="modal">Call Me</button>
+								<button class="btn blue applyNowBtn" data-target="#ApplyNow" data-toggle="modal">Apply Now</button>
+								<a class="know-more white emailPadding" data-target="#EmailOffer" data-toggle="modal">Email Offer Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="hidden-xs hidden-sm onlyDesktop">
+					<ul class="nav nav-tabs">
+						<li class="text-center col-md-2 active"><a href="#gemstone" data-toggle="tab">Gemstone Cards</a></li>
+						<li class="text-center col-md-2"><a href="#airline" data-toggle="tab">Airline Cards</a></li>
+						<li class="text-center col-md-2"><a href="#contactless" data-toggle="tab">Contactless Cards</a></li>
+						<li class="text-center col-md-2"><a href="#fuel" data-toggle="tab">Fuel Cards</a></li>
+						<li class="text-center col-md-2"><a href="#metro" data-toggle="tab">Metro Cards</a></li>
+						<li class="text-center col-md-2"><a href="#ferrari" data-toggle="tab">Ferrari and More Cards</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="gemstone">
+							<div data-model="tab">
+								<div class="row creditcardInfo">
+									<div class="col-md-12 CCSlider">
+										<div class="CCSliderarrow"></div>
+										<div class="rotateslider-container slider">
+											<div class="rotateslider-item active next"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/365_Gemstone.png"><img class="visible-xs" src="images/cms/offers/mobile/365_Gemstone.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-0"></a>
+											</div>
+											<div class="rotateslider-item "><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/367_Gemstone.png"><img class="visible-xs" src="images/cms/offers/mobile/367_Gemstone.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-1"></a>
+											</div>
+											<div class="rotateslider-item  prev"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/403_Gemstone.png"><img class="visible-xs" src="images/cms/offers/mobile/403_Gemstone.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-2"></a>
+											</div>
+											<div class="rotateslider-item  now"><img class="img-responsive hidden-xs"  src="images/cms/offers/desktop/reflection/435_Gemstone.png"><img class="visible-xs" src="images/cms/offers/mobile/435_Gemstone.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-3"></a>
+											</div>
+											<span class="arrow right js-rotateslider-arrow" data-action="prev"><i class="fa fa-angle-right fa-3x"></i></span>
+											<span class="arrow left js-rotateslider-arrow" data-action="next"><i class="fa fa-angle-left fa-3x"></i></span>
+										</div>
+									</div>
+									<div class="row col-md-12 CCDetails">
+										<p><strong>Rubyx Credit Card - American Express</strong></p>
+										<ul>
+											<li>Enjoy the benefits of 2 cards (American Express and MasterCard) under 1 account</li>
+											<li>Welcome vouchers worth Rs 5000 on joining</li>
+											<li>Earn up to 15000 ICICI Rewards powered by PAYBACK every anniversary year </li>
+											<li>2X ICICI Rewards powered by PAYBACK on international spends</li>
+											<li>Complimentary airport lounge access (2 complimentary lounge visits per quarter courtesy MasterCard and American Express)</li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix callAndApply">
+									<button class="btn blue callMeBtn" type="button" data-target="#callme" data-toggle="modal">Call Me</button>
+									<button class="btn blue applyNowBtn" data-target="#ApplyNow" data-toggle="modal">Apply Now</button>
+									<a class="know-more white emailPadding" data-target="#EmailOffer" data-toggle="modal">Email Offer Details</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="tab-pane" id="airline">
+							<div data-model="tab">
+								<div class="row creditcardInfo">
+									<div class="col-md-12 CCSlider">
+										<div class="CCSliderarrow"></div>
+										<div class="rotateslider-container slider">
+											<div class="rotateslider-item now active"><img class="img-responsive hidden-xs"  src="images/cms/offers/desktop/reflection/400_Airline.png"><img class="visible-xs" src="images/cms/offers/mobile/400_Airline.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-0"></a>
+											</div>
+											<div class="rotateslider-item next"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/397_Airline.png"><img class="visible-xs" src="images/cms/offers/mobile/397_Airline.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-1"></a>
+											</div>
+											<div class="rotateslider-item"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/401_Airline.png"><img class="visible-xs" src="images/cms/offers/mobile/401_Airline.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-2"></a>
+											</div>
+											<div class="rotateslider-item prev"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/398_Airline.png"><img class="visible-xs" src="images/cms/offers/mobile/398_Airline.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-3"></a>
+											</div>
+											<span class="arrow right js-rotateslider-arrow"><i class="fa fa-angle-right fa-3x"></i></span>
+											<span class="arrow left js-rotateslider-arrow"><i class="fa fa-angle-left fa-3x"></i></span>
+										</div>
+									</div>
+									<div class="row col-md-12 CCDetails">
+										<p><strong>Jet Airways ICICI Bank Coral American Express Credit Card</strong></p>
+										<ul>
+											<li>Earn up to 10,000 bonus PAYBACK points every anniversary year </li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix callAndApply">
+									<button class="btn blue callMeBtn" type="button" data-target="#callme" data-toggle="modal">Call Me</button>
+									<button class="btn blue applyNowBtn" data-target="#ApplyNow" data-toggle="modal">Apply Now</button>
+									<a class="know-more white emailPadding" data-target="#EmailOffer" data-toggle="modal">Email Offer Details</a>
+								</div>
+							</div>
+						</div>
+					
+						<div class="tab-pane" id="contactless">
+							<div data-model="tab">
+								<div class="row creditcardInfo">
+									<div class="col-md-12 CCSlider noslider">
+										<div class="CCSliderarrow"></div>
+										<div class="rotateslider-container slider">
+											<div class="rotateslider-item  slidediv now active"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/389_Contactless.png"><img class="visible-xs" src="images/cms/offers/mobile/389_Contactless.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-0"></a>
+											</div>
+											<div class="rotateslider-item  slidediv prev next"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/383_Contactless.png"><img class="visible-xs" src="images/cms/offers/mobile/383_Contactless.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-1"></a>
+											</div>
+											<span class="arrow right js-rotateslider-arrow "><i class="fa fa-angle-right fa-3x"></i></span>
+											<span class="arrow left js-rotateslider-arrow "><i class="fa fa-angle-left fa-3x"></i></span>
+										</div>
+									</div>
+									<div class=" row col-md-12 CCDetails">
+										<p><strong>HPCL Coral VISA Contactless Credit Card </strong></p>
+										<ul>
+											<li>Earn up to 10,000 bonus PAYBACK points every anniversary year </li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+											<li>1 complimentary Railway lounge visits per quarter.</li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix callAndApply">
+									<button class="btn blue callMeBtn" type="button" data-target="#callme" data-toggle="modal">Call Me</button>
+									<button class="btn blue applyNowBtn" data-target="#ApplyNow" data-toggle="modal">Apply Now</button>
+									<a class="know-more white emailPadding" data-target="#EmailOffer" data-toggle="modal">Email Offer Details</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="tab-pane" id="fuel">
+							<div data-model="tab">
+								<div class="row creditcardInfo">
+									<div class="col-md-12 CCSlider">
+										<div class="CCSliderarrow"></div>
+										<div class="rotateslider-container slider">
+											
+											<div class="rotateslider-item  now active"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/391_Fuel.png"><img class="visible-xs" src="images/cms/offers/mobile/391_Fuel.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-0"></a>
+											</div>
+											<div class="rotateslider-item  next"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/377_Fuel.png"><img class="visible-xs" src="images/cms/offers/mobile/377_Fuel.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-1"></a>
+											</div>
+											<div class="rotateslider-item  prev"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/404_Fuel.png"><img class="visible-xs" src="images/cms/offers/mobile/404_Fuel.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-2"></a>
+											</div>
+											<span class="arrow right js-rotateslider-arrow "><i class="fa fa-angle-right fa-3x"></i></span>
+											<span class="arrow left js-rotateslider-arrow "><i class="fa fa-angle-left fa-3x"></i></span>
+										</div>
+									</div>
+									<div class=" row col-md-12 CCDetails">
+										<p><strong>HPCL Coral Credit Card - VISA</strong></p>
+										<ul>
+											<li>Earn up to 10,000 bonus PAYBACK points every anniversary year </li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+											<li>1 complimentary Railway lounge visits per quarter.</li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix callAndApply">
+									<button class="btn blue callMeBtn" type="button" data-target="#callme" data-toggle="modal">Call Me</button>
+									<button class="btn blue applyNowBtn" data-target="#ApplyNow" data-toggle="modal">Apply Now</button>
+									<a class="know-more white emailPadding" data-target="#EmailOffer" data-toggle="modal">Email Offer Details</a>
+								</div>
+							</div>
+						</div>
+					
+						<div class="tab-pane" id="metro">
+							<div data-model="tab">
+								<div class="row creditcardInfo">
+									<div class="col-md-12 CCSlider noslider">
+										<div class="CCSliderarrow"></div>
+										<div class="rotateslider-container slider">
+											<div class="rotateslider-item  slidediv next prev now active"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/378_Metro.png"><img class="visible-xs" src="images/cms/offers/mobile/378_Metro.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-0"></a>
+											</div>
+										</div>
+									</div>
+									<div class=" row col-md-12 CCDetails">
+										<p><strong>Unifare Mumbai Metro Credit card</strong></p>
+										<ul>
+											<li>Earn up to 10,000 bonus PAYBACK points every anniversary year </li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+											<li>1 complimentary Railway lounge visits per quarter.</li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix callAndApply">
+									<button class="btn blue callMeBtn" type="button" data-target="#callme" data-toggle="modal">Call Me</button>
+									<button class="btn blue applyNowBtn" data-target="#ApplyNow" data-toggle="modal">Apply Now</button>
+									<a class="know-more white emailPadding" data-target="#EmailOffer" data-toggle="modal">Email Offer Details</a>
+								</div>
+							</div>
+						</div>
+					
+						<div class="tab-pane" id="ferrari">
+							<div data-model="tab">
+								<div class="row creditcardInfo">
+									<div class="col-md-12 CCSlider">
+										<div class="CCSliderarrow"></div>
+										<div class="rotateslider-container slider">
+											<div class="rotateslider-item  now active"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/307_Ferrari_and_More.png"><img class="visible-xs" src="images/cms/offers/mobile/307_Ferrari_and_More.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-0"></a>
+											</div>
+											<div class="rotateslider-item next"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/366_Ferrari_and_More.png"><img class="visible-xs" src="images/cms/offers/mobile/366_Ferrari_and_More.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-1"></a>
+											</div>
+											<div class="rotateslider-item"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/388_Ferrari_and_More.png"><img class="visible-xs" src="images/cms/offers/mobile/388_Ferrari_and_More.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-2"></a>
+											</div>
+											<div class="rotateslider-item"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/387_Ferrari_and_More.png"><img class="visible-xs" src="images/cms/offers/mobile/387_Ferrari_and_More.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-3"></a>
+											</div>
+											<div class="rotateslider-item"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/418_Ferrari_and_More.png"><img class="visible-xs" src="images/cms/offers/mobile/418_Ferrari_and_More.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-4"></a>
+											</div>
+											<div class="rotateslider-item"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/419_Ferrari_and_More.png"><img class="visible-xs" src="images/cms/offers/mobile/419_Ferrari_and_More.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-5"></a>
+											</div>
+											<div class="rotateslider-item prev"><img class="img-responsive hidden-xs" src="images/cms/offers/desktop/reflection/443_Ferrari_and_More.png"><img class="visible-xs" src="images/cms/offers/mobile/443_Ferrari_and_More.png">
+												<div class="CCSliderarrow1"></div>
+												<a href="javascript:void(0)" class="slidanc-6"></a>
+											</div>
+											<span class="arrow right js-rotateslider-arrow "><i class="fa fa-angle-right fa-3x"></i></span>
+											<span class="arrow left js-rotateslider-arrow "><i class="fa fa-angle-left fa-3x"></i></span>
+										</div>
+									</div>
+									<div class=" row col-md-12 CCDetails">
+										<p><strong>Platinum Chip Credit card - Visa</strong></p>
+										<ul>
+											<li>Earn up to 10,000 bonus PAYBACK points every anniversary year </li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+											<li>1 complimentary domestic airport lounge visits per quarter.</li>
+										</ul>
+									</div>
+								</div>
+								<div class="clearfix callAndApply">
+									<button class="btn blue callMeBtn" type="button" data-target="#callme" data-toggle="modal">Call Me</button>
+									<button class="btn blue applyNowBtn" data-target="#ApplyNow" data-toggle="modal">Apply Now</button>
+									<a class="know-more white emailPadding" data-target="#EmailOffer" data-toggle="modal">Email Offer Details</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="growl-container growl-fixed top-right"></div>
+			</div>
+			</div>
+		</div>
+		
+		<div id="mobilePopup" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body clearfix">
+						<div class="popup-header clearfix">
+							<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img pull-right"></a>
+						</div>
+						<div class="mobileModal">
+							<p class="userModalMobile"> Your application is already under process.</p>
+							<p><strong>Please visit <a class="userModalLink">'My Application'</a> to proceed further.</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="knowmore" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header clearfix">
+						<p class="pull-left knowmorestyle"><strong>Know More</strong></p>
+						<a href="javascript:void(0);" class="close-img marginTop5 pull-right"></a>
+					</div>
+					<div class="modal-body marginTop10">
+						<div class="row">
+							<div class="col-xs-12">
+								<p><strong>Step 1: </strong>Check eligibility</p>
+								<p><strong>Step 2: </strong>Decide to Apply</p>
+								<p><strong>Step 3: </strong>Complete the Application form</p>
+								<p><strong>Step 4: </strong>Upload your documents</p>
+							</div>
+							<span>
+								<p class="col-xs-12">(KYC &amp; Income Documents for faster processing)</p>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="knowmore" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header clearfix">
+						<p class="pull-left knowmorestyle"><strong>Know More</strong></p>
+						<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+					</div>
+					<div class="modal-body marginTop10">
+
+						<div class="row">
+							<div class="col-xs-12">
+								<p><strong>Step 1: </strong>Check eligibility</p>
+								<p><strong>Step 2: </strong>Decide to Apply</p>
+								<p><strong>Step 3: </strong>Complete the Application form</p>
+								<p><strong>Step 4: </strong>Upload your documents</p>
+							</div>
+							<span>
+								<p class="col-xs-12">(KYC &amp; Income Documents for faster processing)</p>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="emailoffer" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header clearfix">
+						<p class="pull-left blueColor knowmorestyle"><strong>Email Offer</strong></p>
+						<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+					</div>
+					<div class="modal-body">
+						<form class="row" name="emailOfferForm">
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<span class="input input--hoshi">
+									<input name="name" class="input__field input__field--hoshi" type="text" id="user-first-name" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-first-name">
+										<span class="input__label-content input__label-content--hoshi">First Name</span>
+									</label>
+								</span>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<span class="input input--hoshi">
+									<input name="lastname" class="input__field input__field--hoshi" type="text" id="user-last-name" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-last-name">
+										<span class="input__label-content input__label-content--hoshi">Last Name</span>
+									</label>
+								</span>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<span class="input input--hoshi">
+									<input name="email" class="input__field input__field--hoshi" type="text" id="user-email" maxlength="100" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-email">
+										<span class="input__label-content input__label-content--hoshi">Your Email</span>
+									</label>
+								</span>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<span class="input input--hoshi">
+									<input name="retypeEmail" class="input__field input__field--hoshi" type="text" id="user-retypeEmail"  required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-retypeEmail">
+										<span class="input__label-content input__label-content--hoshi">Re-Type Email</span>
+									</label>
+								</span>
+							</div>
+
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<span class="input input--hoshi">
+									<input name="mobileNumber" class="input__field input__field--hoshi" type="tel" id="user-mobile-number" maxlength="10" minlength="10" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-mobile-number">
+										<span class="input__label-content input__label-content--hoshi">Mobile Number</span>
+									</label>
+								</span>
+							</div>
+
+							<div class="col-xs-12 text-center submit-btn marginTop20">
+								<button class="btn blue callme_btn" type="submit" disabled="disabled">Email Offer</button>
+							</div>
+						</form> 
+					</div>
+				</div>
+			</div>		
+		</div>
+		
+		
+		<!--Call Me Modal-->
+		<div id="callme" class="modal fade in" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="callme-modal">
+					<div class="modal-body clearfix">
+						<div id="header" class="popup-header clearfix">
+							<div class="col-xs-8 col-sm-8 col-md-8">
+								<h4 class="blueColor marginTop20"><strong>Click to Connect</strong></h4>
+							</div>
+							<a href="javascript:void(0);" class="close-img pull-right"></a>
+						</div>
+						<span class="orangeDivider center-block"></span>
+						<div class="callme-text col-xs-12 col-sm-12 col-md-12">
+							<p>Please provide the following details and our representative will contact you soon</p>
+						</div>
+						<form name="userDetailsForm" autocomplete="off">
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<span class="input input--hoshi input--filled">
+									<input name="firstName" class="input__field input__field--hoshi" type="text" id="user-first-name" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-first-name">
+										<span class="input__label-content input__label-content--hoshi">First Name</span>
+								</label>
+								</span>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<span class="input input--hoshi input--filled">
+									<input name="lastName" class="input__field input__field--hoshi" type="text" id="user-last-name" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-last-name">
+										<span class="input__label-content input__label-content--hoshi">Last Name</span>
+								</label>
+								</span>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-xs-12 col-md-6">
+								<span class="input input--hoshi mobile input--filled">
+									<input name="1544428619191" class="input__field input__field--hoshi" type="tel" id="1544428619191" maxlength="10">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1544428619191">
+										<span class="input__label-content input__label-content--hoshi">Mobile Number <a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+									</label>
+								</span>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<div class="custom-date-holder location-drpdwn map">
+									<span class="input input--hoshi input--filled">
+										<input name="1544428619200" class="input__field input__field--hoshi" type="text" id="1544428619200" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1544428619200">
+											<span class="input__label-content input__label-content--hoshi pull-left">City</span>
+										</label>
+										<span id="city-map-icon" class="input__label-content pull-right visible-xs visible-sm">
+											<img src="images/location_indicator_img.svg" width="18px" height="18px">
+										</span>
+									</span>
+								</div>
+							</div>
+							<div class="col-xs-12 location-drpdwn col-sm-12 col-md-12 col-md-6">
+								<span class="input input--hoshi clearfix">
+								<input name="1544428619204" pattern="[0-9]*" class="input__field input__field--hoshi pull-left" type="tel" id="1544428619204" required="required">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1 clearfix" for="1544428619204">
+									<span class="input__label-content input__label-content--hoshi" id="1544428619204-text"><span>Pin Code</span></span>
+								</label>
+								</span>
+							</div>
+							<div id="letUsConnect-modal">
+								<div class="clear" id="dobWidth">
+									<div class="col-xs-12 col-sm-6 calender-box clearfix">
+										<div class="custom-date-holder">
+											<span class="input input--hoshi input--filled">
+												<input type="text" name="1544428619124" class="input__field input__field--hoshi date-input desktop-datepicker" id="1544428619124">
+												<input type="text" name="15444286191241" class="input__field input__field--hoshi date-input date-pick" id="15444286191241">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1544428619124">
+													<span class="input__label-content input__label-content--hoshi pull-left" id="1544428619124-content">
+													<span>Date of Birth (DD/MM/YYYY)</span>
+													<a class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+												</span>
+												</label>
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1 " for="15444286191241">
+													<span class="input__label-content input__label-content--hoshi pull-left" id="15444286191241-content">
+													<span>Date of Birth (DD/MM/YYYY)</span>
+													<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+													</span>
+												</label>
+												<span id="city-map-icon" class="input__label-content pull-right"><img src="images/calendar.svg" height="20px"></span>
+											</span>
+											<span class="input-group-btn input__label-content pull-right clearfix cal-icon"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12">
+								<div class="col-xs-12 col-md-12 clearfix termsStep1 marginTop20">
+									<div class="step checkbox_wrapper">
+										<input type="checkbox" class="col-xs-1">
+										<label></label>
+									</div>
+									<span class="col-xs-12 col-md-12 termsStep1Span">I declare that the Information I have provided above is accurate and complete to the best of my knowledge.I authorize ICICI Bank &amp;  its representatives to call or SMS me with reference to  my Credit Card application.</span>
+								</div>
+							</div>
+							<div class="col-xs-12 text-center">
+								<button id="callmesubmit" class="btn blue btnMainStep1 marginTop20" type="submit" disabled="disabled">Call Me</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--Apply Now Modal-->
+		<div class="modal fade in" id="ApplyNow">
+			<div class="modal-dialog modal-df">
+				<div class="modal-content">
+					<div id="keyInformation-modal" class="offersConfirmation">
+						<div class="modal-header clearfix">
+							<div id="header" class="popup-header clearfix">
+								<img src="images/icici_logo_img_popup.png">
+								<a href="javascript:void(0);" class="close-img pull-right"></a>
+							</div>
+						</div>
+						<div class="modal-body clearfix">
+							<div class="mobileModal">
+								<div class="col-sm-5 col-md-5">
+									<img class="img-responsive hidden-xs" src="images/cms/offers/desktop/normal/367_Gemstone.png"><img class="visible-xs" src="images/cms/offers/mobile/367_Gemstone.png">
+								</div>
+								<div class="col-sm-7 col-md-7">
+									<p class="marginTop10">You have selected the <span><b>Coral Credit Card - MasterCard.</b></span></p>
+									<p class="marginTop20"><strong>Joining Fee:  </strong></p>
+									<p class="light-orange"> <i class="fa fa-inr"></i> 500  +  Goods and Services Tax</p>
+									<p class="marginTop20"><strong> Annual Fee (Second year Onwards):  </strong></p>
+									<p class="light-orange"> <i class="fa fa-inr"></i> 500  +  Goods and Services Tax (NIL when card spends are greater than <i class="fa fa-inr"></i> 150000 in the Previous year)</p>
+								</div>
+								<div class="row clearfix clear confirmBtn col-sm-3 col-md-3 col-sm-offset-5 col-md-offset-5">
+									<button class="btn btn-block blue" onclick="window.location.href='cc-complete-application.html';">Confirm</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Email Offer Details-->
+		<div class="modal fade in" id="EmailOffer">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div id="emailoffer">
+						<div class="modal-header clearfix">
+							<p class="pull-left blueColor knowmorestyle"><strong>Email Offer</strong></p>
+							<a href="javascript:void(0);" class="close-img marginTop5 pull-right"></a>
+						</div>
+						<div class="modal-body">
+							<form class="row" name="ccEmailOfferForm">
+								<div class="col-sm-12 col-xs-12 col-sm-6 col-md-6">
+									<span class="input input--hoshi tooltip-text input--filled">
+										<input name="firstName" class="input__field input__field--hoshi" type="text" id="firstName" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="firstName">
+											<span class="input__label-content input__label-content--hoshi">First Name <a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+										</label>
+									</span>
+								</div>
+								<div class="col-sm-12 col-xs-12 col-sm-6 col-md-6">
+									<span class="input input--hoshi tooltip-text input--filled">
+										<input name="lastName" class="input__field input__field--hoshi" type="text" id="lastName" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="lastName">
+											<span class="input__label-content input__label-content--hoshi">Last Name <a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi tooltip-text input--filled">
+										<input name="ccEmailOfferForm" class="text-lowercase input__field input__field--hoshi tooltip-text" type="text" id="ccEmailOfferForm" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="ccEmailOfferForm">
+											<span class="input__label-content input__label-content--hoshi">Email Id <a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+										</label>
+									</span>
+								</div>
+								<div class="col-sm-12 col-xs-12 col-md-6">
+									<span class="input input--hoshi mobile input--filled">
+										<input name="mobile" class="input__field input__field--hoshi" type="tel" id="mobile" maxlength="10" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="mobile">
+											<span class="input__label-content input__label-content--hoshi">Mobile Number <a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 text-center submit-btn marginTop20">
+									<button class="btn blue callme_btn" type="submit">Email Offer</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Main Content End-->
+		
+		<!--Footer Start-->
+		<div id="footer" class="row">
+			<div class="container-fluid">
+			   <p class="text-center">
+				  <span id="footer-text">Credit Card issuance is at the sole discretion of ICICI Bank Ltd.</span>
+				  <span id="footer-links"><a target="_blank" href="credit-card-disclaimer.html">Disclaimer</a> <span>|</span>
+				  <a target="_blank" href="https://www.icicibank.com/terms-condition/credit-card-terms-and-conditions.html?_ga=2.108609538.1623193432.1543830609-788978781.1542863146">Terms & conditions</a>
+				  </span>
+			   </p>
+			</div>
+		</div>
+		<!--Footer End-->
+	</div>
+</body>
+</html>

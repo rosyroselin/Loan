@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI</title>
+		<link href="css/abort.min.css" rel="stylesheet" type="text/css" />
+		
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="pragma" content="no-cache" />
+		
+		<!--    To defend from click-jacking, we put the following style and script  -->
+		<style id="antiClickjack">body{display:none !important;}</style>
+		<script type="text/javascript">
+			if (self === top) {
+				var antiClickjack = document.getElementById("antiClickjack");
+				antiClickjack.parentNode.removeChild(antiClickjack);
+				} else {
+				top.location = self.location;
+			}
+		</script>
+		<!--    End of click-jacking defect code  -->
+		
+		<script type="text/javascript">
+			function getParameterByName(name, url) {
+				if (!url) {
+					url = window.location.href;
+				}
+				name = name.replace(/[\[\]]/g, "\\$&");
+				var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+				if (!results) return null;
+				if (!results[2]) return '';
+				return decodeURIComponent(results[2].replace(/\+/g, " "));
+			}
+			var myVariable;
+			iciciApp = '';
+			myVariable = getParameterByName("abort",window.location.search);
+		</script>
+	</head>
+	
+	<body>
+		<div id="letUsConnect-modal" tabindex="-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header clearfix">
+						<p class="pull-left knowmorestyle"><strong>Let us connect you</strong></p>
+						<p class="pull-left knowmorestyle"><strong>Let us connect with you</strong></p>
+						<p class="pull-left knowmorestyle"><strong>Not able to complete the application?</strong></p>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<form name="letUsConnectForm" class="letUsConnectForm clearfix" autocomplete="off">
+								<div class="col-xs-12 inputBottom">
+									<span class="input input--hoshi">
+										<input name="firstName" class="input__field input__field--hoshi" type="text" id="connectfirstname">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="connectfirstname">
+											<span class="input__label-content input__label-content--hoshi">First Name</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 inputBottom">
+									<span class="input input--hoshi">
+										<input name="lastName" class="input__field input__field--hoshi" type="text" id="connectlastName" maxlength="50">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="connectlastName">
+											<span class="input__label-content input__label-content--hoshi">Last Name</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 clear">
+									<span class="input input--hoshi">
+										<input name="mobilenumber" class="input__field input__field--hoshi" type="text" id="step1-mobile"/>
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-mobile">
+											<span class="input__label-content input__label-content--hoshi">Mobile No.</span>
+										</label>
+									</span>
+									<span class="otp">You can retrieve your data by your mobile no. OTP verification</span>
+								</div>
+								<div class="col-xs-12 col-sm-6 calender-box clearfix">
+									<div class="custom-date-holder">
+										<span class="input input--hoshi input--filled">
+											<input type="text" name="dob" class="input__field input__field--hoshi date-input desktop-datepicker" required>
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="dob1">
+												<span class="input__label-content input__label-content--hoshi pull-left" id="dob1-content">
+													<span><span>Date of Birth (DD/MM/YYYY)</span></span>
+												</span>
+											</label>
+											<span id="city-map-icon" class="input__label-content pull-right"><img src="images/calendar.svg" height="20px"></span><!-- end ngIf: viewtype != 'mobile' -->
+											<span class="input-group-btn input__label-content pull-right clearfix cal-icon"></span>
+										</span>
+									</div>
+								</div>
+								<div class="col-xs-12 clearfix termsStep1">
+									<div class="step checkbox_wrapper">
+										<input type="checkbox" class="col-xs-1" />
+										<label></label>
+									</div>
+									<span class="col-xs-12 col-md-12 termsStep1Span">By providing my contact information I authorize ICICI Bank & its representatives to call me or SMS me with reference to <span>my loan application</span><span>my Credit Card application</span></span>
+								</div>
+							</form>
+						</div>
+						<div class="col-xs-12 text-center submit-btn">
+							<button id="uploadscenario" class="btn blue" type="button">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

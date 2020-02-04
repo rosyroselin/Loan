@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='iciciApp' ng-controller="iciciAppCtrl">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a class="back-btn pull-left ng-scope" href="apply-now.html"></a>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Loan Account</span></p>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div id="loanAccount-page" class="row">
+				<div class="info col-xs-12 info clearfix subheader-wrapper">
+					<div class="header-container">
+						<p class="pull-left hidden-xs">Get Attractive Rates&nbsp;on ICICI Bank Personal Loans. Apply Online Now and Get Instant e-Approval*</p>
+					</div>
+					<p class="pull-left hidden-md hidden-lg hidden-sm debitmobile-txt">Apply Online to get Instant e-Approval*</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="mainbox">
+					<div class="debit-card-wrapper clearfix">
+						<div class="col-xs-12 no-pad">
+							<p class="debitcard-title hidden-xs"><img src="images/LoanAccountNo.svg" alt="captcha" width="44" height="34"><span class="debit-txt">Loan Account</span></p>
+						</div>
+						<form class="col-xs-12 loanAccountInputs" name="userLoanAccountForm">
+							
+							<div class="col-xs-12 cardInfo">
+								<p>We value your relationship with ICICI Bank. Please login to avail faster sanction/disbursal of your loan.</p>
+							</div>
+							<div class="loanAccountFields">
+								<div class="col-xs-12 col-sm-6 col-md-4">
+									<span class="input input--hoshi">
+										<input name="relationShipNo" autocomplete="off" class="input__field input__field--hoshi" type="text" id="loanAccount" required>
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="loanAccount">
+											<span class="input__label-content input__label-content--hoshi">Loan Account Number</span>
+										</label>
+									</span>
+									<p ng-show="loanAcctPattern" class="errClass ng-hide">Enter alpha numberic only</p>
+									<p ng-show="loanAccntLength" class="errClass ng-hide">Should have 16 characters</p>
+								</div>
+								<p class="any-two marginTop20 clear">Please provide <span>any two</span> details from the following</p>
+								<div class="col-xs-12 col-sm-6 col-md-4 form-details select-wrapper calender-box clearfix">
+									<div class="custom-date-holder">
+										<span class="input input--hoshi">
+											<input name="date" class="input__field input__field--hoshi checkDob desktop-datepicker ng-pristine ng-untouched dobchanged ng-valid ng-valid-required" type="text" show-weeks="false" id="step1-date" ng-model="user.dob" ng-required="false" min-date="minDate" max-date="dtmax" ng-change="changeinsta('dob');" date-disabled="disabled(date, mode)" ng-blur="countNum($event);user.dob=dateFormating(user.dob);dateChange(user.dob, 1, true);checkdate(user.dob,'step1Dob');" ng-keyup="changeFontDate($event, user.dob)" ng-focus="changeFontDate1(user.dob)">
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-date">
+												<span class="input__label-content input__label-content--hoshi pull-left" id="date-content">
+													Date of Birth (DD/MM/YYYY)
+												</span>
+											</label>
+											<span id="city-map-icon" class="input__label-content pull-right">
+												<img src="images/calendar.svg" height="20px">
+											</span>
+										</span>
+										<input type="text" name="date" class="form-control input__field input__field--hoshi date-input ng-pristine ng-untouched ng-isolate-scope ng-hide ng-valid-date ng-valid ng-valid-required" datepicker-template-url="partials/datepicker.html" min-date="minDate" max-date="dtmax" id="step1-date" uib-datepicker-popup="dd/MM/yyyy" ng-show="false" show-weeks="false" ng-model="user.dob1" ng-change="dateChange(user.dob1, 1, true); user.dob=dateFormater(user.dob1);checkdate(user.dob,'step1Dob');" datepicker-mode="'year'" is-open="status.opened" datepicker-options=" dateOptions" ng-required="false" close-text="Close" ng-blur="countNum($event);">
+										<span class="input-group-btn input__label-content pull-right clearfix cal-icon"></span>
+									</div>
+									<span class="otp-date errClass ng-hide">Invalid date</span>
+									<span class="otp-date errClass ng-hide">You should be above 21 years to apply for loan.</span>
+									<span class="otp-date errClass ng-hide">You should be below 65 years to apply for loan.</span>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-4 clear">
+									<span class="input input--hoshi">
+										<input name="accountNumber" autocomplete="off" ng-class="{validField:user.accountNumber.length>0}" class="input__field input__field--hoshi ng-pristine ng-untouched ng-valid-pattern ng-valid-maxlength ng-valid ng-valid-required" type="text" pattern="[0-9]*" id="loanNumber" ng-model="user.accountNumber" ng-pattern="/^(0|[0-9][0-9]*)$/" ng-maxlength="12" maxlength="12" ng-blur="checkFields('account');countNum($event);" ng-change="countNum($event);" ng-required="false">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="loanNumber">
+											<span class="input__label-content input__label-content--hoshi">Account Number</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-4 clear">
+									<span class="input input--hoshi" ng-class="{'input--filled':(user.loanAmount ||userLoanAccountForm.loanAmount.$error.pattern)}">
+										<input name="loanAmount" autocomplete="off" ng-class="{validField:user.loanAmount.length>0}" class="input__field input__field--hoshi ng-pristine ng-untouched ng-valid-pattern ng-valid ng-valid-required" type="text" pattern="[0-9]*" id="loanAmount" ng-model="user.loanAmount" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/" step="0.01" ng-change="countNum($event);" ng-blur="checkFields('loanamount');countNum($event);" ng-required="false" valid-number="">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="loanAmount">
+											<span class="input__label-content input__label-content--hoshi">Loan Amount (<i class="fa fa-inr"></i>)</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-4 clear">
+									<span class="input input--hoshi" ng-class="{'input--filled':(user.emi ||userLoanAccountForm.emi.$error.pattern)}">
+										<input name="emi" class="input__field input__field--hoshi ng-pristine ng-untouched ng-valid-pattern ng-valid ng-valid-required" type="text" pattern="[0-9]*" id="emi" ng-model="user.emi" ng-pattern="/^(0|[1-9][0-9]*)$/" ng-blur="checkFields('emiamount');countNum($event);" ng-change="countNum($event);" ng-required="false">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="emi">
+											<span class="input__label-content input__label-content--hoshi">EMI Amount (<i class="fa fa-inr"></i>)</span>
+										</label>
+									</span>
+								</div>
+							</div>
+							<div class="col-xs-12 cancel-proceed clearfix text-center">
+								<button class="btn blue" type="submit">Proceed</button>
+								<a class="cancel-btn text-center disp-inlineBlk" href="pl-check-eligibility.html"><u>Continue as Guest</u></a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!--Main Content End-->
+			
+			<!--Footer Start-->
+			<div id="footer" class="row">
+				<div class="container-fluid">
+					<p class="text-center">
+						<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+						<span id="footer-links">
+							<a target="_blank" href="personalloans/partials/personal-loan-disclaimer.html">Disclaimer </a> <span>|</span>
+							<a target="_blank" href="personalloans/assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a> <span>|</span>
+							<a target="_blank" href="personalloans/assets/pdfs/PL_TnC1.pdf">Personal Loan Terms &amp; Conditions </a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!--Footer End-->
+		</div>
+		<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+		<script type="text/javascript" src="js/icici.templates.min.js"></script>
+	</body>
+</html>								

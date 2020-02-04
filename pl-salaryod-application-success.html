@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Salary Overdraft</span></p>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div id="content" ui-view="main" data-spy="scroll" class="ng-scope" style=""><div id="application-success" class="ng-scope">
+				<div class="row">
+					<div class="col-xs-12 info clearfix subheader-wrapper">
+						<div class="header-container">
+							<p class="pull-left"></p>
+						</div>
+					</div>
+				</div>
+				<div class="mainbox text-center clearfix">
+					<div>
+						<p class="message">
+							<strong>
+								<span class="name">Thank you for your overdraft application.</span>
+							</strong>
+						</p>
+						<p class="marginBottom15 ng-scope" ng-if="sod">
+							Your overdraft limit will be set up within 2 working days.
+						</p>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 form-group radio-btn other-offers">
+							<div class="row">
+								<div class="col-xs-12">
+									<label class="marginBottom5"><b>Do you want to apply for any other product with us?</b></label>
+									<div class="list-group clearfix col-xs-12 col-md-4 col-md-offset-4 col-sm-offset-4 col-sm-4 bankingAlignment">
+										<!-- ngRepeat: item in allProducts --><a class="list-group-item ng-scope active" id="personal-loan-icon" href="javascript:void(0);" ng-click="activeClass($index);countthecheck();" ng-class="{active: selected[$index]}" ng-repeat="item in allProducts" style="">
+											<span class="ng-binding">Personal Loan</span><span class="tick-icon pull-right"></span>
+											</a><!-- end ngRepeat: item in allProducts --><a class="list-group-item ng-scope" id="cc-icon" href="javascript:void(0);" ng-click="activeClass($index);countthecheck();" ng-class="{active: selected[$index]}" ng-repeat="item in allProducts">
+											<span class="ng-binding">Credit Card</span><span class="tick-icon pull-right"></span>
+											</a><!-- end ngRepeat: item in allProducts --><a class="list-group-item ng-scope" id="home-loan-icon" href="javascript:void(0);" ng-click="activeClass($index);countthecheck();" ng-class="{active: selected[$index]}" ng-repeat="item in allProducts">
+											<span class="ng-binding">Home Loan</span><span class="tick-icon pull-right"></span>
+											</a><!-- end ngRepeat: item in allProducts --><a class="list-group-item ng-scope" id="auto-loan-icon" href="javascript:void(0);" ng-click="activeClass($index);countthecheck();" ng-class="{active: selected[$index]}" ng-repeat="item in allProducts">
+											<span class="ng-binding">Car Loan</span><span class="tick-icon pull-right"></span>
+										</a><!-- end ngRepeat: item in allProducts -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ngIf: checkItemActive --><div class="ok-btn clearfix col-xs-12 ng-scope" ng-if="checkItemActive" style="">
+							<div class="col-xs-12 col-sm-11 col-sm-offset-1 col-md-8 col-md-offset-3 clearfix termsStep1">
+								<div class="step checkbox_wrapper">
+									<input type="checkbox" class="col-xs-1 ng-pristine ng-untouched ng-valid" ng-model="callme">
+									<label></label>
+								</div>
+								<span class="col-xs-12 col-sm-12 termsStep1Span text-left">I authorize ICICI Bank &amp;  its representatives to call or sms me for selected offers.</span>
+							</div>
+							<button class="btn blue bankingAlignment" type="button" ng-click="uploadSuccessOk()" ng-disabled="!callme ||disableSubmit">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<!--Main Content End-->
+			
+			<!--Footer Start-->
+			<div id="footer" class="row">
+				<div class="container-fluid">
+					<p class="text-center">
+						<span id="footer-text">Salary Overdraft Limit is the sole discretion of ICICI Bank Ltd.</span>
+						<span id="footer-links">
+							<a target="_blank" href="salary-od-disclaimer.html">Disclaimer </a> <span>|</span>
+							<a target="_blank" href="pdfs/PL_TnC.pdf">Terms &amp; Conditions </a> <span>|</span>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!--Footer End-->
+		</div>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+		<script type="text/javascript" src="js/icici.min.js"></script>
+		<script type="text/javascript" src="js/icici.templates.min.js"></script>
+		<script type="text/javascript">
+			$(".calender-box .custom-date-holder span input[type = 'text']").mask("99/99/9999", { placeholder: 'dd/mm/yyyy' });
+		</script>
+	</body>
+</html>

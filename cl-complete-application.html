@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ICICI Bank</title>
+	<meta http-equiv="X-Frame-Options" content="deny">
+	<meta name="description" content="ICICI" />
+	<meta name="keywords" content="ICICI" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icici.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body class="disableRightClick cc al">
+	<!--Loader Start-->
+	<!--<div class="portal-throbber" style="display:block">
+	   <div class="mask"></div>
+		<div class="cssload-loader"><span class="cssload-loader-inner"></span></div>
+		<div class="processRequest">Processing your request</div>
+	</div>-->
+	<!--Loader End-->
+	<div class="container-fluid">
+		<!--Header Start-->
+		<div class="row">
+			<div class="col-xs-12 menu subheader-wrapper">
+				<div class="header-container">
+					<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+						<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+						<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+					</a>
+					<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+						<ul class="col-xs-12 menu-items">
+							<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+							<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+							<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+							<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+							<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+						</ul>
+						<div class="mask hamburgerIcon"></div>
+					</div>
+					<span>
+					<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+					</span>
+					<p class="pull-left"><span class="moduleName">Car Loans</span></p>
+				</div>
+			</div>
+		</div>
+		<!--Header End-->
+        <!--Main Content Start-->
+		<div id="content">
+			<div id="step3Page">
+				<div class="row">
+					<div class="col-xs-12 info clearfix subheader-wrapper subheader-wrapper-info">
+						<div class="header-container">
+							<p class="visible-xs visible-sm visible-md visible-lg">ICICI Bank Car loan application</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="check-eligibility-steps text-center">
+						<div class="steps-inner-container">
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 1 of 4</p>
+								<p>Check Eligibility</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 2 of 4</p>
+								<p>Offer For You</p>
+							</div>
+							<div class="col-xs-12 col-sm-3 text-center">
+								<p class="steps-count">Step 3 of 4</p>
+								<p class="heading">Complete Application</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 4 of 4</p>
+								<p>Upload Documents</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="steps clearfix">
+					<div class="col-xs-3 text-center">
+						<a href="pl-salaryod-checkeligibility.html"><span class="completed-step center-block check-eligibility"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<a href="pl-salaryod-offers-for-you.html"><span class="completed-step center-block offer-for-you"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<a><span class="current-step center-block complete-application"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block upload-doc"></span>
+					</div>
+				</div>
+				<div class="row col-xs-12 col-sm-6">
+					<div class="hidden-md hidden-lg">
+						<div class="menu-area clearfix complete-app-area">
+							<div class="list-group">
+								<a href="#personal-info" class="center-block list-group-item"><span>Personal Information</span></a>
+								<a href="#address" class="center-block list-group-item"><span>Address</span></a>
+								<a href="#employer" class="center-block list-group-item"><span>Employer</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix uploadProgress">
+					<div class="progressCompleted pull-left progress" max="100" value="completedValue">
+						<div class="progress-bar" role="progressbar" style="min-width: 0px; width: 0%;"></div>
+					</div>
+					<span class="pull-right">0%</span>
+				</div>
+				<div class="row step3-completion-status"></div>
+				
+				<div class="row step3-main-wrapper" style="margin-top: 0px;">
+					<div class="col-md-4 step3-leftNav">
+						<div class="menu-area clearfix">
+							<ul class="list-group personal-information tabs">
+								<li class="list-group-item clearfix selected-tab active">
+									<div class="col-xs-12" id="personal-info">
+										<span class="col-xs-12 tabHeading">Personal Information</span>
+										<span class="user-details otp tabContent">Your name, Personal details. etc.</span>
+										<a href="#personal-info-page" class="fill-now pull-right"></a>
+									</div>
+								</li>
+								<li class="list-group-item clearfix selected-tab">
+									<div class="col-xs-12 pull-left" id="address">
+										<span class="col-xs-12 tabHeading">Address</span>
+										<span class="user-details otp tabContent">Your home address</span>
+										<a href="#address-page" class="fill-now pull-right"></a>
+									</div>
+								</li>
+								<li class="list-group-item clearfix selected-tab">
+									<div class="col-xs-12 pull-left" id="employer">
+										<span class="col-xs-12 tabHeading">Employer</span>
+										<span class="user-details otp tabContent">Your current work details</span>
+										<a href="#employer-page" class="fill-now pull-right"></a>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div id="loan-summary" class="menu-area marginTop20 hidden-xs hidden-sm">
+							<ul>
+								<li class="title"><strong>Your Loan Summary</strong></li>
+								<li>Your Amount<span class="orangeText"><strong><i class="fa fa-inr"></i> 10.00 lakhs</strong></span></li>
+								<li>EMI<span class="orangeText"><strong><i class="fa fa-inr"></i> 26457.0</strong></span></li>
+								<li>Interest Rate<span class="orangeText"><strong>12.25%</strong></span></li>
+								<li>Processing Fee:<span class="orangeText"><strong><i class="fa fa-inr"></i><span class="rupeeFormat">6,500.0</span></strong></span></li>
+								<li class="last-item">Tenure<span class="orangeText"><strong>4.0 Years</strong></span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab_container">
+						<div class="col-md-8 step3-rightNav tab_content" id="personal-info-page">
+							<div class="content-area">
+								<fieldset>
+									<div name="commonFormsArea">
+										<div class="personal-info">
+											<div class="container-fluid">
+												<div class="row menu subheader-wrapper hidden-md hidden-lg">
+													<a href="javascript:void(0);" class="back-btn pull-left"></a>
+													<a class="pull-left hidden-xs logo"><img src="images/icici_logo_img.png" alt="logo" class="logo-margin-left"></a>
+													<p class="pull-left">Personal Information</p>
+													<a class="glyphicon glyphicon-chevron-down visible-xs-inline-block visible-sm-inline-block"></a>
+												</div>
+												<div class="row">
+													<div class="col-xs-12 header-info clearfix subheader-wrapper-info visible-sm">
+														<p class="pull-left sub-header-content visible-sm">ICICI Bank Personal loan application</p>
+													</div>
+												</div>
+												<div class="mainbox clearfix lop-mobilebased">
+													<form name="personalInfoForm" autocomplete="off">
+														<div class="row">
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<span class="input input--hoshi">
+																	<input name="firstName" class="input__field input__field--hoshi" type="text" id="user-first-name" required>
+																	<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-first-name">
+																		<span class="input__label-content input__label-content--hoshi" id="firstName-text">First Name</span>
+																	</label>
+																</span>
+																<span class="otp">Ensure name is as per PAN</span>
+															</div>
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<span class="input input--hoshi">
+																	<input name="middleName" class="input__field input__field--hoshi" type="text" id="user-middle-name">
+																	<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-middle-name">
+																		<span class="input__label-content input__label-content--hoshi" id="middleName-text">Middle Name
+																		<span id="optional-text">(Optional)</span>
+																		</span>
+																	</label>
+																</span>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<span class="input input--hoshi">
+																<input name="lastName" class="input__field input__field--hoshi" type="text" id="user-last-name" required>
+																<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-last-name">
+																	<span class="input__label-content input__label-content--hoshi">Last Name</span>
+																</label>
+																</span>
+															</div>
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<span class="input input--hoshi tooltip-text">
+																	<input name="fathersName" class="input__field input__field--hoshi" type="text" id="fathersName" maxlength="50" required="required">
+																	<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="fathersName">
+																		<span class="input__label-content input__label-content--hoshi">Father's Name
+																			<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+																		</span>
+																	</label>
+																</span>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<span class="input input--hoshi tooltip-text">
+																	<input name="mothersName" class="input__field input__field--hoshi" type="text" id="mothersName" maxlength="50" required="required">
+																	<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="mothersName">
+																		<span class="input__label-content input__label-content--hoshi">Mother's Name
+																			<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+																		</span>
+																	</label>
+																</span>
+															</div>
+															
+															<div class="col-xs-12 col-sm-6 col-md-6 form-group radio-btn">
+																<label>Gender</label>
+																<div class="radios row clearfix">
+																	<div class="col-xs-6 col-sm-4 col-md-4 radio-options">
+																		<input id="userMale" name="userGender" type="radio" value="Male" required>
+																		<label for="userMale"><span></span>Male</label>
+																	</div>
+																	<div class="col-xs-6 col-sm-4 col-md-4 radio-options">
+																		<input id="userFemale" name="userGender" type="radio" value="Female" required>
+																		<label for="userFemale"><span></span>Female</label>
+																	</div>
+																	<div class="col-xs-6 col-sm-4 col-md-4 radio-options other-option">
+																		<input id="userOthers" name="userGender" type="radio" value="THIRD GENDER" required>
+																		<label for="userOthers"><span></span>Others</label>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-xs-12 col-sm-6 col-md-6 form-group radio-btn">
+																<label>Marital Status</label>
+																<div class="radios row">
+																	<div class="col-xs-6 col-sm-4 col-md-6 radio-options">
+																		<input id="single" name="status" type="radio" value="Single" required>
+																		<label for="single"><span></span>Single</label>
+																	</div>
+																	<div class="col-xs-6 col-sm-5 col-md-6 radio-options">
+																		<input id="married" name="status" type="radio" value="Married" required>
+																		<label for="married"><span></span>Married</label>
+																	</div>
+																</div>
+															</div>
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<div class="select-dropdown">
+																	<label for="current-location">No. of Dependents</label>
+																	<div class="btn-group bootstrap-select bselect">
+																	<button type="button" class="btn dropdown-toggle btn-default" title="Select">
+																	<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																	<div class="dropdown-menu open">
+																		<ul class="dropdown-menu inner" role="menu">
+																			<li class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" style="" data-tokens="null" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">0</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">2</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">3</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">4</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">5</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">5+</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		</ul>
+																	</div>
+																	<select name="dependents" class="bselect">
+																		<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																		<option value="0">0</option>
+																		<option value="1">1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">5+</option>
+																	</select>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-sm-6 col-xs-12 col-md-6">
+															<span class="input input--hoshi mobile">
+																<input name="mobileNumber" class="input__field input__field--hoshi" type="tel" id="mobileNumber" required>
+																<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="mobileNumber">
+																	<span class="input__label-content input__label-content--hoshi">
+																		Mobile Number <a class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+																	</span>
+																</label>
+															</span>
+															</div>
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<span class="input input--hoshi tooltip-text">
+																	<input name="otpNumber" class="input__field input__field--hoshi" type="password" id="user-mobile-otp" required="required">
+																	<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-mobile-otp">
+																		<span class="input__label-content input__label-content--hoshi">OTP
+																		<a href="javascript:void(0)" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" tabindex="-1" data-original-title="Enter the One time password received on the Mobile Number you have provided.">
+																			<img class="questionmark" src="images/Question.png" alt="tooltip">
+																		</a>
+																		</span>
+																	</label>
+																</span>
+																<span class="otp otpMarginAL"><a class="disabled-resend-otp"> Resend OTP</a></span>
+																<p class="otp">Click here to resend OTP after 2-3 minutes</p>
+															</div>
+														</div>
+														<div class="row">
+															<div class="select-wrapper col-xs-12 col-sm-6 col-md-6 selectbox-width custom-adjust">
+																<label for="current-location">Highest Educational Qualification</label>
+																<a href="javascript:void(0)" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" tabindex="-1" data-original-title="Select one of the options">
+																	<img class="questionmark" src="images/Question.png" alt="tooltip">
+																</a>
+																<div class="btn-group bootstrap-select bselect">
+																<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select">
+																<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu">
+																		<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a tabindex="0" class="hidden-xs" style="" data-tokens="null"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select class="bselect" name="educationQualification" data-types="vmpi.educationalQualificationOptions" required="required" tabindex="-98">
+																	<option class="hidden-xs" value="">Select</option>
+																</select>
+																</div>
+															</div>
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<span class="input input--hoshi tooltip-text">
+																	<input name="pan" class="input__field input__field--hoshi text-uppercase" type="text" id="pan" required>
+																	<label class="input__label input__label--hoshi input__label--hoshi-color-1 text-uppercase" for="pan">
+																		<span class="input__label-content input__label-content--hoshi">
+																			<span><span>PAN</span></span>
+																			<a href="javascript:void(0)" class="tooltip-link" data-original-title="This is required to verify your identity and to expedite processing time of this application. Your application will be submitted through a secure channel. See below for our online privacy policy." data-placement="top">
+																				<img class="questionmark" alt="tooltip" src="images/Question.png">
+																			</a>
+																			<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+																		</span>
+																	</label>
+																</span>
+																<span class="otp">Ensure entered PAN is valid</span>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<span class="input input--hoshi">
+																	<input name="adharNumber" class="input__field input__field--hoshi" type="text" id="user-adhar-number">
+																	<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-adhar-number">
+																	<span class="input__label-content input__label-content--hoshi">Aadhaar Card No.
+																	<span id="optional-text">(Optional)</span>
+																</span>
+																</label>
+																</span>
+																<span class="otp">Please enter 12 Digit Aadhaar Card No.</span>
+															</div>
+															<div class="col-xs-12 col-sm-6 col-md-6">
+																<div class="select-dropdown">
+																	<label for="current-location">Religion</label>
+																	<div class="btn-group bootstrap-select bselect">
+																	<button type="button" class="btn dropdown-toggle btn-default" title="Select">
+																	<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span>
+																	</button>
+																	<div class="dropdown-menu open">
+																		<ul class="dropdown-menu inner" role="menu">
+																			<li class="selected result-selected visible-xs"><a tabindex="-1" class="hidden-xs" style="" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">Budhism</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">Christian</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">Hinduism</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">Jainism</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">Muslim</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">Others</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">Sikhism</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																			<li><a><span class="text">Zorastrianism</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		</ul>
+																	</div>
+																	<select name="religion" class="bselect">
+																		<option value="" class="hidden-xs">Select</option>
+																		<option value="1">Budhism</option>
+																		<option value="2">Christian</option>
+																		<option value="3">Hinduism</option>
+																		<option value="4">Jainism</option>
+																		<option value="5">Muslim</option>
+																		<option value="6">Others</option>
+																		<option value="7">Sikhism</option>
+																		<option value="8">Zorastrianism</option>
+																	</select>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="select-wrapper col-xs-12 col-sm-6 col-md-6 selectbox-width custom-adjust">
+																<label for="current-location">Category</label>
+																<a href="javascript:void(0)" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" tabindex="-1" data-original-title="Select one of the options">
+																	<img class="questionmark" src="images/Question.png" alt="tooltip">
+																</a>
+																<div class="btn-group bootstrap-select bselect open"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select" aria-expanded="true"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button><div class="dropdown-menu open" style="max-height: 244.4px; overflow: hidden; min-height: 0px;"><ul class="dropdown-menu inner" role="menu" style="max-height: 242.4px; overflow-y: auto; min-height: 0px;"><li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a tabindex="0" class="hidden-xs" style="" data-tokens="null"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div>
+																<select class="bselect" name="category" required="required" tabindex="-98">
+																	<option class="hidden-xs" value="">Select</option>
+																</select>
+																</div>
+															</div>
+														</div>
+														
+														<div class="row">
+															<div class="dropdown-align">
+																<div class="col-xs-12 col-sm-6" data-fieldid="loanIndentOptions" data-model="vmpi.user.loanTakenOn" data-form="personalInfoForm" data-items="vmpi.loanIndentOptions" data-tip="Select one of the options. Select Immediate for instant processing">
+																	<div class="select-dropdown">
+																		<label class="col-xs-12 col-sm-12 row" for="loanIndentOptions"><span>
+																			When do you intend on taking this Loan?</span><span id="optional-text"> (Optional)</span>
+																			<a href="javascript:void(0)" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" tabindex="-1" data-original-title="Select one of the options. Select Immediate for instant processing">
+																				<img class="questionmark" src="images/Question.png" alt="tooltip">
+																			</a>
+																		</label>
+																		<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="loanIndentOptions" title="Immediate"><span class="filter-option pull-left">Immediate</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																			<div class="dropdown-menu open">
+																				<ul class="dropdown-menu inner" role="menu">
+																					<li data-original-index="0" class="disabled disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" style="" data-tokens="null" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																					<li data-original-index="1" class="selected"><a tabindex="0"><span class="text">Immediate</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																					<li data-original-index="2"><a tabindex="0"><span class="text">Later</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																				</ul>
+																			</div>
+																			<select name="loanIndentOptions" class="bselect">
+																				<option value="" class="hidden-xs" disabled="" selected="">Select</option>
+																				<option value="1">Immediate</option>
+																				<option value="2">Later</option>
+																			</select>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-xs-12 col-md-6 col-sm-6 field-align marginTop20">
+																<div class="custom-date-holder location-drpdwn">
+																	<div class="input input--hoshi">
+																		<input name="bankName" class="input__field input__field--hoshi uppercase" type="text" id="bankName">
+																		<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="bankName">
+																			<span class="input__label-content input__label-content--hoshi pull-left"><span>From Which Bank do you want to repay the Loan?</span><span id="optional-text"> (Optional)</span>
+																				<a href="javascript:void(0)" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" tabindex="-1" data-original-title="Select one of the options. Select ICICI bank in case you have an ICICI Bank account">
+																					<img class="questionmark" src="images/Question.png" alt="tooltip">
+																				</a>
+																			</span>
+																		</label>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-xs-12 col-md-6 col-sm-6">
+																<span class="input input--hoshi">
+																	<input name="repayBankAccNo" class="input__field input__field--hoshi uppercase" type="text" id="user-account-number" maxlength="16">
+																	<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-bank-number">
+																		<span class="input__label-content input__label-content--hoshi">Account Number of Bank for Repayment of Loan<span id="optional-text"> (Optional)</span></span>
+																	</label>
+																</span>
+															</div>
+														</div>
+														
+														<div class="row">
+															<div class="col-xs-12 col-sm-6 col-md-6 form-group radio-btn">
+																<label>Do you want to enter References<span id="optional-text"> (Optional)</span>
+																	<a href="javascript:void(0)" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" tabindex="-1" data-original-title="Select Yes to provide references. This will help to fast track your application">
+																		<img class="questionmark" src="images/Question.png" alt="tooltip">
+																	</a>
+																</label>
+																<div class="radios row">
+																	<div class="col-xs-6 col-sm-6 col-md-6">
+																		<input id="referenceYes" name="referenceYes" type="radio" value="Y">
+																		<label for="referenceYes"><span></span>Yes</label>
+																	</div>
+																	<div class="col-xs-6 col-sm-6 col-md-6">
+																		<input id="referenceNo" name="referenceYes" type="radio" value="N">
+																		<label for="referenceNo"><span></span>No</label>
+																	</div>
+																</div>
+															</div>
+														</div>
+														
+														<div class="row">
+															<div class="col-xs-12 text-center next-btn document-btns btn-custom">
+																<button id="personal-info-next" class="btn" type="button">Next<i class="fa fa-chevron-right"></i></button>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+										<div id="footer" class="hidden-md hidden-lg">
+										<p class="text-center">
+											<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+												<span id="footer-links"><a target="_blank" href="personalloans/partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="pdfs/PL_TnC1.pdf">PL TnC </a>
+											</span>
+										</p>
+									</div>
+									</div>
+								</fieldset>
+							</div>
+						</div>
+						
+						<div class="col-md-8 step3-rightNav tab_content" id="address-page">
+							<div class="content-area">
+								<fieldset>
+									<div name="commonFormsArea">
+										<div class="address-page" id="addressPage">
+											<div class="menu row subheader-wrapper hidden-md hidden-lg">
+												<a href="javascript:void(0);" class="back-btn pull-left"></a>
+												<a class="pull-left hidden-xs logo"><img src="images/icici_logo_img.png" alt="logo" class="logo-margin-left"></a>
+												<p class="pull-left">Address</p>
+												<a class="glyphicon glyphicon-chevron-down visible-xs-inline-block visible-sm-inline-block"></a>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 header-info clearfix subheader-wrapper-info visible-sm">
+													<p class="pull-left sub-header-content visible-sm">ICICI Bank Personal loan application</p>
+												</div>
+											</div>
+											<div class="col-xs-11 col-sm-5 col-md-12 hidden-md hidden-lg">
+												<ul class="col-xs-12 menu-items">
+													<li class="col-xs-12"><a href="#personal-info" class="center-block">Personal Information</a></li>
+													<li class="col-xs-12"><a href="#address" class="center-block">Address</a></li>
+													<li class="col-xs-12"><a href="#employer" class="center-block">Employer</a></li>
+												</ul>
+											</div>
+											<div class="mainbox clearfix lop-mobilebased">
+												<div id="address-tabs" class="clearfix">
+													<form name="addressForm">
+														<div class="tabs-container">
+															<ul class="nav nav-tabs">
+																<li class="text-center col-xs-6 col-sm-3 col-md-4 active">
+																  <a data-toggle="tab" href="#CurrentAddress">Current Address</a>
+																</li>
+																<li  id="permanent-address-tab" class="text-center col-xs-6 col-sm-3 col-md-4">
+																  <a data-toggle="tab" href="#PermanentAddresss">Permanent Address</a>
+																</li>
+															</ul>
+															<div class="tab-content">
+																<div class="tab-pane fade in active" id="CurrentAddress">
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi tooltip-text">
+																				<input name="addressLine1" class="input__field input__field--hoshi moreText" type="text" id="user-address-line1">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-address-line1">
+																					<span class="input__label-content input__label-content--hoshi">Address line 1</span>
+																				</label>
+																			</span>
+																			<span class="otp">Maximum 60 characters allowed.</span>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi tooltip-text">
+																				<input name="addressLine2" class="input__field input__field--hoshi moreText" type="text" id="user-address-line2">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-address-line2">
+																					<span class="input__label-content input__label-content--hoshi">Address line 2
+																					<span class="optional-text-style">(Optional)</span></span>
+																			</label>
+																			</span>
+																			<span class="otp">Maximum 60 characters allowed.</span>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6 location-drpdwn">
+																			<div class="input input--hoshi input--filled">
+																				<div class="field-loader">
+																					<div class="cssload-loader ">
+																						<span class="cssload-loader-inner"></span>
+																					</div>
+																				</div>
+																				<input name="addresshomeCity" class="input__field input__field--hoshi" type="text" id="user-homeCityName">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-homeCityName">
+																					<span class="input__label-content input__label-content--hoshi">City</span>
+																				</label>
+																			</div>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi input--filled">
+																				<input name="addresshomeState" class="input__field input__field--hoshi" type="text" id="user-homeState" required>
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-homeState">
+																				<span class="input__label-content input__label-content--hoshi">State</span>
+																			</label>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6 location-drpdwn">
+																			<div class="input input--hoshi clearfix">
+																				<div class="field-loader">
+																					<div class="cssload-loader ">
+																						<span class="cssload-loader-inner"></span>
+																					</div>
+																				</div>
+																				<input name="pincode" class="input__field input__field--hoshi" type="text" id="user-pincode">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1 clearfix" for="user-pincode">
+																					<span class="input__label-content input__label-content--hoshi" id="pincode-text">Pin Code</span>
+																				</label>
+																			</div>
+																		</div>
+																		<div class="col-xs-12 col-md-6 col-sm-6 col-md-6">
+																			<span class="input input--hoshi input--filled">
+																				<input name="countrynameadd" class="input__field input__field--hoshi" type="text" id="user-address-line218" required="required">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-address-line218">
+																					<span class="input__label-content input__label-content--hoshi">Country</span>
+																				</label>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="std-phone">
+																			<div class="col-xs-4 col-sm-2 col-md-2">
+																				<span class="input input--hoshi">
+																					<input name="s1542257864044" class="input__field input__field--hoshi" type="tel" id="s1542257864044">
+																					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="s1542257864044">
+																						<span class="input__label-content input__label-content--hoshi">STD 
+																							<a href="javascript:void(0)" class="tooltip-link">
+																								<img class="questionmark" alt="tooltip" src="images/Question.png">
+																							</a>  
+																						</span>
+																					</label>
+																				</span>
+																			</div>
+																			<div class="col-xs-8 col-sm-4 col-md-4">
+																				<span class="input input--hoshi">
+																					<input name="1542257864044" class="input__field input__field--hoshi" type="tel" id="1542257864044">
+																					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1542257864044">
+																						<span class="input__label-content input__label-content--hoshi">Phone No.
+																							<span id="optional-1542257864044-text" class="optional-text-style">(Optional)</span>
+																							<a href="javascript:void(0)" tabindex="-1" class="tooltip-link">
+																								<img class="questionmark" alt="tooltip" src="images/Question.png">
+																							</a>
+																						</span>
+																					</label>
+																				</span>
+																				<span class="otp">Please enter a valid 11 digit STD and phone number</span>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 form-group radio-btn custom-radio-panel">
+																			<label>Is your Permanent address same as Current address ?</label>
+																			<div class="radios row">
+																				<div class="col-xs-6 col-sm-4 col-md-6 radio-options">
+																					<input id="yes" name="optradio" type="radio" value="Yes">
+																					<label for="yes"><span></span>Yes</label>
+																				</div>
+																				<div class="col-xs-6 col-sm-4 col-md-6 radio-options">
+																					<input id="no" name="optradio" type="radio" value="No">
+																					<label for="no"><span></span>No</label>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 text-center next-btn document-btns btn-custom">
+																			<button class="btn">Next<i class="fa fa-chevron-right"></i></button>
+																		</div>
+																	</div>
+																</div>
+																<div class="tab-pane fade in" id="PermanentAddress">
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi tooltip-text">
+																				<input name="addressLine1" class="input__field input__field--hoshi moreText" type="text" id="user-address-line1">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-address-line1">
+																					<span class="input__label-content input__label-content--hoshi">Address line 1</span>
+																				</label>
+																			</span>
+																			<span class="otp">Maximum 60 characters allowed.</span>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi tooltip-text">
+																				<input name="addressLine2" class="input__field input__field--hoshi moreText" type="text" id="user-address-line2">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-address-line2">
+																					<span class="input__label-content input__label-content--hoshi">Address line 2
+																					<span class="optional-text-style">(Optional)</span></span>
+																			</label>
+																			</span>
+																			<span class="otp">Maximum 60 characters allowed.</span>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6 location-drpdwn">
+																			<div class="input input--hoshi input--filled">
+																				<div class="field-loader">
+																					<div class="cssload-loader ">
+																						<span class="cssload-loader-inner"></span>
+																					</div>
+																				</div>
+																				<input name="addresshomeCity" class="input__field input__field--hoshi" type="text" id="user-homeCityName">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-homeCityName">
+																					<span class="input__label-content input__label-content--hoshi">City</span>
+																				</label>
+																			</div>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi input--filled">
+																				<input name="addresshomeState" class="input__field input__field--hoshi" type="text" id="user-homeState" required>
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-homeState">
+																				<span class="input__label-content input__label-content--hoshi">State</span>
+																			</label>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6 location-drpdwn">
+																			<div class="input input--hoshi clearfix">
+																				<div class="field-loader">
+																					<div class="cssload-loader ">
+																						<span class="cssload-loader-inner"></span>
+																					</div>
+																				</div>
+																				<input name="pincode" class="input__field input__field--hoshi" type="text" id="user-pincode">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1 clearfix" for="user-pincode">
+																					<span class="input__label-content input__label-content--hoshi" id="pincode-text">Pin Code</span>
+																				</label>
+																			</div>
+																		</div>
+																		<div class="col-xs-12 col-md-6 col-sm-6 col-md-6">
+																			<span class="input input--hoshi input--filled">
+																				<input name="countrynameadd" class="input__field input__field--hoshi" type="text" id="user-address-line218" required="required">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-address-line218">
+																					<span class="input__label-content input__label-content--hoshi">Country</span>
+																				</label>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="std-phone">
+																			<div class="col-xs-4 col-sm-2 col-md-2">
+																				<span class="input input--hoshi">
+																					<input name="s1542257864044" class="input__field input__field--hoshi" type="tel" id="s1542257864044">
+																					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="s1542257864044">
+																						<span class="input__label-content input__label-content--hoshi">STD 
+																							<a href="javascript:void(0)" class="tooltip-link">
+																								<img class="questionmark" alt="tooltip" src="images/Question.png">
+																							</a>  
+																						</span>
+																					</label>
+																				</span>
+																			</div>
+																			<div class="col-xs-8 col-sm-4 col-md-4">
+																				<span class="input input--hoshi">
+																					<input name="1542257864044" class="input__field input__field--hoshi" type="tel" id="1542257864044">
+																					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1542257864044">
+																						<span class="input__label-content input__label-content--hoshi">Phone No.
+																							<span id="optional-1542257864044-text" class="optional-text-style">(Optional)</span>
+																							<a href="javascript:void(0)" tabindex="-1" class="tooltip-link">
+																								<img class="questionmark" alt="tooltip" src="images/Question.png">
+																							</a>
+																						</span>
+																					</label>
+																				</span>
+																				<span class="otp">Please enter a valid 11 digit STD and phone number</span>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 form-group radio-btn custom-radio-panel">
+																			<label>Is your Permanent address same as Current address ?</label>
+																			<div class="radios row">
+																				<div class="col-xs-6 col-sm-4 col-md-6 radio-options">
+																					<input id="yes" name="optradio" type="radio" value="Yes">
+																					<label for="yes"><span></span>Yes</label>
+																				</div>
+																				<div class="col-xs-6 col-sm-4 col-md-6 radio-options">
+																					<input id="no" name="optradio" type="radio" value="No">
+																					<label for="no"><span></span>No</label>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 text-center next-btn document-btns btn-custom">
+																			<button id="address-next" class="btn">Next<i class="fa fa-chevron-right"></i></button>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+										<div id="footer" class="hidden-md hidden-lg">
+											<p class="text-center">
+												<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+												<span id="footer-links"><a target="_blank" href="personalloans/partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="personalloans/assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="personalloans/assets/pdfs/PL_TnC1.pdf">PL TnC </a></span>
+											</p>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+						</div>
+						
+						<div class="col-md-8 step3-rightNav tab_content" id="employer-page">
+							<div class="content-area">
+								<fieldset>
+									<div name="commonFormsArea">
+										<div class="employer-page" id="employerPage">
+											<div class="row menu subheader-wrapper hidden-md hidden-lg">
+												<a href="javascript:void(0);" class="back-btn pull-left"></a>
+												<a class="pull-left hidden-xs logo"><img src="images/icici_logo_img.png" alt="logo" class="logo-margin-left"></a>
+												<p class="pull-left">Employer</p>
+												<a class="glyphicon glyphicon-chevron-down visible-xs-inline-block visible-sm-inline-block"></a>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 header-info clearfix subheader-wrapper-info visible-sm">
+													<p class="pull-left sub-header-content visible-sm">ICICI Bank Personal loan application</p>
+												</div>
+											</div>
+											<div class="mainbox clearfix">
+												<div id="employerTab" class="clearfix">
+													<form name="employerForm">
+														<div class="tabs-container">
+															<ul class="nav nav-tabs">
+																<li class="text-center col-xs-6 col-sm-3 col-md-4 active"><a data-toggle="tab" href="#Company">Company</a></li>
+																<li class="text-center col-xs-6 col-sm-3 col-md-4"><a data-toggle="tab" href="#OfficeAddress">Office Address</a></li>
+															</ul>
+															<div class="tab-content">
+																<div id="Company" class="tab-pane fade in active">
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi input--filled">
+																				<input name="employerName" class="input__field input__field--hoshi uppercase" type="text" id="employerName">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-first-name">
+																					<span class="input__label-content input__label-content--hoshi">Employer Name</span>
+																				</label>
+																			</span>
+																		</div>
+																		<div class="col-xs-12 col-md-6 col-sm-6 wrapper-autosuggest">
+																			<div class="custom-date-holder location-drpdwn">
+																				<span class="input input--hoshi">
+																					<div class="field-loader">
+																						<div class="cssload-loader ">
+																							<span class="cssload-loader-inner"></span>
+																						</div>
+																					</div>
+																					<input name="designation" class="input__field input__field--hoshi" type="text" id="designation">
+																					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="designation">
+																						<span class="input__label-content input__label-content--hoshi pull-left"><span>Designation</span></span>
+																					</label>
+																				</span>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi">
+																				<input name="email" class="input__field input__field--hoshi" type="text" id="user-email"  required="required">
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-email">
+																					<span class="input__label-content input__label-content--hoshi">Work Email id</span>
+																			</label>
+																			</span>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi">
+																				<input name="confirmemail" class="input__field input__field--hoshi" type="text" id="user-confirmemail" maxlength="128" required>
+																				<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-confirmemail">
+																					<span class="input__label-content input__label-content--hoshi">Re-enter work Email id</span>
+																			</label>
+																			</span>
+																		</div>
+																	</div>
+																	
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6" data-tip="Select one of the options">
+																			<div class="select-dropdown">
+																				<label class="col-xs-12 col-sm-12 row" for="totalWorkEx"><span>
+																					Your Total Work Experience
+																					</span><a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Select one of the options">
+																						<img class="questionmark" src="images/Question.png" alt="tooltip">
+																					</a>
+																				</label>
+																				<div class="btn-group bootstrap-select bselect dropup">
+																				<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="totalWorkEx" title="2" aria-expanded="false"><span class="filter-option pull-left">2</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																				<div class="dropdown-menu open" style="max-height: 201.6px; overflow: hidden; min-height: 101px;"><ul class="dropdown-menu inner" role="menu" style="max-height: 199.6px; overflow-y: auto; min-height: 99px;">
+																				<li data-original-index="0" class="disabled disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" style="" data-tokens="null" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																				<li data-original-index="1"><a tabindex="0"><span class="text">&lt;1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																				<li data-original-index="2"><a tabindex="0"><span class="text">1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																				<li data-original-index="3" class="selected"><a tabindex="0"><span class="text">2</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																				<li data-original-index="4"><a tabindex="0"><span class="text">3</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																				<li data-original-index="5"><a tabindex="0"><span class="text">4</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																				<li data-original-index="6"><a tabindex="0"><span class="text">5</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																				<li data-original-index="7"><a tabindex="0"><span class="text">&gt;5</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li></ul></div><select name="totalWorkEx" class="bselect" id="totalWorkEx" required="required" tabindex="-98">
+																					<option value="" class="hidden-xs" disabled="" selected="">Select</option>
+																					<option value="0">&lt;1</option>
+																					<option value="1">1</option>
+																					<option value="2">2</option>
+																					<option value="3">3</option>
+																					<option value="4">4</option>
+																					<option value="5">5</option>
+																					<option value="6">&gt;5</option>
+																				</select></div>
+																			</div>
+																		</div>
+																	</div>
+																	
+																	<div class="row">
+																		<div class="col-xs-12 text-center next-btn document-btns btn-custom">
+																			<button class="btn">Next<i class="fa fa-chevron-right"></i></button>
+																		</div>
+																	</div>
+																</div>
+																<div id="OfficeAddress" class="tab-pane fade">
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi">
+																		<input name="oficAddressLine1" class="input__field input__field--hoshi moreText" type="text" id="user-address-line1" required>
+																		<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-address-line1">
+																			<span class="input__label-content input__label-content--hoshi">Address line 1</span>
+																			</label>
+																			</span>
+																			<span class="otp">Maximum characters allowed is 60.</span>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6">
+																			<span class="input input--hoshi">
+																			<input name="oficAddressLine2" class="input__field input__field--hoshi moreText" type="text" id="user-address-line2">
+																			<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-address-line2">
+																				<span class="input__label-content input__label-content--hoshi">Address line 2<span class="optional-text-style">(Optional)</span></span>
+																			</label>
+																			</span>
+																			<span class="otp">Maximum characters allowed is 60.</span>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6 wrapper-autosuggest location-drpdwn custom-date-holder map">
+																			<span class="input input--hoshi">
+																			<div class="field-loader">
+																				<div class="cssload-loader ">
+																					<span class="cssload-loader-inner"></span>
+																				</div>
+																			</div>
+																			<input name="addresscity1" class="input__field input__field--hoshi" type="text" id="user-cityName">
+																			<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-cityName">
+																				<span class="input__label-content input__label-content--hoshi">City
+																					<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Select one of the options">
+																						<img class="questionmark" src="images/Question.png" alt="tooltip">
+																					</a>
+																				</span>
+																			</label>
+																			<span id="city-map-icon" class="input__label-content pull-right visible-xs visible-sm disableGeo">
+																			<img src="images/location_indicator_img.svg" alt="" width="15px" height="18px">
+																			</span>
+																			</span>
+																		</div>
+																		<div class="col-xs-12 col-sm-6 col-md-6 wrapper-autosuggest">
+																			<span class="input input--hoshi">
+																			<input name="addresscity" class="input__field input__field--hoshi" type="text">
+																			<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-currentCity">
+																			<span class="input__label-content input__label-content--hoshi">State</span>
+																			</label>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 col-sm-6 col-md-6 wrapper-autosuggest location-drpdwn">
+																			<span class="input input--hoshi">
+																			<div class="field-loader">
+																				<div class="cssload-loader ">
+																					<span class="cssload-loader-inner"></span>
+																			</div>
+																			</div>
+																			<input name="oficPinCode" pattern="[0-9]*" class="input__field input__field--hoshi" type="text" id="user-pincode">
+																			<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-pincode">
+																				<span class="input__label-content input__label-content--hoshi">Pin Code
+																				<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Enter your 6 digit Pincode of Official Address">
+																					<img class="questionmark" src="images/Question.png" alt="tooltip">
+																				</a>
+																				</span>
+																			</label>
+																			</span>
+																		</div>
+																		<div class="std-phone">
+																			 <div class="col-xs-4 col-sm-2 col-md-2">
+																				<span class="input input--hoshi">
+																					<input name="1542257931746" class="input__field input__field--hoshi" type="tel" id="s1542257931746" required>
+																					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="s1542257931746">
+																					<span class="input__label-content input__label-content--hoshi">STD
+																					<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" class="tooltip-link" data-original-title="Enter area codes where ever applicable. Eg. 044 - 12345678" data-placement="top">
+																						<img class="questionmark" alt="tooltip" src="images/Question.png">
+																					</a>
+																					</span>
+																					</label>
+																				</span>
+																			</div>
+																			<div class="col-xs-8 col-sm-4 col-md-4">
+																				<span class="input input--hoshi">
+																					<input name="1542257931746" class="input__field input__field--hoshi" type="tel" id="1542257931746" required>
+																					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1542257931746">
+																						<span class="input__label-content input__label-content--hoshi">Phone No.
+																						<a href="javascript:void(0)" data-toggle="tooltip" class="tooltip-link" data-original-title="Enter area codes where ever applicable. Eg. 044 - 12345678" data-placement="top">
+																							<img class="questionmark" alt="tooltip" src="images/Question.png">
+																						</a>
+																						</span>
+																				</label>
+																				</span>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-xs-12 text-center next-btn document-btns btn-custom">
+																			<button type="submit" id="employer-next" class="btn">Next<i class="fa fa-chevron-right"></i></button>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+										<div id="footer" class="hidden-md hidden-lg">
+											<p class="text-center">
+											<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+											<span id="footer-links"><a target="_blank" href="personalloans/partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+											</span>
+											</p>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 step3-leftNav terms-border hidden-xs hidden-sm"></div>
+					<div class="col-md-7 termWrapperStep3 step3-rightNav">
+						<div class="termsStep3 clearfix">
+							<div class="col-xs-12 text-center">
+								<button class="btn blue" onclick="window.location.href='cl-key-information.html';">Proceed</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Main Content End-->
+		
+		<!--Footer Start-->
+		<div id="footer" class="row">
+			<div class="container-fluid">
+			   <p class="text-center">
+				  <span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+				  <span id="footer-links"><a target="_blank" href="auto-loan-disclaimer.html">Disclaimer</a> <span>|</span>
+				  <a target="_blank" href="pdfs/AL_TnC.pdf">Terms & conditions</a>
+				  </span>
+			   </p>
+			</div>
+		</div>
+		<!--Footer End-->
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min-1.11.3.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/icici.min.js"></script>
+</html>

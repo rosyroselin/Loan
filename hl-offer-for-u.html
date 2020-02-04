@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body class="hlClass">
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Home Loans</span></p>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div id="content">
+				<div id="step2-page" class="ie10 homeOffers">
+					<div class="row">
+						<div class="col-xs-12 info clearfix subheader-wrapper subheader-wrapper-info">
+							<div class="header-container">
+								<p class="pull-left">Congratulations! We are pleased to offer you the below Home Loan Offers</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="check-eligibility-steps text-center">
+							<div class="steps-inner-container">
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 1 of 4</p>
+									<p>Check Eligibility</p>
+								</div>
+								<div class="col-xs-12 col-sm-3 text-center">
+									<p class="steps-count">Step 2 of 4</p>
+									<p class="heading">Offer For You</p>
+								</div>
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 3 of 4</p>
+									<p>Complete Application</p>
+								</div>
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 4 of 4</p>
+									<p>Upload Documents</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="steps clearfix">
+						<div class="col-xs-3 text-center">
+							<a href="hl-check-eligibility.html"><span class="completed-step center-block check-eligibility"></span></a>
+						</div>
+						<div class="col-xs-3 text-center">
+							<a href="hl-offer-for-u.html"><span class="current-step center-block offer-for-you"></span></a>
+						</div>
+						<div class="col-xs-3 text-center">
+							<span class="uncompleted-step center-block complete-application"></span>
+						</div>
+						<div class="col-xs-3 text-center">
+							<span class="uncompleted-step center-block upload-doc"></span>
+						</div>
+					</div>
+					
+					<div class="row step2-completion-status"></div>
+					
+					<div class="mainbox clearfix" id="sliders-div">
+						<form>
+							<div class="row">
+								<div class="col-xs-12 slider-custom col-sm-6 col-md-5">
+									<span class="input input--hoshi input--filled">
+										<input value="12.6 Lakhs" class="input__field input__field--hoshi" type="text" id="input-4">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+											<span class="input__label-content input__label-content--hoshi pull-left" id="loan-amount-label">Loan Amount (<i class="fa fa-inr rupee"></i>)</span><!-- end ngIf: !isPlpk -->
+											<span class="input__label-content pull-right input-icon"><img src="images/pencil_icon.svg"></span>
+										</label>
+									</span>
+									<div>
+										<div class="slider slider-horizontal">
+											<div class="slider-track">
+												<div class="slider-selection" style="left: 0%; width: 100%;"></div>
+												<div class="slider-handle round" style="left: 100%;"></div>
+												<div class="slider-handle round hide" style="left: 0%;"></div>
+											</div>
+											<div id="tooltip" class="tooltip top" style="top: -24px; left: 348px;"></div>
+											<div id="tooltip_min" class="tooltip top" style="top: -30px;"><div class=""></div>
+												<div class="tooltip-inner"></div>
+											</div>
+											<div id="tooltip_max" class="tooltip top" style="top: -30px;">
+												<div class=""></div>
+												<div class="tooltip-inner"></div>
+											</div>
+										<input type="text" on-stop-slide="mouseleaved();" min="options.sliderOpt.min" step="options.sliderOpt.step" max="options.sliderOpt.max" style="display: none;"></div>
+										<div class="clearfix">
+											<div class="pull-left">
+												<span class="min-max">Min. Eligible</span>
+												<span class="min-max-value"><i class="fa fa-inr"></i> 0.50 Lakh</span>
+											</div>
+											<div class="text-right pull-right">
+												<span class="min-max">Max. Eligible</span>
+												<span class="min-max-value"><i class="fa fa-inr"></i> 10.00 Lakh</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 slider-custom col-sm-6 col-md-offset-2 col-md-5">
+									<span class="input input--hoshi  input--filled">
+										<input class="input__field input__field--hoshi" type="text" id="input-5">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
+											<span class="input__label-content input__label-content--hoshi pull-left" id="tenure-label">Tenure (Years)</span>
+											<span class="input__label-content pull-right input-icon"><img src="images/pencil_icon.svg"></span>
+										</label>
+									</span>
+									<div class="slider slider-horizontal"><div class="slider-track"><div class="slider-selection" style="left: 0%; width: 100%;"></div><div class="slider-handle round" style="left: 100%;"></div><div class="slider-handle round hide" style="left: 0%;"></div></div><div id="tooltip" class="tooltip top" style="top: -24px; left: 348px;"></div><div id="tooltip_min" class="tooltip top" style="top: -30px;"><div class=""></div><div class="tooltip-inner"></div></div><div id="tooltip_max" class="tooltip top" style="top: -30px;"><div class=""></div><div class="tooltip-inner"></div></div><input type="text" on-stop-slide="mouseleaved();" min="options.tenureyears.minyear" step="0.5" max="options.tenureyears.maxyear" slider-id="idTest" style="display: none;"></div>
+									<div class="clearfix">
+										<div class="pull-left">
+											<span class="min-max">Min</span><span class="min-max-value">1.0 Years</span>
+										</div>
+										<div class="text-right pull-right">
+											<span class="min-max">Max</span>
+											<span class="min-max-value">4.0 Years</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="mainbox clearfix" id="loan-plan-div">
+						<h3 class="marginTop10">Your Customized Home Loan Plan</h3>
+						<div class="clearfix">
+							<div class="offer col-xs-12 hide">--&gt;
+								<span class="sploffColor">Special Festive Offer discount on Processing Fees. Valid till 31<sup>st</sup> December 2016 only</span>
+							</div>
+						</div>
+						<div id="offersTab" class="clearfix marginTop20">
+							<div>
+								<ul class="nav nav-tabs">
+									<li class="text-center clearfix col-xs-4 offer-tab  active"><a href="#floating" data-toggle="tab">9.2% (Floating)</a></li>
+									<li class="text-center clearfix col-xs-4 offer-tab"><a href="#fixed-1" data-toggle="tab">9.8% (10 Yr Fixed)</a></li>
+									<li class="text-center clearfix col-xs-4 offer-tab"><a href="#fixed-2" data-toggle="tab">10.15% (Fixed)</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="floating">
+										<!-- {{tabs}} -->
+										<div class="offers-applied col-sm-5">
+											<div>
+												<div class="offerblocks col-sm-4 col-md-3">
+													<label class="block" for="loan-amount"><strong>EMI</strong></label>
+													<span class="light-orange"> <i class="fa fa-inr"></i> 44240.0</span>
+												</div>
+												<div class="offerblocks col-sm-5 col-md-5">
+													<label class="block" for="loan-amount"><strong>Interest Rate</strong> (Repo Rate - 5.15%) </label>
+													<span class="light-orange"> 9.2% Floating</span>
+												</div>
+												<div class="offerblocks col-sm-3 col-md-3">
+													<label class="block" for="loan-amount"><strong>Processing Fees*</strong></label>
+													<span class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block"><i class="fa fa-inr"></i>52852.2</span>
+													<span class="light-orange"> <i class="fa fa-inr"></i> 11800.0</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane" id="fixed-1">
+										<!-- {{tabs}} -->
+										<div class="offers-applied col-sm-5">
+											<div>
+												<div class="offerblocks col-sm-4 col-md-3">
+													<label class="block" for="loan-amount"><strong>EMI</strong></label>
+													<span class="light-orange"> <i class="fa fa-inr"></i> 45723.0</span>
+												</div>
+												<div class="offerblocks col-sm-5 col-md-5">
+													<label class="block" for="loan-amount"><strong>Interest Rate</strong> (Repo Rate - 5.15%) </label>
+													<p class="light-orange"> 9.8% Fixed</p>
+													<p class="light-orange"> Repo Rate +4.65% Floating</p>
+												</div>
+												<div class="offerblocks col-sm-3 col-md-3">
+													<label class="block" for="loan-amount"><strong>Processing Fees*</strong></label>
+													<span class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block"><i class="fa fa-inr"></i>52852.2</span>
+													
+													<span class="light-orange"> <i class="fa fa-inr"></i> 11800.0</span>
+												</div>
+											</div>
+											<div class="col-xs-12 row marginTop20 termsCondns">
+												<strong><p>Terms &amp; Conditions:</p></strong><p class="termsConditions">After completion of 10 years, applicable interest rate will be Repo Rate +4.65 %</p>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane" id="fixed-2">
+										
+										<!-- {{tabs}} -->
+										<div class="offers-applied col-sm-5">
+											<div>
+												<div class="offerblocks col-sm-4 col-md-3">
+													<label class="block" for="loan-amount"><strong>EMI</strong></label>
+													
+													<span class="light-orange"> <i class="fa fa-inr"></i> 46600.0</span>
+												</div>
+												<div class="offerblocks col-sm-5 col-md-5">
+													<label class="block" for="loan-amount"><strong>Interest Rate</strong> (Repo Rate - 5.15%) </label>
+													<span class="light-orange"> 10.15% Fixed</span>
+												</div>
+												<div class="offerblocks col-sm-3 col-md-3">
+													<label class="block" for="loan-amount"><strong>Processing Fees*</strong></label>
+													<span class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block"><i class="fa fa-inr"></i>52852.2</span>
+													
+													<span class="light-orange"> <i class="fa fa-inr"></i> 11800.0</span>
+													
+												</div>
+											</div>
+											<div class="col-xs-12 row marginTop20 termsCondns">
+												<strong></strong>
+												<p class="termsConditions"></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 row">
+								<a class="moreOffers  clearfix" href="hl-more-offers.html">More offers &gt;</a>
+							</div>
+							<div class="clearfix fs-12">
+								<p>*Administrative Charges and Charges levied by CERSAI will also apply.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mainbox clearfix applyNowBox">
+						<div class="more-offers-checkboxes">
+							<div class="insurance-text">
+								<p>Please click to add Home Loan Insurance</p>
+							</div>
+							<div class="clearfix">
+								<div class="col-xs-12 col-md-12 clearfix">
+									<div class="step checkbox_wrapper">
+										<input type="checkbox" class="col-xs-1">
+										<label></label>
+									</div>
+									<span class="col-xs-12 col-md-12 termsStep1Span">ICICI Lombard Home Insurance and Secure Mind</span>
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="col-xs-12 col-md-12 clearfix marginTop20">
+									<div class="step checkbox_wrapper">
+										<input type="checkbox" class="col-xs-1">
+										<label></label>
+									</div>
+									<span class="col-xs-12 col-md-12 termsStep1Span">ICICI Prudential Loan Protect </span>
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="col-xs-12 col-md-12 clearfix marginTop20">
+									<div class="step checkbox_wrapper">
+										<input type="checkbox" class="col-xs-1">
+										<label></label>
+									</div>
+									<span class="col-xs-12 col-md-12 termsStep1Span">Please click to avail ICICI Bank Credit Card</span>
+								</div>
+							</div>
+						</div>
+						<div class="row apply-options">
+							<div class="text-center marginTop20">
+								<button onclick="window.location.href='hl-complete-application.html';" class="btn blue" type="button">Apply Now</button>
+								<a class="know-more">Email Offer</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!--Main Content End-->
+			<!--Footer Start-->
+			<div id="footer" class="row">
+				<div class="container-fluid">
+					<p class="text-center">
+						<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+						<span id="footer-links">
+							<a target="_blank" href="personalloans/partials/personal-loan-disclaimer.html">Disclaimer </a> <span>|</span>
+							<a target="_blank" href="pdfs/PL_TnC.pdf">Terms &amp; Conditions </a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!--Footer End-->
+			
+			<!--Modal Start-->
+			<!-- Mobile Popup-->
+			<div id="mobilePopup" class="modal in" tabindex="1" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body clearfix">
+							<div class="popup-header clearfix">
+								<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img pull-right"></a>
+							</div>
+							<div class="mobileModal">
+								<p class="userModalMobile"> Your application is already under process.</p>
+								<p><strong>Please visit <a class="userModalLink" data-dismiss="modal">'My Application'</a> to proceed further.</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Know More-->
+			<div id="knowmore" class="modal in" tabindex="1" role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header clearfix">
+							<p class="pull-left knowmorestyle"><strong>Know More</strong></p>
+							<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+						</div>
+						<div class="modal-body marginTop10">
+							
+							<div style="margin-bottom: 10px;">
+								<h3 class="knowmore-section-head top-head-m0">
+									Loan Sanction Steps
+								</h3>
+							</div>
+							
+							<div class="row">
+								<div class="col-xs-12">
+									<p><strong>Step 1: </strong>Check eligibility</p>
+									<p><strong>Step 2: </strong>Decide to Apply</p>
+									<p><strong>Step 3: </strong>Complete the Application form</p>
+									<p><strong>Step 4: </strong>Upload your documents</p>
+								</div>
+								<span>
+									<p class="col-xs-12">(KYC &amp; Income Documents for faster processing)</p>
+								</span>
+							</div>
+							
+							<div>
+								<div class="ng-scope">
+									<h3 class="knowmore-section-head">
+										Loan Disbursement Steps
+									</h3>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<p><strong>Step 1: </strong>Place disbursement request</p>
+										<p><strong>Step 2: </strong>Upload documents</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Email Modal-->
+			<div id="emailoffer" class="modal in" tabindex="1" role="dialog" >
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header clearfix">
+							<p class="pull-left blueColor knowmorestyle"><strong>Email Offer</strong></p>
+							<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+						</div>
+						<div class="modal-body">
+							<form class="row" name="emailOfferForm" autocomplete="off">
+								
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="name" class="input__field input__field--hoshi" type="text" id="user-first-name" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-first-name">
+											<span class="input__label-content input__label-content--hoshi">First Name</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="lastname" class="input__field input__field--hoshi" type="text" id="user-last-name" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-last-name">
+											<span class="input__label-content input__label-content--hoshi">Last Name</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="email" class="input__field input__field--hoshi" type="text" id="user-email" maxlength="100" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-email">
+											<span class="input__label-content input__label-content--hoshi">Your Email</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="retypeEmail" class="input__field input__field--hoshi" type="text" id="user-retypeEmail" onpaste="return false" maxlength="100" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-retypeEmail">
+											<span class="input__label-content input__label-content--hoshi">Re-Type Email</span>
+										</label>
+									</span>
+									<span class="otp-date errClass hidden">Work email and Re-enter email are not matching</span>
+								</div>
+								
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="mobileNumber" class="input__field input__field--hoshi" type="tel" id="user-mobile-number" maxlength="10" minlength="10" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-mobile-number">
+											<span class="input__label-content input__label-content--hoshi">Mobile Number</span>
+										</label>
+									</span>
+								</div>
+								
+								<div class="col-xs-12 text-center submit-btn marginTop20">
+									<button class="btn blue callme_btn" type="submit" disabled="disabled">Email Offer</button>
+								</div>
+							</form> 
+						</div>
+					</div>
+				</div>		
+			</div>
+			<!--Modla End-->
+		</div>
+	</body>
+</html>						

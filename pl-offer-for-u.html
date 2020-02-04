@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Personal Loans</span></p>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div id="content" ui-view="main" data-spy="scroll"><div id="step2-page" class="ie10">
+				<div class="row">
+					<div class="col-xs-12 info clearfix subheader-wrapper subheader-wrapper-info">
+						<div class="header-container">
+							<p class="pull-left">Congratulations! We are pleased to offer you the below Personal Loan Offer</p>
+						</div>
+						<span>
+							<div class="header-container">
+								<p><a ui-sref="admin-userhome" href="#">Home</a> &gt; <a ui-sref="applicationformedit" href="/asset-portal-redi/Admin/Application-Form-Edit">Application Form Edit</a> &gt; CRM lead ID : </p>               
+							</div>
+							<div class="sub-heading-admin">
+								<div class="header-container">
+									<p>Application number : Not Generated | Application Status : Application incomplete</p>
+								</div>  
+							</div>
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="check-eligibility-steps text-center">
+						<div class="steps-inner-container">
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 1 of 4</p>
+								<p>Check Eligibility</p>
+							</div>
+							<div class="col-xs-12 col-sm-3 text-center">
+								<p class="steps-count">Step 2 of 4</p>
+								<p class="heading">Offer For You</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 3 of 4</p>
+								<p>Complete Application</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 4 of 4</p>
+								<p>Upload Documents</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="steps clearfix">
+					<div class="col-xs-3 text-center">
+						<a ui-sref="icicipersonal-checkeligibility" href="/asset-portal-redi/personal-loan/check-eligibility"><span class="completed-step center-block check-eligibility"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<a ui-sref="icicipersonal-offers-for-you" href="/asset-portal-redi/personal-loan/offers-for-you"><span class="current-step center-block offer-for-you"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block complete-application"></span>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block upload-doc"></span>
+					</div>
+				</div>
+				
+				<div class="row step2-completion-status"></div>
+				
+				<div class="mainbox clearfix" id="sliders-div">
+					<form>
+						<div class="row">
+							<div class="col-xs-12 slider-custom col-sm-6 col-md-5">
+								<span class="input input--hoshi input--filled">
+									<input value="12.6 Lakhs" class="input__field input__field--hoshi" type="text" id="input-4">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+										<span class="input__label-content input__label-content--hoshi pull-left" id="loan-amount-label">Loan Amount (<i class="fa fa-inr rupee"></i>)</span><!-- end ngIf: !isPlpk -->
+										<span class="input__label-content pull-right input-icon"><img src="images/pencil_icon.svg"></span>
+									</label>
+								</span>
+								<div>
+									<div class="slider slider-horizontal">
+										<div class="slider-track">
+											<div class="slider-selection" style="left: 0%; width: 100%;"></div>
+											<div class="slider-handle round" style="left: 100%;"></div>
+											<div class="slider-handle round hide" style="left: 0%;"></div>
+										</div>
+										<div id="tooltip" class="tooltip top" style="top: -24px; left: 348px;"></div>
+										<div id="tooltip_min" class="tooltip top" style="top: -30px;"><div class=""></div>
+											<div class="tooltip-inner"></div>
+										</div>
+										<div id="tooltip_max" class="tooltip top" style="top: -30px;">
+											<div class=""></div>
+											<div class="tooltip-inner"></div>
+										</div>
+									<input type="text" on-stop-slide="mouseleaved();" min="options.sliderOpt.min" step="options.sliderOpt.step" max="options.sliderOpt.max" style="display: none;"></div>
+									<div class="clearfix">
+										<div class="pull-left">
+											<span class="min-max">Min. Eligible</span>
+											<span class="min-max-value"><i class="fa fa-inr"></i> 0.50 Lakh</span>
+										</div>
+										<div class="text-right pull-right">
+											<span class="min-max">Max. Eligible</span>
+											<span class="min-max-value"><i class="fa fa-inr"></i> 10.00 Lakh</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 slider-custom col-sm-6 col-md-offset-2 col-md-5">
+								<span class="input input--hoshi  input--filled">
+									<input class="input__field input__field--hoshi" type="text" id="input-5">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
+										<span class="input__label-content input__label-content--hoshi pull-left" id="tenure-label">Tenure (Years)</span>
+										<span class="input__label-content pull-right input-icon"><img src="images/pencil_icon.svg"></span>
+									</label>
+								</span>
+								<div class="slider slider-horizontal"><div class="slider-track"><div class="slider-selection" style="left: 0%; width: 100%;"></div><div class="slider-handle round" style="left: 100%;"></div><div class="slider-handle round hide" style="left: 0%;"></div></div><div id="tooltip" class="tooltip top" style="top: -24px; left: 348px;"></div><div id="tooltip_min" class="tooltip top" style="top: -30px;"><div class=""></div><div class="tooltip-inner"></div></div><div id="tooltip_max" class="tooltip top" style="top: -30px;"><div class=""></div><div class="tooltip-inner"></div></div><input type="text" on-stop-slide="mouseleaved();" min="options.tenureyears.minyear" step="0.5" max="options.tenureyears.maxyear" slider-id="idTest" style="display: none;"></div>
+								<div class="clearfix">
+									<div class="pull-left">
+										<span class="min-max">Min</span><span class="min-max-value">1.0 Years</span>
+									</div>
+									<div class="text-right pull-right">
+										<span class="min-max">Max</span>
+										<span class="min-max-value">4.0 Years</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="mainbox clearfix offersPage" id="loan-plan-div">
+					<h3>Your customized Personal Loan Plan</h3>
+					<div class="col-sm-8 col-md-9 offers-applied">
+						<div class="offerblocks col-sm-4">
+							<label class="block" for="loan-amount"><strong>EMI</strong></label>
+							<span class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block"><i class="fa fa-inr"></i>26575</span>
+							<span class="light-orange">  <i class="fa fa-inr"></i> 26457</span>
+						</div>
+						<div class="offerblocks col-sm-4 col-md-5">
+							<label class="block" for="loan-amount"><strong>Interest Rate</strong></label>
+							<span class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block">12.49% Fixed</span>
+							<span class="light-orange"> 12.25% Fixed</span><!-- end ngIf: tabs[0].offerRate!=0 -->
+						</div>
+						<div class="offerblocks col-sm-4 col-md-3">
+							<label class="block" for="loan-amount"><strong>Fees</strong></label>
+							<span class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block"><i class="fa fa-inr"></i>9439</span>
+							<span class="light-orange">  <i class="fa fa-inr"></i>  9439</span>
+						</div>
+					</div>
+					<div class="savesection offerblocks col-sm-4 col-md-3 clearfix">
+						<img class="pull-left" src="images/you_save_icon.svg" alt="">
+						<div class="saveinr pull-left">
+							<label class="block" for="loan-amount"><strong>You Save</strong></label>
+							<span class="light-orange"><i class="fa fa-inr"></i> 5664.00</span>
+						</div>
+					</div>
+					
+					<div class="marginTop20 text-center visible-xs visible-sm">
+						<button class="btn blue btnMainStep1">Call Me</button>
+						<p class="marginTop10 font12">For assistance in filling application form</p>
+						<p class="marginTop10">OR</p>
+					</div>
+					<div class="col-xs-12 col-md-12 clearfix termsStep1 marginTop20">
+						<div class="step checkbox_wrapper checkbox_wrapper1">
+							<input type="checkbox" class="col-xs-1">
+							<label></label>
+						</div>
+						<span class="col-xs-12 col-md-12 termsStep1Span">I confirm that the customer is interested to secure this loan with <span class="insuranceLink">insurance</span></span> 
+						<a id="doc1" target="_blank" href="personalloans/wordFiles/All safe Plus_product(Lombard).docx" class=""> </a>
+						<a id="doc2" target="_blank" href="personalloans/wordFiles/GLS & ICARE (Prudential).docx" class=""></a>
+					</div>
+					<div class="clearfix text-center offer-for-you">
+						<button class="btn blue btnMainStep1 marginTop10" onclick="window.location.href='complete-application.html'">Apply Now</button>
+						<p class="marginTop5 font12">To fill application form online</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<!--Main Content End-->
+			
+			<!--Footer Start-->
+			<div id="footer" class="row">
+				<div class="container-fluid">
+					<p class="text-center">
+						<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+						<span id="footer-links">
+							<a target="_blank" href="personalloans/partials/personal-loan-disclaimer.html">Disclaimer </a> <span>|</span>
+							<a target="_blank" href="pdfs/PL_TnC.pdf">Terms &amp; Conditions </a> <span>|</span>
+							<a target="_blank" href="pdfs/PL_TnC1.pdf">Personal Loan Terms &amp; Conditions </a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!--Footer End-->
+		</div>
+		<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+		<script type="text/javascript" src="js/icici.min.js"></script>
+		<script type="text/javascript" src="js/icici.templates.min.js"></script>
+		<script type="text/javascript">
+			$(".calender-box .custom-date-holder span input[type = 'text']").mask("99/99/9999", { placeholder: 'dd/mm/yyyy' });
+		</script>
+	</body>
+</html>

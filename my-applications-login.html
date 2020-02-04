@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Loans</span></p>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div id="content">
+				<div id="my-applications" class="marginBottom30">
+					<div class="row">
+						<div class="info col-xs-12 clearfix subheader-wrapper subheader-wrapper-info">
+							<div class="header-container">
+								<p class="pull-left">Track your application status</p>
+							</div>
+						</div>
+					</div>
+					<div class="mainbox clearfix m-container">
+						<p class="row col-xs-12 application-text">Please login to complete your application or view status of your previous application/s by either of the following options</p>
+						<div class="col-xs-12 col-sm-5 col-md-5 myApplicationsForm">
+							<form name="myApplicationsForm">
+								<div class="full-length-feild hide-mask">
+									<div class="col-xs-12 col-md-6">
+										<span class="input input--hoshi mobile">
+											<input name="1543406430946" class="input__field input__field--hoshi" type="tel" id="1543406430946" required>
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1543406430946">
+												<span class="input__label-content input__label-content--hoshi">
+													<span>Enter Mobile No.</span>
+													<a href="#" class="edit" hidden><img alt="Edit" src="images/edit_ico.svg"></a>
+												</span>
+												<span class="input__label-content pull-right input-icon" id="city-map-icon"><img src="images/pencil_icon.svg"></span>
+											</label>
+										</span>
+									</div>
+								</div>
+								<div class="clear hide-mask" id="dobWidth">
+									<div class="col-xs-12 col-sm-6 calender-box clearfix">
+										<div class="custom-date-holder">
+											<span class="input input--hoshi">
+												<input type="text" name="tmadob" class="input__field input__field--hoshi date-input desktop-datepicker dobnotchanged" id="tmadob">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="tmadob">
+													<span class="input__label-content input__label-content--hoshi pull-left" id="tmadob-content">Date of Birth (DD/MM/YYYY) <a class="edit" hidden><img alt="Edit" src="images/edit_ico.svg"></a></span>
+												</label>
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="tmadob1" hidden>
+													<span class="input__label-content input__label-content--hoshi pull-left" id="tmadob1-content">Date of Birth (DD/MM/YYYY)<a href="#" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+												</label>
+												<span id="city-map-icon" class="input__label-content pull-right"><img src="images/calendar.svg" height="20px"></span>
+											</span>
+											<span class="input-group-btn input__label-content pull-right clearfix cal-icon"></span>
+										</div>
+									</div>
+								</div>
+								<div class="clear">
+									<span class="otp myAppPhoneOtp">
+										<button class="btn otp-MyApp" disabled="disabled">Send OTP</button>
+									</span>
+								</div>
+								<div class="col-xs-12 col-md-12 col-sm-12 clearfix">
+									<span class="input input--hoshi">
+										<input name="otp" class="input__field input__field--hoshi" type="password" id="otp">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="otp">
+											<span class="input__label-content input__label-content--hoshi">Enter One Time Password(OTP)</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12  marginTop20 clearfix">
+									<span class="otp-date" style="color: #404040">You shall receive an OTP within 5 minutes.<br> In case OTP not received, click on Send OTP again.</span>
+								</div>
+								<div class="col-xs-12 col-sm-5 col-md-5 visible-xs applicationContinueBtn">
+									<button class="btn btn-block blue" type="submit">Continue</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-xs-12 marginTop20 col-sm-2 col-md-2 applicationOrDiv" align="center"><strong>Or</strong></div>
+						<div class="col-xs-12 col-sm-5 col-md-5 myApplicationDetailsForm">
+							<form name="myApplicationDetailsForm">
+								<div class="full-length-feild hide-mask">
+									<div class="col-xs-12 col-md-6">
+										<span class="input input--hoshi mobile">
+											<input name="1543406431058" class="input__field input__field--hoshi" type="tel" id="1543406431058">
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1543406431058">
+												<span class="input__label-content input__label-content--hoshi">
+													Enter Mobile No.
+													<a href="#" class="edit" hidden><img alt="Edit" src="images/edit_ico.svg"></a>
+												</span>
+												<span class="input__label-content pull-right input-icon" id="city-map-icon"><img src="images/pencil_icon.svg"></span>
+											</label>
+										</span>
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-12 col-sm-12 clearfix">
+									<span class="input input--hoshi">
+										<input name="ApplicationNumber" class="input__field input__field--hoshi" type="text" id="ApplicationNumber">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="ApplicationNumber">
+											<span class="input__label-content input__label-content--hoshi">Application Number</span>
+										</label>
+									</span>
+								</div>
+								<div class="clear hide-mask" id="dobWidth">
+									<div class="col-xs-12 col-sm-6 calender-box clearfix">
+										<div class="custom-date-holder">
+											<span class="input input--hoshi">
+												<input type="text" name="righttmadob" class="input__field input__field--hoshi date-input desktop-datepicker" id="righttmadob" required>
+												
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="righttmadob">
+													<span class="input__label-content input__label-content--hoshi pull-left" id="righttmadob-content">
+														Date of Birth (DD/MM/YYYY)
+														<a href="#" class="edit ng-hide"><img alt="Edit" src="images/edit_ico.svg"></a>
+													</span>
+												</label>
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1 ng-hide" for="righttmadob1">
+													<span class="input__label-content input__label-content--hoshi pull-left" id="righttmadob1-content">
+														Date of Birth (DD/MM/YYYY)
+														<a href="#" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+													</span>
+												</label>
+												<span id="city-map-icon" class="input__label-content pull-right ng-scope"><img src="images/calendar.svg" height="20px"></span>
+											</span>
+											<span class="input-group-btn input__label-content pull-right clearfix cal-icon"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-5 col-md-5 visible-xs applicationContinueBtn">
+								<button class="btn btn-block blue" type="submit">Continue</button>
+							</div>
+						</form>
+					</div>
+					<div class="clearfix centerButton hidden-xs" align="center">
+						<button class="btn btn-block blue" onclick="window.location.href='my-applications.html';">Continue</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Main Content End-->
+	
+	<!--Footer Start-->
+	<div id="footer" class="row">
+		<div class="container-fluid">
+			<p class="text-center">
+				<span id="footer-text">Credit Card issuance / Loans are at the sole discretion of ICICI Bank Ltd.</span>
+				<span id="footer-links"><a target="_blank" href="pdfs/PL_TnC.pdf">Terms &amp; Conditions </a> <span>|</span>
+					<a target="_blank" href="http://www.icicibank.com/privacy.page">Privacy Statement</a>
+				</span>
+			</p>
+		</div>
+	</div>
+	<!--Footer End-->
+</div>
+<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+<script type="text/javascript" src="js/icici.templates.min.js"></script>
+</body>
+</html>						

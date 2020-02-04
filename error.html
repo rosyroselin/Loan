@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body class="cc">
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Credit Cards</span></p>
+						<a href="javascript:void(0)" class="hidden-md hidden-lg pull-right call-me" onclick="callmePop()"><img class="call-me-img" src="images/call-me-icon.svg" alt="call" width="16" height="24"><span>Call Me</span></a>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			
+			<!--Main Content Start-->
+			<div id="content">
+				<div id="apply-now-page">
+					<div class="row">
+						<div class="info col-xs-12 clearfix subheader-wrapper subheader-wrapper-info">
+							<div class="header-container">
+								<p class="pull-left visible-sm visible-md visible-lg col-md-10">Error Page</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="mainbox2">
+						<div class="creditCardTerms clear creditInfo hidden-sm hidden-md hidden-lg mobileCredit">
+							<div class="textTrim textPadding">
+								<ul class="creditMobileList">
+									<li>
+										<span class="textTrim">Apply for ICICI Bank Platinum Chip Credit Card Online at  Zero Joining Fee and get a Provogue watch voucher worth <i class="fa fa-inr"></i> 3,499.<a href="assets/pdfs/CC_TnC.pdf" target="_blank">*T&amp;C apply</a></span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div id="applyPage" class="applyPage_credit-card" style="min-height:400px;">
+							<div class="row">
+								<div class="col-xs-12 text-center">
+									<h4>Your Error Message Here</h4>
+									<button class="btn blue myButton">Button</button>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Modals start -->
+			<div class="modal fade" id="letUsConnect-modal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header clearfix">
+							<p class="pull-left knowmorestyle"><strong>Let us connect you</strong></p>
+							<a href="javascript:void(0);" class="close-img pull-right"></a>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 clearfix abortInfo">
+									<p class="col-xs-12">Don't have time to complete the form now?</p>
+									<p class="col-xs-12">Provide us with a few details and our representative will contact you to take this forward.</p>
+								</div>
+								<form name="letUsConnectForm" class="letUsConnectForm clearfix">
+									<div class="col-xs-12 inputBottom">
+										<span class="input input--hoshi">
+											<input name="firstName" class="input__field input__field--hoshi" type="text" id="connectfirstname" maxlength="50" required="required">
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="connectfirstname">
+												<span class="input__label-content input__label-content--hoshi">First Name</span>
+											</label>
+										</span>
+									</div>
+									<div class="col-xs-12 inputBottom">
+										<span class="input input--hoshi">
+											<input name="lastName" class="input__field input__field--hoshi" type="text" id="connectlastName" maxlength="50" required="required">
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="connectlastName">
+												<span class="input__label-content input__label-content--hoshi">Last Name</span>
+											</label>
+										</span>
+									</div>
+									<div class="col-xs-12 clear">
+										<span class="input input--hoshi">
+											<input name="mobilenumber" class="input__field input__field--hoshi" required="required">
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-mobile">
+												<span class="input__label-content input__label-content--hoshi">Mobile No.</span>
+											</label>
+										</span>
+										<span class="otp">You can retrieve your data by your mobile no. OTP verification</span>
+										<span class="otp">(You can upload your documents later using the mobile number through “My Application”)</span>
+									</div>
+								</form>
+							</div>
+							<div class="col-xs-12 clearfix termsStep1">
+								<div class="step checkbox_wrapper">
+									<input type="checkbox" class="col-xs-1">
+									<label></label>
+								</div>
+								<span class="col-xs-12 col-md-12 termsStep1Span">By providing my contact information I authorize ICICI Bank &amp; its representatives to call me or SMS me with reference to my loan application</span>
+							</div>
+							<div class="col-xs-12 text-center submit-btn">
+								<button id="uploadscenario" class="btn blue" type="button" disabled="disabled">Submit</button>
+								<button class="btn blue" type="button">Submit</button>
+							</div>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			
+			<div id="mobilePopup" class="modal fade" tabindex="1" role="dialog" aria-labelledby="popupModal" aria-hidden="true" mobilenumber="mobileNumber">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body clearfix">
+							<div class="popup-header clearfix">
+								<a href="javascript:void(0);" aria-label="Close" class="close-img pull-right" ></a>
+							</div>
+							<div class="mobileModal">
+								<p class="userModalMobile"> Your application is already under process.</p>
+								<p><strong>Please visit<a class="userModalLink">'My Application'</a> to proceed further.</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="knowmore" class="modal fade in" style="padding-right: 17px;">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header clearfix">
+							<p class="pull-left knowmorestyle"><strong>Know More</strong></p>
+							<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+						</div>
+						<div class="modal-body marginTop10">
+							<div style="margin-bottom: 10px;"></div>
+							
+							<div class="row">
+								<div class="col-xs-12">
+									<p><strong>Step 1: </strong>Check eligibility</p>
+									<p><strong>Step 2: </strong>Decide to Apply</p>
+									<p><strong>Step 3: </strong>Complete the Application form</p>
+									<p><strong>Step 4: </strong>Upload your documents</p>
+								</div>
+								<span>
+									<p class="col-xs-12">(KYC &amp; Income Documents for faster processing)</p>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div id="emailoffer" class="modal fade" tabindex="1" role="dialog" aria-labelledby="popupModal" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header clearfix">
+							<p class="pull-left blueColor knowmorestyle"><strong>Email Offer</strong></p>
+							<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+						</div>
+						<div class="modal-body">
+							<form class="row" name="emailOfferForm">
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="name" class="input__field input__field--hoshi" type="text" id="user-first-name" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-first-name">
+											<span class="input__label-content input__label-content--hoshi">First Name</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="lastname" class="input__field input__field--hoshi" type="text" id="user-last-name" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-last-name">
+											<span class="input__label-content input__label-content--hoshi">Last Name</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="email" class="input__field input__field--hoshi" type="text" id="user-email" maxlength="100" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-email">
+											<span class="input__label-content input__label-content--hoshi">Your Email</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="retypeEmail" class="input__field input__field--hoshi" type="text" id="user-retypeEmail"  required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-retypeEmail">
+											<span class="input__label-content input__label-content--hoshi">Re-Type Email</span>
+										</label>
+									</span>
+								</div>
+								
+								<div class="col-xs-12 col-sm-12 col-md-12">
+									<span class="input input--hoshi">
+										<input name="mobileNumber" class="input__field input__field--hoshi" type="tel" id="user-mobile-number" maxlength="10" minlength="10" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-mobile-number">
+											<span class="input__label-content input__label-content--hoshi">Mobile Number</span>
+										</label>
+									</span>
+								</div>
+								
+								<div class="col-xs-12 text-center submit-btn marginTop20">
+									<button class="btn blue callme_btn" type="submit" disabled="disabled">Email Offer</button>
+								</div>
+							</form> 
+						</div>
+					</div>
+				</div>		
+			</div>
+			
+			<!--Main Content End-->
+			
+			<!--Footer Start-->
+			<div id="footer" class="row">
+				<div class="container-fluid">
+					<p class="text-center">
+						<span id="footer-text">Credit Card issuance is at the sole discretion of ICICI Bank Ltd.</span>
+						<span id="footer-links"><a target="_blank" href="credit-card-disclaimer.html">Disclaimer</a> <span>|</span>
+							<a target="_blank" href="https://www.icicibank.com/terms-condition/credit-card-terms-and-conditions.html?_ga=2.108609538.1623193432.1543830609-788978781.1542863146">Terms & conditions</a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!--Footer End-->
+		</div>
+		<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+		<script type="text/javascript" src="js/icici.templates.min.js"></script>
+	</body>
+</html>

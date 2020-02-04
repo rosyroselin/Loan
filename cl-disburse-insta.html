@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='iciciApp' ng-controller="iciciAppCtrl">
+<head>
+	<title>ICICI Bank</title>
+	<meta http-equiv="X-Frame-Options" content="deny">
+	<meta name="description" content="ICICI" />
+	<meta name="keywords" content="ICICI" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icici.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<!--Header Start-->
+		<div class="row">
+			<div class="col-xs-12 menu subheader-wrapper">
+				<div class="header-container">
+					<a class="back-btn pull-left ng-scope" href="apply-now.html"></a>
+					<span>
+					<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+					</span>
+					<p class="pull-left"><span class="moduleName">Net Banking</span></p>
+				</div>
+			</div>
+		</div>
+		<!--Header End-->
+        <!--Main Content Start-->
+		<div id="content">
+		<div id="disberse-insta-page" class="insta-al-disb-page">
+			<div class="row">
+				<div class="info col-xs-12 clearfix subheader-wrapper subheader-wrapper-info">
+					<div class="header-container">
+						<p class="pull-left">You are just two steps away to get your Auto loan</p>
+						 <a class="pull-right  referral-code hidden-xs">Referral Code</a>
+					</div>
+				</div>
+			</div>
+			<div class="mainbox clearfix loandetails loanDetailsFirst">
+				<div class="col-sm-12">
+					<div class="row">
+						<div class="row">
+							<div class="col-xs-12 col-sm-3 col-md-3 application-information-div app-info-div">
+								<strong class="loanAppLbl">Your Insta Car Loan Details:</strong>
+							</div>
+							<div class="col-xs-12 col-sm-3 col-md-4 application-information-div div-sep">
+								<p class="des-insta-txt">Final Facility amount: <span class="instaPlSpan-val">Upto <i class="fa fa-inr"></i>
+								1000000.0</span></p>
+								<p class="des-insta-txt">EMI: <span class="instaPlSpan-val"><i class="fa fa-inr"></i> 23268</span></p>
+							</div>
+							<div class="col-xs-12 col-sm-3 col-md-3 application-information-div div-sep">
+								<p class="des-insta-txt">Rate Of Interest: <span class="instaPlSpan-val"> 14.00%</span></p>
+								<p class="des-insta-txt">Processing fees: <span class="instaPlSpan-val"><i class="fa fa-inr"></i> 20000.0</span></p>
+							</div>
+							<div class="col-xs-12 col-sm-3 col-md-2 application-information-div">
+								<p class="insta-loan-link">
+									<a target="_blank" href="cl-insta-al-loan-detail.html">Loan Details</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="address-section">
+							<div class="row desk-align">
+								<div class="col-xs-12 col-sm-3 col-md-3 application-information-div app-info-div">
+									<strong class="loanAppLbl">Your Address:</strong>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-7 application-information-div div-sep">
+									<p class="capitalize">ketan gala 181/a hanuman prasad bldg r no11, 1st flr sonapur lane nr sheetal cinema kurla west, mumbai, maharashtra, 400070.</p>
+								</div>
+								<div class="col-xs-12 col-sm-3 col-md-2 application-information-div desk-align-item">
+									<p class="insta-loan-link">
+										<a href="javascript:;">Edit Address</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mainbox clearfix loandetails mobileSections">
+				<div class="row col-xs-12 step1">
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<p class="redText disberseFont"><strong>Step 1:</strong></p>
+						<p>Please click to download documents and proceed to Step 2</p>
+					</div>
+					<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 step1zip">
+						<div>
+							<div class="FL marginTop5 zipDiv">
+								<img height="30" width="36" src="images/ZIP-01.svg">
+							</div>
+							<div>
+								<span class="zipfiles inline-block">Agreement Documents</span>
+								<span class="otp-loanAppId zip-margin font11 block">(MITC and Agreement Copies)</span>
+							</div>
+						</div>
+						<p class="red-text">Please read the agreement copies to proceed further</p>
+					</div>
+				</div>
+				<div class="step1border col-xs-12"></div>
+				<div class="row col-xs-12 step2">
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<p class="redText disberseFont"><strong>Step 2:</strong></p>
+						<p>Please enter and verify the OTP received on your registered mobile number</p>
+					</div>
+					<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 step2otp">
+						<form name="disberseForm">
+							<div class="">
+								<span class="input input--hoshi">
+								<input name="otpNumber" class="input__field input__field--hoshi" type="password" id="user-mobile-otp" required="required" disabled="disabled">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="user-mobile-otp">
+										<span class="input__label-content input__label-content--hoshi">Enter the One Time Password (OTP)</span>
+									</label>
+								</span>
+								<span class="otp">
+								<a class="disabled-resend-otp"> Resend OTP</a>
+								</span>
+								<p class="errClass">You have exceeded the max retry, please try after 24 hours</p>
+							</div>
+						</form>
+					</div>
+					<div class="col-xs-12 col-sm-3 col-md-3 no-pad referalCode">
+						<a class="pull-right referral-code referral-code-phone visible-xs">Referral Code</a>
+					</div>
+				</div>
+			</div>
+			<div class="mainbox clearfix loandetails pdfSection">
+				<form name="disberseTandC">
+					<div class="col-md-12 clearfix checkbox-main-wrapper">
+						<div class="step checkbox_wrapper col-xs-1" style="margin-top: 10px;">
+							<input type="checkbox" required="required">
+							<label></label>
+						</div>
+						<span class="col-xs-12" style="margin-top: 3px;font-size: 13px;">I hereby give my voluntary consent in seeding my Aadhaar Number (linked to my existing bank account) to the new loan being availed by me</span>
+					</div>
+					<div class="col-md-12 clearfix checkbox-main-wrapper" style="margin-top: 10px;">
+						<div class="step checkbox_wrapper col-xs-1" style="margin-top: 10px;">
+							<input type="checkbox" required="required" disabled="disabled">
+							<label></label>
+						</div>
+						<span class="col-xs-12" style="margin-top: 3px;font-size: 13px;">I agree to all the Declarations and Terms and Conditions.</span>
+					</div>
+				</form>
+				<div class="col-xs-12 text-center">
+					<p class="otpFail"></p>
+				</div>
+				<div class="col-xs-12 text-center">
+					<button class="btn blue disberseDisable ial-disb-btn" disabled="disabled">Disburse Now</button>
+				</div>
+			</div>
+		</div>
+		<style type="text/css" media="screen">
+			.optional-text-style, .location-drpdwn .errClass{display: none}/*Internal Style*/
+			#disberse-insta-page .mainbox.loandetails.insta-al-disburse-contact-form{padding-bottom: 60px;}
+		</style>
+		</div>
+
+		<div class="modal fade in">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div id="referral-code-modal">
+						<div class="clearfix" id="modal-body">
+						  <div class="row referralCode-popup-header">
+							<p class="col-xs-11 desktop-font"><strong>Referral Code</strong></p>
+							<a href="javascript:void(0);" class="close-img pull-right" ng-click="cancel()"></a>
+						  </div>
+						  <div class="row">
+							<p class="referralCode-popup-content">
+							   Enter referral code as provided by an ICICI Bank representative assisting for the application
+							</p>
+						  </div>
+
+							<form name="referralCodeForm">
+							<div class="row">
+							  <div class="col-xs-12 col-sm-12 col-md-12 no-pad referalCode">
+								<span class="input input--hoshi tooltip-text">
+									<input name="referralCode" class="input__field input__field--hoshi" type="text" id="" maxlength="10">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="referralCode">
+										<span class="input__label-content input__label-content--hoshi">Lead Generator</span>
+									</label>
+								</span>
+							  </div>
+							</div>
+							<div class="row">
+							  <div class="col-xs-12 col-sm-12 col-md-12 no-pad referalCode">
+								<span class="input input--hoshi tooltip-text">
+									<input name="referralCode" class="input__field input__field--hoshi" type="text">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="referralCode">
+										<span class="input__label-content input__label-content--hoshi">Lead Fulfiller</span>
+									</label>
+								</span>
+							  </div>
+							</div>
+							<div class="row">
+							  <div class="col-xs-12 col-sm-12 col-md-12 no-pad referalCode">
+								<span class="input input--hoshi tooltip-text">
+									<input name="referralCode" class="input__field input__field--hoshi" type="text">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="referralCode">
+										<span class="input__label-content input__label-content--hoshi">SOL ID</span>
+									</label>
+								</span>
+							  </div>
+							</div>
+							</form>
+						</div>
+						<div class="row keyinfoModal referralCode-popup-button">
+							<button class="btn blue col-sm-4 col-sm-offset-4  col-xs-4 col-xs-offset-4 completedApplicationBtns" type="button" disabled="disabled">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade in">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div id="referral-code-modal">
+						<div class="clearfix" id="modal-body">
+						  <div class="row referralCode-popup-header">
+							<p class="col-xs-11 desktop-font"><strong>Edit Address</strong></p>
+							<a href="javascript:void(0);" class="close-img pull-right" ng-click="cancel()"></a>
+						  </div>
+						  <div class="row">
+							<p>If you edit your address you will be taken out of Insta Auto Loan journey.</p>
+							<p style="margin: 20px 0 10px;">Do you want to continue ? </p>
+						  </div>
+						</div>
+						<div class="row text-center" style="margin:0;padding:0">
+							<button class="btn blue marginBTMob20" type="button">Ok</button>
+							<button class="btn blue" type="button">Cancel</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="modal fade in">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div id="InstaThankYou">
+						<div class="modal-header clearfix">
+							<div id="header" class="popup-header clearfix">
+								<img src="images/icici_logo_img_popup.png">
+								<a href="javascript:void(0);" class="close-img pull-right"></a>
+							</div>
+						</div>
+						<div class="modal-body clearfix">
+							<div class="row clearfix">
+								<div class="thanksInfo clearfix">
+								<p class="col-xs-12 message">Your Auto Loan Application No is <strong> 6663450219</strong>. We are unable to credit the pre-approved Auto Loan of <i class="fa fa-inr"></i> <strong>94000</strong> to your Saving Account. It will be processed within 2 working days. For details, please call us at <strong> 18002676005 </strong></p>
+								</div>
+								<div class="col-xs-12 form-group other-offers">
+									<div class="row">
+										<p class="col-xs-12 text-center"><strong>THANK YOU FOR BANKING WITH US</strong></p>
+										<div class="col-xs-12">
+											<p class="marginBottom5 text-center"><strong>Do you want to apply for any other product with us?</strong></p>
+											<div class="list-group clearfix col-xs-12 col-sm-offset-2 col-sm-9 bankingAlignment">
+												<a class="list-group-item" id="cc-icon" href="javascript:void(0);">
+													<span class="ng-binding">Credit Card</span><span class="tick-icon pull-right"></span>
+												</a>
+												<a class="list-group-item" id="home-loan-icon" href="javascript:void(0);">
+													<span class="ng-binding">Home Loan</span><span class="tick-icon pull-right"></span>
+												</a>
+												<a class="list-group-item" id="personal-loan-icon" href="javascript:void(0);">
+													<span class="ng-binding">Personal Loan</span><span class="tick-icon pull-right"></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Main Content End-->
+		
+		<!--Footer Start-->
+		<div id="footer" class="row">
+			<div class="container-fluid">
+			   <p class="text-center">
+				  <span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+				  <span id="footer-links"><a target="_blank" href="auto-loan-disclaimer.html">Disclaimer</a> <span>|</span>
+				  <a target="_blank" href="pdfs/AL_TnC.pdf">Terms & conditions</a>
+				  </span>
+			   </p>
+			</div>
+		</div>
+		<!--Footer End-->
+	</div>
+	<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+	<script type="text/javascript" src="js/icici.templates.min.js"></script>
+</body>
+</html>

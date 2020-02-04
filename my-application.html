@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div id="content">
+				<div id="applicationsStatus">
+					<div class="row">
+						<div class="info col-xs-12 clearfix subheader-wrapper subheader-wrapper-info">
+							<div class="header-container">
+								<p class="pull-left">Track your application status</p>
+							</div>
+						</div>
+					</div>
+					<div class="mainbox2 marginTop20">
+						<div id="applicationsStatusPage">
+							<div class="tabs-container">
+								<ul class="nav nav-tabs">
+									<li class="text-center col-xs-6 col-sm-offset-3 col-sm-3 col-md-offset-3 col-md-3 active" style="">
+										<a href="#IncomepleteApplication" data-toggle="tab">Incomplete Application</a>
+									</li>
+									<li active="tab2" class="text-center col-xs-6 col-sm-3 col-md-3">
+										<a href="#CompletedApplication" data-toggle="tab">Completed Application</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane">
+										<div class="mainbox clearfix"></div>
+									</div>
+									<div class="tab-pane active">
+										<div class="mainbox clearfix">
+											<div class="individualCompletedLoanDetails clearfix">
+												<p class="individualCompletedLoanDetailsTitle"><img src="images/personal_loan.png"><span class="loan-title">Personal Loan</span></p>
+												<div class="application-details completedloan-details">
+													<p>Application ID : <strong class="ng-binding">PL007215935</strong></p>
+													<p><span><strong>In process</strong></span></p>
+													<div class="row">
+														<div class="col-sm-4">
+															<p class="ng-binding">Applied On : 31/01/2019</p>
+															<div ng-if="item.triggeredBy === 'PLPQ1KYC_doc' || item.triggeredBy === 'PLPQ1KYC'" class="ng-scope">
+																<a href="javascript:void(0);"><img class="tma-arrow" src="images/arrow-right-blue.png">Click here to view approval status</a>
+															</div>
+															
+														</div>
+														<div class="col-xs-12 col-sm-4 col-md-4 marginTop20 completedApplicationBtns">
+															<a class="btn btn-block blue" onclick="dataLayer.push({'event': 'ap-gaevent', 'Div-Name': '/VPV/AssetPortal/TrackApplication/TrackMyApplication/View-EditApplication'});" ng-click="viewApplication(item,'personal')">View Application Form</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="shadow-div"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--Main Content End-->
+			
+			<!--Footer Start-->
+			<div id="footer" class="row">
+				<div class="container-fluid">
+					<p class="text-center">
+						<span id="footer-text">Credit Card issuance / Loans are at the sole discretion of ICICI Bank Ltd.</span>
+						<span id="footer-links"><a target="_blank" href="pdfs/PL_TnC.pdf">Terms &amp; Conditions </a> <span>|</span>
+							<a target="_blank" href="http://www.icicibank.com/privacy.page">Privacy Statement</a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!--Footer End-->
+		</div>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+		<script type="text/javascript" src="js/icici.min.js"></script>
+		<script type="text/javascript" src="js/icici.templates.min.js"></script>
+	</body>
+</html>		

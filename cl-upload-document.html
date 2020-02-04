@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='iciciApp' ng-controller="iciciAppCtrl">
+<head>
+	<title>ICICI Bank</title>
+	<meta http-equiv="X-Frame-Options" content="deny">
+	<meta name="description" content="ICICI" />
+	<meta name="keywords" content="ICICI" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icici.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<!--Header Start-->
+		<div class="row">
+			<div class="col-xs-12 menu subheader-wrapper">
+				<div class="header-container">
+					<a class="back-btn pull-left ng-scope" href="apply-now.html"></a>
+					<span>
+					<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+					</span>
+					<p class="pull-left"><span class="moduleName">Net Banking</span></p>
+				</div>
+			</div>
+		</div>
+		<!--Header End-->
+        <!--Main Content Start-->
+		<div id="content" ui-view="main" data-spy="scroll" class="ng-scope" style="">
+		<!-- uiView:  --><div data-ui-view="" id="upload-documents-page" class="ng-scope">
+			<div class="row">
+				<div class="col-xs-12 info clearfix subheader-wrapper subheader-wrapper-info">
+					<div class="header-container">
+						<p class="pull-left">Upload your documents for faster processing</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="check-eligibility-steps text-center">
+					<div class="steps-inner-container">
+						<div class="hidden-xs col-sm-3 text-center">
+							<p>Step 1 of 4</p>
+							<p>Check Eligibility</p>
+						</div>
+						<div class="hidden-xs col-sm-3 text-center">
+							<p>Step 2 of 4</p>
+							<p>Offer For You</p>
+						</div>
+						<div class="hidden-xs col-sm-3 text-center">
+							<p>Step 3 of 4</p>
+							<p>Complete Application</p>
+						</div>
+						<div class="col-xs-12 col-sm-3 text-center">
+							<p class="steps-count">Step 4 of 4</p>
+							<p class="heading">Upload Documents</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="steps clearfix">
+				<div class="col-xs-3 text-center">
+					<a href="javascript:void(0);"><span class="completed-step center-block check-eligibility"></span></a>
+				</div>
+				<div class="col-xs-3 text-center">
+					<a href="javascript:void(0);"><span class="completed-step center-block offer-for-you"></span></a>
+				</div>
+				<div class="col-xs-3 text-center">
+					<a href="javascript:void(0);"><span class="completed-step center-block complete-application"></span></a>
+				</div>
+				<div class="col-xs-3 text-center">
+					<a ui-sref="iciciauto-upload-documents" href="/asset-portal-redi/auto-loan/upload-documents"><span class="current-step center-block upload-doc"></span></a>
+				</div>
+			</div>
+			<div class="clearfix uploadProgress">
+				<div class="progressCompleted pull-left progress ng-isolate-scope" max="100" value="vm.completedDocs.percent">
+		  <div class="progress-bar" ng-class="type &amp;&amp; 'progress-bar-' + type" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" ng-style="{width: (percent < 100 ? percent : 100) + '%'}" aria-valuetext="0%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;" ng-transclude=""></div>
+		</div>
+				<span class="pull-right ng-binding">0%</span>
+			</div>
+			<div class="row step3-main-wrapper clearfix">
+				<div class="col-md-4 documents-main-menu creditDocuments step3-leftNav">
+					<div class="menu-area clearfix creditCardDocs">
+						<div class="list-group">
+							<a class="list-group-item menu-mob ng-scope" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)" style="">
+								<span class="menu-mob ng-binding">Signature Verification Document</span>
+							</a><a class="list-group-item menu-mob ng-scope" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)" style="">
+								<span class="menu-mob ng-binding">Employment Continuity Document</span>
+								
+							</a><a class="list-group-item menu-mob ng-scope" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)" style="">
+								<span class="menu-mob ng-binding">Address Document</span>
+								
+							</a><a class="list-group-item menu-mob ng-scope" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)" style="">
+								<span class="menu-mob ng-binding">Identity Document</span>
+								
+							</a><a class="list-group-item menu-mob ng-scope" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)" style="">
+								<span class="menu-mob ng-binding">Bank Statement</span>
+								
+							</a><a class="list-group-item menu-mob ng-scope" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)" style="">
+								<span class="menu-mob ng-binding">Application Form</span>
+								
+							</a><a class="list-group-item menu-mob ng-scope" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)">
+								<span class="menu-mob ng-binding">Photograph</span>
+								
+							</a><a class="list-group-item menu-mob ng-scope active" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)" style="">
+								<span class="menu-mob ng-binding">Income Document</span>
+								
+							</a><a class="list-group-item menu-mob ng-scope" href="javascript:void(0);" ng-class="{active: temp.isActive, 'status-completed': temp.completed}" ng-repeat="temp in vm.documents" ng-click="vm.setActive(temp)" style="">
+								<span class="menu-mob ng-binding">Age Proof</span>
+								
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 step3-rightNav">
+					<div class="content-area">
+						<div ng-repeat="template in vm.documents" class="ng-scope">
+							
+						</div><div ng-repeat="template in vm.documents" class="ng-scope">
+							
+						</div><div ng-repeat="template in vm.documents" class="ng-scope">
+							
+						</div><div ng-repeat="template in vm.documents" class="ng-scope">
+							
+						</div><div ng-repeat="template in vm.documents" class="ng-scope">
+							
+						</div><div ng-repeat="template in vm.documents" class="ng-scope">
+							
+						</div><div ng-repeat="template in vm.documents" class="ng-scope">
+							
+						</div><div ng-repeat="template in vm.documents" class="ng-scope">
+							<div>
+			<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+				<div class="container-fluid">
+					<div class="row menu subheader-wrapper hidden-md hidden-lg">
+						<a href="javascript:void(0);" ng-click="back()" class="back-btn pull-left menu-mob"></a>
+						<a ui-sref="apply-now" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="assets/images/icici_logo_img.png" alt="logo"></a>
+						<a ng-click="displayMobileMenu()" class="visible-xs-inline-block visible-sm-inline-block posr">
+							<span class="brl"></span>
+							<p class="pull-left ng-binding">Income Document</p>
+							<span class="glyphicon glyphicon-chevron-down menu-mob"></span>
+						</a>
+					</div>
+					<div class="row visible-xs visible-sm">
+						<div class="col-xs-12 info clearfix subheader-wrapper">
+							<p class="pull-left">Upload your supporting documents for faster processing</p>
+						</div>
+					</div>
+					<div class="mainbox clearfix docsDiv bgequilizer" style="min-height: 577px;">
+						
+						<p ng-if="template.name =='Income Document' || template.name =='Employment Continuity Document' || template.name =='Car Ownership Proof'" class="help-msg-documents ng-scope">Please upload all the below mentioned documents</p>
+						<div class="panel-group doc-acc list-group documents-list f1" ng-class="!completedApplicationFlow?'f1':'f2'" id="accordion" role="tablist" aria-multiselectable="true">
+							<div class="panel-group">
+								<div class="list-group-item clearfix panel panel-default panel panel-default ng-scope" ng-repeat="subdocument in template.subdocuments track by $index">
+									<div ng-controller="alSubDocumentCtrl" class="ng-scope">
+										<div class="panel-heading" ng-click="isPanelOpen($index)">
+											<div data-subdocument="subdocument" data-files="files" class="ng-isolate-scope">
+			<div ng-click="getUploadedDocs($index)" class="block popoverElement doc-name subdocName panel-title">
+				<a role="button" href="javascript:void(0)" class="ng-binding">
+					Form 16 of Last 2 years
+					<span ng-show="subdocument.id != null" href="javascript:void(0)" class="popoverChange-other popoverClick" popover-template="dynamicPopover.templateUrl" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;">
+						<img class="questionmark" ng-src="assets/images/Question.png" alt="tooltip" src="assets/images/Question.png">
+					</span>
+				</a>
+			</div>
+			<div class="acc-athmt">
+				<a href="javascript:void(0)" ngf-select="" ngf-change="uploadDoc($event, files)" ng-model="files" class="pull-right attachment ng-pristine ng-untouched ng-valid" accept="image/*" capture="camera"><img src="assets/images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+				<a href="javascript:void(0)" ngf-select="" ngf-change="uploadDoc($event, files)" ng-model="files" class="pull-right attachment ng-pristine ng-untouched ng-valid"><img src="assets/images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+			</div>
+		</div></div>
+										<div class="panel-collapse collapse" uib-collapse="!template.subdocuments[$index].isopen" ng-init="checkFileLength($index)" aria-expanded="false" aria-hidden="true" style="height: 0px;">
+											<div class="panel-body">
+												<div equi-height="">
+			<div class="individual-statement-doc clearfix">
+				<div class="individual-statement-progress clearfix">
+					<div class="row clearfix">
+						<a class="pull-right cancelMark ng-hide" data-parent="Form 16 of Last 2 years" ng-show="subdocument.progress.isUpload" ng-click="cancelUploadingDoc($event,$index)"><strong class="pull-right">X</strong></a>
+					</div>
+				</div>
+			</div>
+		</div></div>
+										</div>
+									</div>
+								</div><div class="list-group-item clearfix panel panel-default panel panel-default ng-scope" ng-repeat="subdocument in template.subdocuments track by $index">
+									<div ng-controller="alSubDocumentCtrl" class="ng-scope">
+										<div class="panel-heading" ng-click="isPanelOpen($index)">
+											<div data-subdocument="subdocument" data-files="files" class="ng-isolate-scope">
+			<div ng-click="getUploadedDocs($index)" class="block popoverElement doc-name subdocName panel-title">
+				<a role="button" href="javascript:void(0)" class="ng-binding">
+					Latest 3 month Pay Slip
+					<span ng-show="subdocument.id != null" href="javascript:void(0)" class="popoverChange-other popoverClick ng-hide" popover-template="dynamicPopover.templateUrl" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;">
+						<img class="questionmark" ng-src="assets/images/Question.png" alt="tooltip" src="assets/images/Question.png">
+					</span>
+				</a>
+			</div>
+			<div class="acc-athmt">
+				<a href="javascript:void(0)" ngf-select="" ngf-change="uploadDoc($event, files)" ng-model="files" class="pull-right attachment ng-pristine ng-untouched ng-valid" accept="image/*" capture="camera"><img src="assets/images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+				<a href="javascript:void(0)" ngf-select="" ngf-change="uploadDoc($event, files)" ng-model="files" class="pull-right attachment ng-pristine ng-untouched ng-valid"><img src="assets/images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+			</div>
+		</div></div>
+										<div class="panel-collapse collapse" uib-collapse="!template.subdocuments[$index].isopen" ng-init="checkFileLength($index)" aria-expanded="false" aria-hidden="true" style="height: 0px;">
+											<div class="panel-body">
+												<div equi-height="">
+			<div class="individual-statement-doc clearfix">
+				<div class="individual-statement-progress clearfix">
+					<div class="row clearfix">
+						<a class="pull-right cancelMark ng-hide" data-parent="Latest 3 month Pay Slip" ng-show="subdocument.progress.isUpload" ng-click="cancelUploadingDoc($event,$index)"><strong class="pull-right">X</strong></a>
+					</div>
+				</div>
+			</div>
+		</div></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="document-btns clearfix" ng-init="init()">
+							<button ng-click="prevUpload()" ng-if="hasPrev" class="col-xs-3 col-sm-2 col-md-2 ng-scope" type="button"><i class="fa fa-chevron-left"></i> Back</button>
+							<button ng-click="nextUpload()" ng-if="hasNext" class="pull-right col-xs-3 col-sm-2 col-md-2 ng-scope" type="button">Next <i class="fa fa-chevron-right"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer" class="hidden-md hidden-lg">
+				<p class="text-center">
+					<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+					<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">*Terms &amp; Conditions </a></span>
+				</p>
+			</div>
+		</div>
+						</div>
+						<div ng-repeat="template in vm.documents" class="ng-scope">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="step3-main-wrapper subBtn clearfix ">
+				<div class="col-md-3"></div>
+				<div class="col-xs-12 col-md-7 submitMargin mobileupload">
+					<div class="container-fluid">
+						<div class="mainbox clearfix text-center padding2em">
+							<button class="btn blue upload-submit-btn" ng-click="vm.submitUploadDocs()">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--Main Content End-->
+		
+		<!--Footer Start-->
+		<div id="footer" class="row">
+			<div class="container-fluid">
+			   <p class="text-center">
+				  <span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+				  <span id="footer-links"><a target="_blank" href="auto-loan-disclaimer.html">Disclaimer</a> <span>|</span>
+				  <a target="_blank" href="pdfs/AL_TnC.pdf">Terms & conditions</a>
+				  </span>
+			   </p>
+			</div>
+		</div>
+		<!--Footer End-->
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min-1.11.3.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/icici.min.js"></script>
+</html>
+
+

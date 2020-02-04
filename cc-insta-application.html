@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ICICI Bank</title>
+	<meta http-equiv="X-Frame-Options" content="deny">
+	<meta name="description" content="ICICI" />
+	<meta name="keywords" content="ICICI" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icici.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body class="disableRightClick cc two-step-insta" style="display: block; padding-right: 0px;">
+	<div id="mainContDiv" class="container-fluid">
+        <!--Header Start-->
+		<div class="row">
+			<div class="col-xs-12 dropdown subheader-wrapper menu">
+				<div class="header-container">
+					<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+						<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+						<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+					</a>
+					<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+						<ul class="col-xs-12 menu-items">
+							<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+							<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+							<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+							<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+							<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+						</ul>
+						<div class="mask hamburgerIcon"></div>
+					</div>
+					<span>
+					<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+					</span>
+					<p class="pull-left"><span class="moduleName">Credit Cards</span></p>
+				</div>
+			</div>
+		</div>
+		
+		<!--Main Content Start-->
+		<div id="content">
+			<div id="check-eligibility-page">
+				<div class="row fixed-wrapper">
+					<h2 class="title-text">Your instant credit card is almost ready to use</h2>
+					<a class="pull-right  referral-code hidden-xs">Referral Code</a>
+				</div>
+				<div class="row fixed-wrapper">
+					<form name="instaCCAppForm" class="step1UserForm" id="instaCCAppForm">
+						<div class="instaOuterContainer step1-wrapper">
+							<p class="card-title">Your Details</p>
+							<div class="instaInternalContainer step1Div">
+								<div class="row">
+									<div class="col-xs-12 col-sm-6 col-md-4">
+										<div>
+										  <span class="input input--hoshi tooltip-text input--mask input--filled">
+											<input name="personalEmail" class="text-lowercase input__field input__field--hoshi tooltip-text" type="text" id="personalEmail" required="required" disabled="disabled">
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="personalEmail">
+												<span class="input__label-content input__label-content--hoshi">
+												<span>Email Id</span>
+												<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+												</span>
+											</label>
+											</span>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6 col-md-4  form-group radio-btn">
+										<label>Marital Status</label>
+										<div class="radios row">
+											<div class="col-xs-6 col-sm-4 col-md-4">
+												<input id="single" name="status" type="radio" value="Single" required="required">
+												<label for="single"><span></span>Single</label>
+											</div>
+											<div class="col-xs-6 col-sm-5 col-md-5">
+												<input id="married" name="status" type="radio" value="Married" required="required">
+												<label for="married"><span></span>Married</label>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-6 col-md-4">
+										<div class="custom-date-holder location-drpdwn">
+											<span class="input input--hoshi input--filled">
+												<div class="field-loader">
+													<div class="cssload-loader ">
+														<span class="cssload-loader-inner"></span>
+													</div>
+												</div>
+												<input name="cc-employer" class="input__field input__field--hoshi uppercase" type="text" id="cc-employer" required="required">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="cc-employer">
+													<span class="input__label-content input__label-content--hoshi pull-left">
+														<span><span>Employer</span></span>
+													</span>
+												</label>
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="std-phone">
+										<div class="col-xs-4 col-sm-2 col-md-1">
+											<span class="input input--hoshi">
+												<input name="soffLandNumber" class="input__field input__field--hoshi" type="tel" id="soffLandNumber" maxlength="5" required="required">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="soffLandNumber">
+													<span class="input__label-content input__label-content--hoshi">STD 
+													<a href="javascript:void(0)" data-toggle="tooltip" class="tooltip-link" data-original-title="Enter area codes where ever applicable. Eg. 044 - 12345678" data-placement="top">
+														<img class="questionmark" alt="tooltip" src="images/Question.png">
+													</a>    
+												</span>
+											</label>
+											</span>
+										</div>
+										<div class="col-xs-8 col-sm-4 col-md-3">
+											<span class="input input--hoshi">
+												<input status="" name="offLandNumber" class="input__field input__field--hoshi" type="tel" id="offLandNumber" required="required">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="offLandNumber">
+													<span class="input__label-content input__label-content--hoshi">Office Phone No.
+														<a href="javascript:void(0)" data-toggle="tooltip" class="tooltip-link" data-original-title="Enter area codes where ever applicable. Eg. 044 - 12345678" data-placement="top">
+															<img class="questionmark" alt="tooltip" src="images/Question.png">
+														</a>
+													</span>
+												</label>
+											</span>
+											<span>Please enter the valid 11 digit Office STD &amp; Phone number.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="marginTop20 marginBottom20">
+							<div class="instaOuterContainer step1-wrapper">
+								<p class="card-title">Address</p>
+								<div class="instaInternalContainer">
+									<div class="current-address-div">
+										<p><strong>Residence Address:</strong></p>
+										<p>10,2NDCROSS,SONNENAHALLI,VIVEKNAGAR<span>, </span>POS, ANJANAYA TEMPLE STREET<span>, </span>Bangalore<<span>, </span>Karnataka <span>-</span> 560047</p>
+									</div>
+									<div class="row sectionHeadingsWrapper marginTop20">
+										<p class="sectionHeadings"><strong>Please provide your office address</strong></p>
+										<p class="sectionHeadings"><strong>Please provide your residence address</strong></p>
+									</div>
+									<div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-4">
+											<span class="input input--hoshi tooltip-text">
+												<input name="offAddressLine1" class="input__field input__field--hoshi moreText" type="text" id="offAddressLine1" maxlength="60" required="required">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="offAddressLine1">
+													<span class="input__label-content input__label-content--hoshi">
+														<span><span>Address line 1</span></span>
+													</span>
+												</label>
+											</span>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-4">
+											<span class="input input--hoshi tooltip-text">
+												<input name="offAddressLine2" class="input__field input__field--hoshi moreText" type="text" id="offAddressLine2">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="offAddressLine2">
+													<span class="input__label-content input__label-content--hoshi">
+														<span><span>Address line 2</span></span><span class="optional-text-style">(Optional)</span>
+													</span>
+												</label>
+											</span>
+										</div>
+										<div class="col-md-6 col-xs-12 col-sm-6 col-md-4">
+											<div class="custom-date-holder location-drpdwn map">
+												<span class="input input--hoshi">
+												<input name="offCity" class="input__field input__field--hoshi" type="text" id="offCity" maxlength="30" required="required">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="offCity">
+													<span class="input__label-content input__label-content--hoshi pull-left"><span>City</span></span>
+												</label>
+												<span id="city-map-icon" class="input__label-content pull-right visible-xs visible-sm">
+													<img width="18px" height="18px" src="images/location_indicator_img.svg">
+												</span>
+												</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-xs-12 col-sm-6 location-drpdwn col-md-4">
+											<span class="input input--hoshi clearfix">
+											<input name="offPincode" pattern="[0-9]*" class="input__field input__field--hoshi pull-left" type="tel" id="offPincode" required="required">
+											<label class="input__label input__label--hoshi input__label--hoshi-color-1 clearfix" for="offPincode">
+												<span class="input__label-content input__label-content--hoshi" id="offPincode-text"><span>Pin Code</span></span>
+											</label>
+											</span>
+										</div>
+
+										<div class="col-xs-12 col-sm-6 col-md-4  form-group radio-btn">
+											<label> Preferred Mailing Address</label>
+											<div class="radios row">
+												<div class="col-xs-6 col-sm-4 col-md-4">
+													<input id="residence" name="preferedMailingAddr" type="radio" value="1" required="required">
+													<label for="residence"><span></span>Residence</label>
+												</div>
+												<div class="col-xs-6 col-sm-5 col-md-5">
+													<input id="office" name="preferedMailingAddr" type="radio" value="2" required="required">
+													<label for="office"><span></span>Office</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row sectionSeparator"></div>
+									<div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-4">
+											<span class="input input--hoshi">
+											<label for="user-mobile-otp">
+											  <span>Please enter the OTP that has been sent to XXXXXX0724</span>
+											</label>
+											<input name="otpNumber" class="input__field input__field--hoshi instacc-otp" type="password" id="user-mobile-otp" required="required">
+											</span>
+											<span class="otp">
+										<a> Resend OTP</a>
+										</span>
+										</div>
+									</div>
+									<div class="row sectionSeparator"></div>
+									<div class="individual-btn-div clearfix">
+										<div class="col-xs-12 col-md-4 col-md-offset-4 clearfix termsStep1 marginTop20">
+											<div class="step checkbox_wrapper">
+												<input type="checkbox" class="col-xs-1" required="required" disabled="disabled">
+												<label></label>
+											</div>
+											<span class="col-xs-12 col-md-12 termsStep1Span">
+											I agree to all the Declarations and 
+											<a href="pdfs/Insta-CC-MITC.pdf" target="_blank">Terms and Conditions</a> 
+										</span>
+										</div>
+										<div class="eligibilityBtn">
+											<button class="btn blue btnMainStep1 marginTop20" type="submit" id="eligibility-btn" onclick="window.location.href='cc-application-insta-success.html';">Generate Card</button>
+										</div>
+										<div class="marginTop20 marginBottom20">
+											<img class="img-responsive visible-lg visible-md visible-sm" src="images/insta-cc-banner-desktop.jpg" alt="BMS Banner">
+											<img class="img-responsive visible-xs" src="images/insta-cc-banner-mobile.jpg" alt="BMS Banner">
+										</div>
+										<a class="pull-left referral-code hidden-sm hidden-md hidden-lg">Referral Code</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+				
+				
+		<div class="modal fade in"  style="z-index: 1050;">
+			<div class="modal-dialog">
+				<div class="modal-content">
+				<div id="referral-code-modal">
+					<div class="clearfix" id="modal-body">
+						<div class="row referralCode-popup-header">
+							<p class="col-xs-11 desktop-font"><strong>Referral Code</strong></p>
+							<a href="javascript:void(0);" class="close-img pull-right"></a>
+						</div>
+						<div class="row">
+							<p class="referralCode-popup-content">Enter referral code as provided by an ICICI Bank representative assisting for the application</p>
+						</div>
+
+						<form name="referralCodeForms">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 no-pad referalCode">
+								<span class="input input--hoshi tooltip-text">
+								<input name="referralCode" class="input__field input__field--hoshi" type="text" id="" maxlength="10">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="referralCode">
+									<span class="input__label-content input__label-content--hoshi">Lead Generator</span>
+								</label>
+								</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 no-pad referalCode">
+							<span class="input input--hoshi tooltip-text">
+								<input name="referralCode" class="input__field input__field--hoshi" type="text" id="">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="referralCode">
+									<span class="input__label-content input__label-content--hoshi">Lead Fulfiller</span>
+								</label>
+							</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-12 no-pad referalCode">
+							<span class="input input--hoshi tooltip-text">
+								<input name="referralCode" class="input__field input__field--hoshi" type="text" id="" maxlength="10">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="referralCode">
+									<span class="input__label-content input__label-content--hoshi">SOL ID</span>
+								</label>
+							</span>
+							</div>
+						</div>
+						</form>
+					</div>
+					<div class="row keyinfoModal referralCode-popup-button">
+						<button class="btn blue col-sm-4 col-sm-offset-4  col-xs-4 col-xs-offset-4 completedApplicationBtns" type="button" disabled="disabled">Submit</button>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	
+	
+					
+		<!--Footer Start-->
+		<div id="footer" class="row">
+			<div class="container-fluid">
+			   <p class="text-center">
+				  <span id="footer-text">Credit Card issuance is at the sole discretion of ICICI Bank Ltd.</span>
+				  <span id="footer-links"><a target="_blank" href="credit-card-disclaimer.html">Disclaimer</a> <span>|</span>
+				  <a target="_blank" href="https://www.icicibank.com/terms-condition/credit-card-terms-and-conditions.html?_ga=2.108609538.1623193432.1543830609-788978781.1542863146">Terms & conditions</a>
+				  </span>
+			   </p>
+			</div>
+		</div>
+		<!--Footer End-->
+	</div>
+	<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+	<script type="text/javascript" src="js/icici.templates.min.js"></script>
+</body>
+</html>

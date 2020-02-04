@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Salary Overdraft</span></p>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div>
+				<div id="check-eligibility-page">
+					<div class="row">
+						<div class="info col-xs-12 clearfix subheader-wrapper subheader-wrapper-info">
+							<div class="header-container">
+								<p class="pull-left">Fill form to get a customized salary overdraft quote instantly.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="check-eligibility-steps text-center">
+							<div class="steps-inner-container">
+								<div class="col-xs-12 col-sm-3 text-center">
+									<p class="steps-count">Step 1 of 4</p>
+									<p class="heading">Check Eligibility</p>
+								</div>
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 2 of 4</p>
+									<p>Offer For You</p>
+								</div>
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 3 of 4</p>
+									<p>Complete Application</p>
+								</div>
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 4 of 4</p>
+									<p>Upload Documents</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="steps clearfix">
+						<div class="col-xs-3 text-center">
+							<a href="pl-salaryod-checkeligibility.html"><span class="current-step center-block check-eligibility"></span></a>
+						</div>
+						<div class="col-xs-3 text-center">
+							<span class="uncompleted-step center-block offer-for-you"></span>
+						</div>
+						<div class="col-xs-3 text-center">
+							<span class="uncompleted-step center-block complete-application"></span>
+						</div>
+						<div class="col-xs-3 text-center">
+							<span class="uncompleted-step center-block upload-doc"></span>
+						</div>
+					</div>
+					<div class="mainbox clearfix lop-mobilebased">
+						<div class="step1-wrapper">
+							<div class="step1Div">
+								<form name="" class="step1UserForm">
+									<div class="row sectionHeadingsWrapper">
+										<p class="sectionHeadings"><strong>Personal Information</strong></p>
+									</div>
+									<!-- ROW 1 -->
+									<div class="row">
+										<div class="col-xs-12 col-sm-6 wrapper-autosuggest">
+											<div class="custom-date-holder location-drpdwn map">
+												<span class="input input--hoshi">
+													<div class="field-loader">
+														<div class="cssload-loader"><span class="cssload-loader-inner"></span></div>
+													</div>
+													<input name="city" type="text" id="step1-city" class="input__field input__field--hoshi">
+													<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-city">
+														<span class="input__label-content input__label-content--hoshi pull-left" id="city-content">Where do you live currently?</span>
+													</label>
+													<span id="city-map-icon" class="input__label-content pull-right visible-xs visible-sm">
+														<img src="images/location_indicator_img.svg" alt="" width="15px">
+													</span>
+												</span>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 calender-box clearfix">
+											<div class="custom-date-holder">
+												<span class="input input--hoshi">
+													<input name="date" id="checkDob" class="input__field input__field--hoshi calendar1 desktop-datepicker dobchanged" type="text">
+													<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-date">
+														<span class="input__label-content input__label-content--hoshi pull-left" id="date-content">Date of Birth (DD/MM/YYYY)<a href="#" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+													</label>
+													<span id="city-map-icon" class="input__label-content pull-right">
+														<img src="images/calendar.svg" height="20px">
+													</span>
+												</span>
+											</div>
+										</div>
+									</div>
+									<!-- End of ROW 1 -->
+									
+									<!-- ROW 2 -->
+									<div class="row">
+										<div class="col-xs-12 col-sm-6">
+											<span class="input input--hoshi">
+												<input name="firstName" class="input__field input__field--hoshi" type="text" id="step1-firstname">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-firstname">
+													<span class="input__label-content input__label-content--hoshi">First Name</span>
+												</label>
+												
+											</span>
+											<span class="otp">Enter name as per your PAN card.</span>
+										</div>
+										<div class="col-xs-12 col-sm-6">
+											<span class="input input--hoshi">
+												<input name="lastName" class="input__field input__field--hoshi" type="text" id="step1-lastname">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-lastname">
+													<span class="input__label-content input__label-content--hoshi">Last Name</span>
+												</label>
+											</span>
+										</div>
+									</div>
+									
+									<!-- Row 3 -->
+									<div class="row">
+										<div class="col-xs-12 col-sm-6">
+											<span class="input input--hoshi">
+												<input name="mobileNo" class="input__field input__field--hoshi" type="tel" id="step1-mobile">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-mobile">
+													<span class="input__label-content input__label-content--hoshi">Mobile Number<a href="#" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+												</label>
+											</span>
+											<span class="otp">You can use your mobile no to retrieve your application.</span>
+											<span class="visible-md visible-lg">
+												<img class="" src="images/secure_icon.png" alt="i">
+												<span class="mobile-privacy">Your privacy is protected</span>
+											</span>
+										</div>
+										<div class="col-xs-12 col-sm-6">
+											<div class="select-dropdown">
+												<label class="col-xs-12 row" for="bank-relationship">Your Relationship with ICICI Bank</label>
+												<div class="btn-group bootstrap-select bselect">
+													<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select">
+													<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+													<div class="dropdown-menu open">
+														<ul class="dropdown-menu inner" role="menu" style="max-height: 338.4px; overflow-y: auto; min-height: 99px;">
+															<li class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Salaried Account</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Savings Account</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Current Account</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Personal Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Home Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Car Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Credit Card</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Two Wheeler Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Term Deposit</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Loan Against Securities</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">Demat</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a tabindex="0"><span class="text">No Existing Relationship</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+														</ul>
+													</div>
+													<select name="yourRelationship" class="bselect">
+														<option value="" class="hidden-xs" disabled="" selected="">Select</option>
+														<option value="1">Salaried Account</option>
+														<option value="2">Savings Account</option>
+														<option value="3">Current Account</option>
+														<option value="4">Personal Loan</option>
+														<option value="5">Home Loan</option>
+														<option value="6">Car Loan</option>
+														<option value="7">Credit Card</option>
+														<option value="8">Two Wheeler Loan</option>
+														<option value="9">Term Deposit</option>
+														<option value="10">Loan Against Securities</option>
+														<option value="11">Demat</option>
+														<option value="12">No Existing Relationship</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row sectionHeadingsWrapper">
+										<p class="sectionHeadings workInfo"><strong>Work Information</strong></p>
+									</div>
+									
+									
+									
+									
+									
+									
+									<div class="row">
+										<div class="col-xs-12 col-sm-6">
+											<div class="select-dropdown">
+												<label class="col-xs-12 col-sm-12 row" for="employment-type">Type of employment</label>
+												<div class="btn-group bootstrap-select bselect">
+													<button type="button" class="btn dropdown-toggle btn-default disabled" data-toggle="dropdown" title="Select">
+														<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span>
+													</button>
+													<div class="dropdown-menu open">
+														<ul class="dropdown-menu inner" role="menu">
+															<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" style="" data-tokens="null" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li data-original-index="1"><a tabindex="0" style="" data-tokens="null"><span class="text">Salaried</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="2"><a tabindex="0" style="" data-tokens="null"><span class="text">Salaried Doctor</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li data-original-index="3"><a tabindex="0" style="" data-tokens="null"><span class="text">Self Employed Business</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li><li data-original-index="4"><a tabindex="0" style="" data-tokens="null"><span class="text">Self Employed Professional</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+														</ul>
+													</div>
+													<select name="toe" class="bselect">
+														<option value="" class="hidden-xs disabled" disabled="" selected="">Select</option>
+														<option value="1">Salaried</option>
+														<option value="4">Salaried Doctor</option>
+														<option value="2">Self Employed Business</option>
+														<option value="3">Self Employed Professional</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 location-drpdwn">
+											<span class="input input--hoshi tooltip-text">
+												<div class="field-loader">
+													<div class="cssload-loader ">
+														<span class="cssload-loader-inner"></span>
+													</div>
+												</div>
+												<input name="company" class="input__field input__field--hoshi uppercase" type="text" id="step1-companyName">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1">
+													<span class="input__label-content input__label-content--hoshi input-label">Employer Name
+														<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" class="tooltip-link" title="" data-placement="top" data-original-title="Slowly start typing your employers name and choose from the recommendations provided. If you do not see your employer in our list, simply type the name in this field">
+															<img class="questionmark" src="images/Question.png" alt="tooltip">
+														</a>
+													</span>
+												</label>
+											</span>
+										</div>
+									</div>
+									
+									
+									<div class="row">
+										<div class="col-xs-12 col-sm-6">
+											<div class="select-dropdown">
+												<label class="col-xs-12 col-sm-12 row" for="employment-type">Total Work Experience
+													<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" title="" data-placement="top" data-original-title="Include your experience at the current job and all previous jobs">
+														<img class="questionmark" src="images/Question.png" alt="tooltip">
+													</a>
+												</label>
+												<div class="btn-group bootstrap-select bselect">
+													<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select">
+														<span class="filter-option pull-left">Select</span>&nbsp;
+														<span class="bs-caret"><span class="caret"></span></span>
+													</button>
+													<div class="dropdown-menu open">
+														<ul class="dropdown-menu inner" role="menu">
+															<li class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" style="" data-tokens="null" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a><span class="text">&lt;1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a><span class="text">1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a><span class="text">2</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a><span class="text">3</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															<li><a><span class="text">&gt;3</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+														</ul>
+													</div>
+													<select name="twe" class="bselect">
+														<option value="" class="hidden-xs" disabled="" selected="">Select</option>
+														<option value="0">&lt;1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">&gt;3</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6">
+											<span class="input input--hoshi tooltip-text">
+												<input name="monthlyTakeHomeSal" class="input__field input__field--hoshi" type="tel" pattern="[0-9]*" id="step1-salary">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-salary">
+													<span class="input__label-content input__label-content--hoshi">Monthly Take Home Salary (<i class="fa fa-inr"></i>)
+														<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="This is your net monthly salary as credited to your bank account after all deductions">
+															<img class="questionmark" src="images/Question.png" alt="tooltip">
+														</a>
+													</span>
+												</label>
+											</span>
+										</div>
+									</div>
+									<div class="row sectionSeparator visible-xs"></div>
+									<div class="row sectionHeadingsWrapper">
+										<p class="sectionHeadings otherInfo"><strong>Others</strong></p>
+									</div>
+									<div class="row">
+										<div class="col-xs-12 col-sm-6">
+											<span class="input input--hoshi tooltip-text">
+												<input name="emiPaid" class="input__field input__field--hoshi" type="tel" pattern="[0-9]*" id="step1-emiPaid">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-emiPaid">
+													<span class="input__label-content input__label-content--hoshi">Total EMIs you currently pay per month (<i class="fa fa-inr"></i>)
+														<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="This is the sum of all monthly payments that you are making on all your currently open loans. Please ignore those loans where remaining loan term is less than 4 months">
+															<img class="questionmark" src="images/Question.png" alt="tooltip">
+														</a><span class="optional-text-style">(Optional)</span>
+													</span>
+												</label>
+											</span>
+										</div>
+										<div class="col-xs-12 col-sm-6">
+											<span class="input input--hoshi tooltip-text">
+												<input name="emiPaidPersonalLoan" class="input__field input__field--hoshi specialInputs" pattern="[0-9]*" type="tel" id="step1-emiPaidPersonalLoan">
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-emiPaidPersonalLoan">
+													<span class="input__label-content input__label-content--hoshi">EMIs paid only for Personal Loan (<i class="fa fa-inr"></i>)
+														<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="This is the sum of all monthly payments that you are making on all currently open personal loans. Please ignore those loans where remaining loan term is less than 4 months">
+															<img class="questionmark" src="images/Question.png" alt="tooltip">
+														</a><span class="optional-text-style">(Optional)</span>
+													</span>
+												</label>
+											</span>
+										</div>
+									</div>
+								</form>
+								
+							</div>
+							
+							<div class="individual-btn-div clearfix">
+								<div class="col-xs-12 col-md-12 clearfix termsStep1 marginTop20">
+									<div class="step checkbox_wrapper">
+										<input type="checkbox" class="col-xs-1">
+										<label></label>
+									</div>
+									<span class="col-xs-12 col-md-12 termsStep1Span">I declare that the Information I have provided above is accurate and complete to the best of my knowledge.I authorize ICICI Bank &amp;  its representatives to call or sms me with reference to my loan application.</span>
+								</div>
+								<div class="eligibilityBtn">
+									<button class="btn blue btnMainStep1 marginTop20" type="submit" id="eligibility-btn" onclick="window.location.href='pl-salaryod-offers-for-you.html';">Check Eligibility</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Main Content End-->
+			
+			<!--Footer Start-->
+			<div id="footer" class="row">
+				<div class="container-fluid">
+					<p class="text-center">
+						<span id="footer-text">Salary Overdraft Limit is the sole discretion of ICICI Bank Ltd.</span>
+						<span id="footer-links">
+							<a target="_blank" href="salary-od-disclaimer.html">Disclaimer </a> <span>|</span>
+							<a target="_blank" href="pdfs/PL_TnC.pdf">Terms &amp; Conditions </a> <span>|</span>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!--Footer End-->
+		</div>
+		<script type="text/javascript" src="js/icici.vendor.min.js"></script>
+		<script type="text/javascript" src="js/icici.min.js"></script>
+		<script type="text/javascript" src="js/icici.templates.min.js"></script>
+		<script type="text/javascript">
+			$(".calender-box .custom-date-holder span input[type = 'text']").mask("99/99/9999", { placeholder: 'dd/mm/yyyy' });
+		</script>
+	</body>
+</html>

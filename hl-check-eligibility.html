@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body class="hlClass">
+		<!--Loader Start-->
+		<!--<div class="portal-throbber" style="display:block">
+			<div class="mask"></div>
+			<div class="cssload-loader"><span class="cssload-loader-inner"></span></div>
+			<div class="processRequest">Processing your request</div>
+		</div>-->
+		<!--Loader End-->
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Home Loans</span></p>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div id="check-eligibility-page">
+				<div class="row">
+					<div class="info col-xs-12 clearfix subheader-wrapper subheader-wrapper-info">
+						<div class="header-container">
+							<p class="pull-left">Fill form to get a customized salary overdraft quote instantly.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="check-eligibility-steps text-center">
+						<div class="steps-inner-container">
+							<div class="col-xs-12 col-sm-3 text-center">
+								<p class="steps-count">Step 1 of 4</p>
+								<p class="heading">Check Eligibility</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 2 of 4</p>
+								<p>Offer For You</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 3 of 4</p>
+								<p>Complete Application</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 4 of 4</p>
+								<p>Upload Documents</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="steps clearfix">
+					<div class="col-xs-3 text-center">
+						<a href="hl-check-eligibility.html"><span class="current-step center-block check-eligibility"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block offer-for-you"></span>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block complete-application"></span>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block upload-doc"></span>
+					</div>
+				</div>
+				<div class="mainbox clearfix">
+					<div class="step1-wrapper">
+						<div class="step1Div">
+							<!-- <form name="checkEligibilityForm" novalidate="" class="step1UserForm"> -->
+							<div class="applicantContent">
+								<ul class="nav nav-tabs block">
+									<li class="text-center clearfix col-xs-6 col-sm-3 col-md-3 active">
+										<a data-toggle="tab" href="#Applicant">Applicant</a>
+									</li>
+									<li class="text-center clearfix col-xs-6 col-sm-3 col-md-3">
+										<a  data-toggle="tab" href="#CoApplicant">Co-Applicant</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="Applicant">
+										<div class="row sectionHeadingsWrapper">
+											<p class="sectionHeadings"><strong>Personal Information</strong></p>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-6">
+												<div class="select-dropdown">
+													<label class="col-xs-12 col-sm-12 row" for="residencyType">Residency Status</label>
+													<div class="btn-group bootstrap-select bselect">
+														<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select">
+															<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret">
+															<span class="caret"></span></span>
+														</button>
+														<div class="dropdown-menu open">
+															<ul class="dropdown-menu inner" role="menu">
+																<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs"  href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="1"><a><span class="text">Resident Indian</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="2"><a><span class="text">Non Resident Indian</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="3"><a><span class="text">PIO/OCI Card Holder</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															</ul>
+														</div>
+														<select name="residencyType" class="bselect" required="required" tabindex="-98">
+															<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+															<option value="1">Resident Indian</option>
+															<option value="2">Non Resident Indian</option>
+															<option value="3">PIO/OCI Card Holder</option>
+														</select>
+													</div>
+												</div>
+												<span class="otp">Amount fields should be entered by converting into Indian rupee at an exchange rate prevalent on the 1st day of the week (Monday)</span>
+											</div>
+											<div class="col-xs-12 col-sm-6">
+												<div class="custom-date-holder location-drpdwn map">
+													<span class="input input--hoshi">
+														<input name="1572419664168" class="input__field input__field--hoshi" type="text" id="1572419664168" maxlength="30" required="required">
+														
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1572419664168">
+															<span class="input__label-content input__label-content--hoshi pull-left"><span>Where do you live currently?</span></span>
+														</label>
+														<span id="city-map-icon" class="input__label-content pull-right visible-xs visible-sm">
+															<img src="images/location_indicator_img.png">
+														</span>
+													</span>
+												</div>
+											</div>
+											
+											<div class="col-xs-12 col-sm-6">
+												<div class="select-dropdown otherResident">
+													<label class="col-xs-12 col-sm-12 row" for="countryOfResidence">Country of Current Residence</label>
+													<div class="btn-group bootstrap-select bselect">
+														<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+														<div class="dropdown-menu open">
+															<ul class="dropdown-menu inner" role="menu" style="max-height: 281.406px; overflow-y: auto; min-height: 96px;">
+																<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs"  href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="1"><a><span class="text">Bahrain</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="2"><a><span class="text">Belgium</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="3"><a><span class="text">Botswana</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="4"><a><span class="text">Brunei Darussalam</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="5"><a><span class="text">Cambodia</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="6"><a><span class="text">Canada</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="7"><a><span class="text">China</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="8"><a><span class="text">Germany</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="9"><a><span class="text">Ghana</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="10"><a><span class="text">Hong Kong</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="11"><a><span class="text">India</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="12"><a><span class="text">Indonesia</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="13"><a><span class="text">Kenya</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="14"><a><span class="text">Kuwait</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="15"><a><span class="text">Mozambique</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="16"><a><span class="text">Netherlands</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="17"><a><span class="text">Nigeria</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="18"><a><span class="text">Oman</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="19"><a><span class="text">Philippines</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="20"><a><span class="text">Qatar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="21"><a><span class="text">Saudi Arabia</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="22"><a><span class="text">Singapore</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="23"><a><span class="text">South Africa</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="24"><a><span class="text">Spain</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="25"><a><span class="text">Sweden</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="26"><a><span class="text">Switzerland</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="27"><a><span class="text">Taiwan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="28"><a><span class="text">Tanzania</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="29"><a><span class="text">Thailand</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="30"><a><span class="text">Uganda</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="31"><a><span class="text">United Arab Emirates</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="32"><a><span class="text">United Kingdom</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="33"><a><span class="text">United States</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="34"><a><span class="text">Zambia</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															</ul>
+														</div>
+														<select name="countryOfResidence" class="bselect" required="required">
+															<option value="" class="hidden-xs">Select</option>
+															<option value="502">Bahrain</option>
+															<option value="503">Belgium</option>
+															<option value="504">Botswana</option>
+															<option value="505">Brunei Darussalam</option>
+															<option value="506">Cambodia</option>
+															<option value="507">Canada</option>
+															<option value="508">China</option>
+															<option value="509">Germany</option>
+															<option value="510">Ghana</option>
+															<option value="511">Hong Kong</option>
+															<option value="501">India</option>
+															<option value="512">Indonesia</option>
+															<option value="513">Kenya</option>
+															<option value="514">Kuwait</option>
+															<option value="515">Mozambique</option>
+															<option value="516">Netherlands</option>
+															<option value="517">Nigeria</option>
+															<option value="518">Oman</option>
+															<option value="519">Philippines</option>
+															<option value="520">Qatar</option>
+															<option value="521">Saudi Arabia</option>
+															<option value="522">Singapore</option>
+															<option value="523">South Africa</option>
+															<option value="524">Spain</option>
+															<option value="525">Sweden</option>
+															<option value="526">Switzerland</option>
+															<option value="527">Taiwan</option>
+															<option value="528">Tanzania</option>
+															<option value="529">Thailand</option>
+															<option value="530">Uganda</option>
+															<option value="531">United Arab Emirates</option>
+															<option value="532">United Kingdom</option>
+															<option value="533">United States</option>
+															<option value="534">Zambia</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-6 form-details">
+												<span class="input input--hoshi">
+													<input name="workExperienceOverseasMonths" pattern="[0-9]*" class="input__field input__field--hoshi" type="tel" id="experienceOverseas1" maxlength="3" required="required">
+													<label for="experienceOverseas1" class="input__label input__label--hoshi input__label--hoshi-color-1">
+														<span class="input__label-content input__label-content--hoshi">Total Work Experience Overseas (Months)</span>
+													</label>
+												</span>
+											</div>
+											<div class="col-xs-12 col-sm-6">
+												<div class="select-dropdown">
+													<label class="col-xs-12 col-sm-12 row" for="paidMonthsPerYear">Number of Months a Year in which you Get Paid</label>
+													<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+														<div class="dropdown-menu open">
+															<ul class="dropdown-menu inner" role="menu" style="max-height: 170.406px; overflow-y: auto; min-height: 96px;">
+																<li class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="1"><a ><span class="text">1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="2"><a ><span class="text">2</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="3"><a ><span class="text">3</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="4"><a ><span class="text">4</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="5"><a ><span class="text">5</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="6"><a ><span class="text">6</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="7"><a ><span class="text">7</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="8"><a ><span class="text">8</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="9"><a ><span class="text">9</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="10"><a ><span class="text">10</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="11"><a ><span class="text">11</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="12"><a ><span class="text">12</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															</ul>
+														</div>
+														<select name="paidMonthsPerYear" class="bselect"  required="required">
+															<option value="" class="hidden-xs">Select</option>
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+															<option value="4">4</option>
+															<option value="5">5</option>
+															<option value="6">6</option>
+															<option value="7">7</option>
+															<option value="8">8</option>
+															<option value="9">9</option>
+															<option value="10">10</option>
+															<option value="11">11</option>
+															<option value="12">12</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-6 form-details select-wrapper calender-box clearfix">
+												<div class="custom-date-holder date-masking">
+													<span class="input input--hoshi">
+														<input name="date" id="checkDob" class="input__field input__field--hoshi calendar1 desktop-datepicker dobnotchanged" required="required" >
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-date">
+															<span class="input__label-content input__label-content--hoshi pull-left" id="date-content">
+																Date of Birth (DD/MM/YYYY)
+																<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+															</span>
+														</label>
+														<span id="city-map-icon" class="input__label-content pull-right cal-icon"><img src="images/calendar.svg" height="20px"></span>
+													</span>
+													<input type="text" name="date" class="form-control input__field input__field--hoshi date-input" id="step1-date" required="required" >
+													<span class="input-group-btn input__label-content pull-right clearfix cal-icon"></span>
+												</div>
+												<span class="otp-date errClass hidden">Invalid date</span>
+												<span class="otp-date errClass hidden">You should be above 18 years to apply for loan.</span>
+												<span class="otp-date errClass hidden">You should be below 65 years to apply for loan.</span>
+											</div>
+											<div class="col-xs-12 col-sm-6 form-details">
+												<span class="input input--hoshi">
+													<input name="registeredMobile" class="input__field input__field--hoshi" type="tel" minlength="10" maxlength="10" id="registeredMobileNumber" required="required">
+													<label for="registeredMobileNumber" class="input__label input__label--hoshi input__label--hoshi-color-1">
+														<span class="input__label-content input__label-content--hoshi">Mobile Number</span>
+													</label>
+												</span>
+												<span class="otp">You can retrieve your data by your mobile number OTP verification</span>
+												<span class="visible-md visible-lg"> <img class="" src="images/secure_icon.png" alt="i"><span class="mobile-privacy">Your privacy is protected</span></span>
+											</div>
+										</div>
+										
+										<div class="row sectionSeparator visible-xs"></div>
+										
+										<div class="row sectionHeadingsWrapper">
+											<p class="sectionHeadings workInfo"><strong>Loan Details</strong></p>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-6">
+												<div class="select-dropdown">
+													<label class="col-xs-12 col-sm-12 row" for="loanType">Type of Loan</label>
+													<div class="btn-group bootstrap-select bselect">
+														<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" tabindex="-1" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+														<div class="dropdown-menu open">
+															<ul class="dropdown-menu inner" role="menu" style="max-height: 150.094px; overflow-y: auto; min-height: 96px;">
+																<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="1"><a><span class="text">Home Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="2"><a><span class="text">Loan against property</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="3"><a><span class="text">Balance transfer of home loan or loan against property</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="4"><a><span class="text">Top up on home loan or loan against property</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="5"><a><span class="text">Balance transfer along with top up on home loan or loan against property</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="6"><a><span class="text">Loan for purchasing non residential property</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="7"><a><span class="text">Loan against rental income</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="8"><a><span class="text">Home improvement loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															</ul>
+														</div>
+														<select name="loanType" class="bselect" required="required" tabindex="-98">
+															<option class="hidden-xs" selected="" disabled="">Select</option>
+															<option value="1">Home Loan</option>
+															<option value="2">Loan against property</option>
+															<option value="3">Balance transfer of home loan or loan against property</option>
+															<option value="4">Top up on home loan or loan against property</option>
+															<option value="5">Balance transfer along with top up on home loan or loan against property</option>
+															<option value="6">Loan for purchasing non residential property</option>
+															<option value="7">Loan against rental income</option>
+															<option value="8">Home improvement loan</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!--Home Loan-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown tooltip-text">
+														<label class="col-xs-12 col-sm-12 row" for="loanPurpose">Purpose of Loan</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Purchase an identified property" aria-expanded="false"><span class="filter-option pull-left">Purchase an identified property</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open" style="max-height: 321.906px; overflow: hidden; min-height: 0px;">
+																<ul class="dropdown-menu inner" role="menu" style="max-height: 319.906px; overflow-y: auto; min-height: 0px;">
+																	<li data-original-index="0" class="disabled disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1" class="selected"><a><span class="text">Purchase an identified property</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2" class=""><a><span class="text">Pre sanction for identifying property later</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="loanPurpose" class="bselect" required="required" tabindex="-98">
+																<option value="" class="hidden-xs" selected="">Select</option>
+																<option value="19">Purchase an identified property</option>
+																<option value="20">Pre sanction for identifying property later</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="propertyDetails">Property Details</label>
+														<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a><span class="text">Already built home/flat</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a><span class="text">Home/flat under construction by builder</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="3"><a><span class="text">Loan for construction on your own</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="propertyDetails" class="bselect" required="required" tabindex="-98">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="1">Already built home/flat</option>
+																<option value="2">Home/flat under construction by builder</option>
+																<option value="3">Loan for construction on your own</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<div class="custom-date-holder location-drpdwn">
+														<div class="input input--hoshi">
+															<input name="1572425713645" class="input__field input__field--hoshi uppercase" type="text" id="1572425713645">
+															<label for="1572425713645" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi"><span>Name of the Builder &amp; Project</span><span class="optional-text-style">(Optional)</span></span>
+															</label>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi tooltip-text">
+														<input pattern="[0-9]*" name="costOfProperty" class="input__field input__field--hoshi" type="tel" id="propertyCost" maxlength="14" required="required">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="propertyCost">
+															<span class="input__label-content input__label-content--hoshi">Cost of Property (<i class="fa fa-inr"></i>)
+																<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" class="tooltip-link" title="" data-placement="top" data-original-title="Agreement value, amenities(if stamp duty is paid on amenities else capped at 20% of the cost in sale agreement) + Society Transfer Charges + State Electricity Board Connection Charges + Service Tax  (if applicable) + parking charges (where payment is made directly to builder and if it is part of agreement/allotment letter of builder) + ( (Sewerage/Water deposits or charges + Infrastructure charges + One time maintenance charges) provided charges form part of written communication from the developer/builder and payment must be made to the developer/builder only)">
+																	<img class="questionmark" src="images/Question.png" alt="tooltip">
+																</a>
+															</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="landCost" class="input__field input__field--hoshi" type="tel" id="landCost" maxlength="14" required="required">
+														<label for="landCost" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Cost of Land (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="constructionCost" class="input__field input__field--hoshi" type="tel" id="constructionCost1" maxlength="14" required="required">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="constructionCost1">
+															<span class="input__label-content input__label-content--hoshi">Cost of Construction (<i class="fa fa-inr"></i>)</span>
+														</label>
+													</span>
+													<p  class="errClass hidden">Below minimum funding norms</p>
+												</div>
+											</div>
+										</div>
+										
+										<!--Loan against property-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="propertyType">Property Type</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Commercial" aria-expanded="false"><span class="filter-option pull-left">Commercial</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open" style="max-height: 79.9063px; overflow: hidden; min-height: 0px;">
+																<ul class="dropdown-menu inner" role="menu" style="max-height: 77.9063px; overflow-y: auto; min-height: 0px;">
+																	<li data-original-index="0" class="disabled disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1" class="selected"><a><span class="text">Commercial</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2" class=""><a><span class="text">Residential</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="propertyType" class="bselect" required="required">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="2">Commercial</option><option value="1">Residential</option>
+															</select>
+															
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="PropertyValue" class="input__field input__field--hoshi" type="tel" id="propertyValue1" maxlength="14"  required="required">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="propertyValue1">
+															<span class="input__label-content input__label-content--hoshi">Property Value (<i class="fa fa-inr"></i>)</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input name="builtUpArea" pattern="[0-9]*" class="input__field input__field--hoshi" type="tel" id="areaBuiltUp" maxlength="10" required="required">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="areaBuiltUp">
+															<span class="input__label-content input__label-content--hoshi">Built Up Area of Property (sq. ft)</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum norms</p>
+												</div>
+											</div>
+										</div>
+										
+										<!--Balance transfer of home loan or loan against property -->
+										<!--&&&&&&&&&&&&&&&&&&&&-->
+										<!--Balance transfer along with top up on home loan or loan against property-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="existingLoanVariant">Existing Loan Variant</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a ><span class="text">Home Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a ><span class="text">Loan against property</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="existingLoanVariant" class="bselect" required="required">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="1">Home Loan</option>
+																<option value="2">Loan against property</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="propertyDetails">Property Details</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a ><span class="text">Already built home/flat</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a ><span class="text">Home/flat under construction by builder</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="propertyDetails" class="bselect" required="required">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="1" >Already built home/flat</option>
+																<option value="2" >Home/flat under construction by builder</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="propertyType">Property Type</label>
+														<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a ><span class="text">Commercial</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a ><span class="text">Residential</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="propertyType" class="bselect" required="required">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="2" >Commercial</option>
+																<option value="1" >Residential</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details wrapper-autosuggest">
+													<span class="input input--hoshi">
+														<input name="existingLoanAvailedFrom" class="input__field input__field--hoshi input-autosuggest" type="text" id="existingLoanAvailed" required="required">
+														<label for="existingLoanAvailed" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Existing Loan Availed From</span>
+														</label>
+													</span>
+												</div>
+												<div class="col-xs-12 col-sm-6 select-dropdown">
+													<div class="row">
+														<div class="col-xs-12 clear">
+															<label>Existing Loan Started in</label>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect">
+																<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a ><span class="text">2019</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a ><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a ><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a ><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a ><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a ><span class="text">&lt;2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="existYearOption" class="bselect" required="required" tabindex="-98">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="2019" >2019</option>
+																	<option value="2018" >2018</option>
+																	<option value="2017" >2017</option>
+																	<option value="2016" >2016</option>
+																	<option value="2015" >2015</option>
+																	<option value="<2015" >&lt;2015</option>
+																</select>
+															</div>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu" style="max-height: 97.9063px; overflow-y: auto; min-height: 96px;">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a ><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a ><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a ><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a ><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a ><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a ><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="7"><a ><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="8"><a ><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="9"><a ><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="10"><a ><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="11"><a ><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="12"><a ><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="existMonthOption" class="bselect" required="required">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="01" >Jan</option>
+																	<option value="02" >Feb</option>
+																	<option value="03" >Mar</option>
+																	<option value="04" >Apr</option>
+																	<option value="05" >May</option>
+																	<option value="06" >Jun</option>
+																	<option value="07" >Jul</option>
+																	<option value="08" >Aug</option>
+																	<option value="09" >Sept</option>
+																	<option value="10" >Oct</option>
+																	<option value="11" >Nov</option>
+																	<option value="12" >Dec</option>
+																</select></div>
+																<p class="errClass hidden">Should not be greater than current month</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="originalLoanAmountSanctioned" class="input__field input__field--hoshi " type="tel" id="originalLoanSanctioned" maxlength="14" required="required">
+														<label for="originalLoanSanctioned" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Original Loan Amount Sanctioned (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Can't exceed property/construction cost</p>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="outstandingLoanAmount" class="input__field input__field--hoshi " type="tel" id="outstandingLoanAmount" maxlength="14" required="required">
+														<label for="outstandingLoanAmount" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Outstanding Loan Amount (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Amount cannot be greater than original loan amount sanctioned</p>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+											</div>
+										</div>
+										
+										<!--Top up on home loan or loan against property-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="existingLoanVariant">Existing Loan Variant</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a ><span class="text">Home Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a ><span class="text">Loan against property</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="existingLoanVariant" class="bselect" required="required">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="1" >Home Loan</option><option value="2" >Loan against property</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="propertyDetails">Property Details</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a ><span class="text">Already built home/flat</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="propertyDetails" class="bselect" required="required">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="1" >Already built home/flat</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="propertyType">Property Type</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a ><span class="text">Commercial</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a ><span class="text">Residential</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="propertyType" class="bselect"required="required">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="2" >Commercial</option><option value="1" >Residential</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="originalLoanOutstandingPrincipal" class="input__field input__field--hoshi " type="tel" required="required">
+														<label for="outstandingPrinchipalOriginalLoan" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Outstanding Principal of Original Loan (<i class="fa fa-inr"></i>)</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Amount cannot be greater than original loan amount sanctioned</p>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input name="loanAccountNumber" class="input__field input__field--hoshi" type="text" minlength="16" maxlength="16" id="loanAccountNumber" required="required">
+														<label for="loanAccountNumber" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Loan Account Number</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Enter alpha numberic only</p>
+													<p class="errClass hidden">Should have 16 characters</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="originalLoanAmountSanctioned" class="input__field input__field--hoshi " type="tel" id="orginalAmountSanctioned" maxlength="14" required="required">
+														<label for="orginalAmountSanctioned" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Original Sanction Amount (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Can't exceed property/construction cost</p>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="originalLoanEmi" class="input__field input__field--hoshi " type="tel" id="originalLoanEMI" maxlength="14" required="required">
+														<label for="originalLoanEMI" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Original Loan EMI (<i class="fa fa-inr"></i>)</span>
+														</label>
+													</span>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 select-dropdown">
+													<div class="row">
+														<div class="col-xs-12 clear">
+															<label>Existing Loan Started in</label>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a ><span class="text">2019</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a ><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a ><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a ><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a ><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a ><span class="text">&lt;2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="existYearOption" class="bselect" required="required">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="2019" >2019</option>
+																	<option value="2018" >2018</option>
+																	<option value="2017" >2017</option>
+																	<option value="2016" >2016</option>
+																	<option value="2015" >2015</option>
+																	<option value="<2015" >&lt;2015</option>
+																</select></div>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect">
+																<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu" style="max-height: 110.594px; overflow-y: auto; min-height: 96px;">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a ><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a ><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a ><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a ><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a ><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a ><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="7"><a ><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="8"><a ><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="9"><a ><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="10"><a ><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="11"><a ><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="12"><a ><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="existMonthOption" class="bselect"   required="required">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="01" >Jan</option>
+																	<option value="02" >Feb</option>
+																	<option value="03" >Mar</option>
+																	<option value="04" >Apr</option>
+																	<option value="05" >May</option>
+																	<option value="06" >Jun</option>
+																	<option value="07" >Jul</option>
+																	<option value="08" >Aug</option>
+																	<option value="09" >Sept</option>
+																	<option value="10" >Oct</option>
+																	<option value="11" >Nov</option>
+																	<option value="12" >Dec</option>
+																</select></div>
+																<p class="errClass hidden">Should not be greater than current month</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!--Loan for purchasing non residential property-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="PropertyValue" class="input__field input__field--hoshi" type="tel" id="propertyValue4" maxlength="14" required="required">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="propertyValue4">
+															<span class="input__label-content input__label-content--hoshi">Property Value (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input name="builtUpArea" pattern="[0-9]*" class="input__field input__field--hoshi " type="tel" required="required">
+														<label for="areaBuiltUp4" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Built up Area of Property (sq. ft)</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum norms</p>
+												</div>
+											</div>
+										</div>
+										
+										<!--Loan against rental income-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="propertyType">Property Type</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a ><span class="text">Commercial</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a ><span class="text">Residential</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="propertyType" class="bselect" required="required" tabindex="-98">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="2" >Commercial</option><option value="1" >Residential</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="netMonthlyRental" class="input__field input__field--hoshi " type="tel" id="netMonthly" currencylength="10" maxlength="14" required="required">
+														<label for="netMonthly" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Net Monthly Rental (Gross Rental - TDS) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="annualPropertyTax" class="input__field input__field--hoshi" type="tel" id="propertyTax" maxlength="14" required="required">
+														<label for="propertyTax" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Property Tax (Annual)(<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="PropertyValue" class="input__field input__field--hoshi " type="tel" id="propertyValue3" maxlength="14" required="required">
+														<label for="propertyValue3" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Property Value (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input name="builtUpArea" pattern="[0-9]*" class="input__field input__field--hoshi " type="tel" id="areaBuiltUp3" maxlength="10" required="required">
+														<label for="areaBuiltUp3" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Built up Area of Property (sq. ft)</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Enter a valid Number</p>
+													<p class="errClass hidden">Below minimum norms</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input name="outstandingLeaseMonths" pattern="[0-9]*" class="input__field input__field--hoshi " type="tel" id="outstandingLeasePeriod" maxlength="3" required="required">
+														<label for="outstandingLeasePeriod" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Outstanding Lease Period (Months)</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum norms</p>
+												</div>
+											</div>
+										</div>
+										
+										<!--Home improvement loan-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="PropertyValue" class="input__field input__field--hoshi " type="tel" id="propertyValue2" currencylength="10" maxlength="14" required="required">
+														<label for="propertyValue2" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Property Value (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="costOfHomeImprovements" class="input__field input__field--hoshi " type="tel" id="costOfHomeImprovements" maxlength="14"required="required">
+														<label for="costOfHomeImprovements" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Cost of Home Improvements (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum funding norms</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input name="builtUpArea" pattern="[0-9]*" class="input__field input__field--hoshi " type="tel" id="areaBuiltUp2" maxlength="10" required="required">
+														<label for="areaBuiltUp2" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Built up Area of Property (sq. ft)</span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum norms</p>
+												</div>
+											</div>
+										</div>
+										
+										
+										<div class="row sectionSeparator visible-xs"></div>
+										<div class="row sectionHeadingsWrapper">
+											<p class="sectionHeadings workInfo"><strong>Work Information</strong></p>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-6">
+												<div class="select-dropdown">
+													<label class="col-xs-12 col-sm-12 row" for="employment-type">Type of employment</label>
+													<div class="btn-group bootstrap-select bselect">
+														<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select">
+															<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span>
+														</button>
+														<div class="dropdown-menu open">
+															<ul class="dropdown-menu inner" role="menu">
+																<li data-original-index="0" class="selected result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="1"><a><span class="text">Salaried</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="3"><a><span class="text">Self Employed</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="4"><a><span class="text">Self Employed Professional</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															</ul>
+														</div>
+														<select name="toe" class="bselect">
+															<option value="" class="hidden-xs" selected="">Select</option>
+															<option value="1">Salaried</option>
+															<option value="2">Self Employed</option>
+															<option value="3">Self Employed Professional</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										<!--Salaried-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div>
+														<div class="custom-date-holder location-drpdwn">
+															<span class="input input--hoshi">
+																<input name="1572434707272" class="input__field input__field--hoshi uppercase" type="text" id="1572434707272">
+																<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1572434707272">
+																	<span class="input__label-content input__label-content--hoshi pull-left">
+																		Company (Pick from our list of accurate offers)
+																	</span>
+																</label>
+															</span>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6 select-dropdown">
+													<div class="row">
+														<div class="col-xs-12 clear">
+															<label>Joining Date with Current Employer</label>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a><span class="text">2019</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a><span class="text">2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="7"><a><span class="text">&lt;2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="joinDateYearOption" class="bselect" required="required">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="2019">2019</option>
+																	<option value="2018">2018</option>
+																	<option value="2017">2017</option>
+																	<option value="2016">2016</option>
+																	<option value="2015">2015</option>
+																	<option value="2014">2014</option>
+																	<option value="<2014">&lt;2014</option>
+																</select>
+															</div>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu" style="max-height: 126.906px; overflow-y: auto; min-height: 96px;">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="7"><a><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="8"><a><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="9"><a><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="10"><a><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="11"><a><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="12"><a><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="joinDateMonthOption" class="bselect" required="required" tabindex="-98">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="01">Jan</option>
+																	<option value="02">Feb</option>
+																	<option value="03">Mar</option>
+																	<option value="04">Apr</option>
+																	<option value="05">May</option>
+																	<option value="06">Jun</option>
+																	<option value="07">Jul</option>
+																	<option value="08">Aug</option>
+																	<option value="09">Sept</option>
+																	<option value="10">Oct</option>
+																	<option value="11">Nov</option>
+																	<option value="12">Dec</option>
+																</select>
+															</div>
+															<p class="errClass hidden">Should not be greater than current month</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="grossSalaryMonthly" class="input__field input__field--hoshi" required="required">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="applicantGrossMonthlySalary">
+															<span class="input__label-content input__label-content--hoshi">Gross Fixed Monthly Salary (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum norms</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="takeHomeSalaryMonthly" class="input__field input__field--hoshi" type="tel" id="applicantMonthlyTakeHomeSalary" maxlength="14" required="required">
+														<label for="applicantMonthlyTakeHomeSalary" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Monthly Take Home Salary (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Cannot be greater than Gross fixed monthly salary</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="annualBonus" class="input__field input__field--hoshi" type="tel" id="applicantAnnualBonus" maxlength="14">
+														<label for="applicantAnnualBonus" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Annual Bonus (If Any) (<i class="fa fa-inr"></i>) <span class="optional-text-style">(Optional)</span></span>
+														</label>
+													</span>
+												</div>
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="retirementAge">At Which Age You Will Retire</label>
+														<div class="btn-group bootstrap-select bselect">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open">
+																<ul class="dropdown-menu inner" role="menu">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a><span class="text">55</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a><span class="text">58</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="3"><a><span class="text">60</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="4"><a><span class="text">65</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="retirementAge" class="bselect" data-types="AgeRetirementOptions" required="required" tabindex="-98">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="55">55</option>
+																<option value="58">58</option>
+																<option value="60">60</option>
+																<option value="65">65</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details doubleLine-label">
+													<span class="input input--hoshi tooltip-text">
+														<input pattern="[0-9]*" name="totalEmi" class="input__field input__field--hoshi" type="tel" id="applicantEMIPerMonth" maxlength="14">
+														<label for="applicantEMIPerMonth" class="input__label input__label--hoshi input__label--hoshi-color-1 truncated424">
+															<span class="input__label-content input__label-content--hoshi">Total EMIs You Currently Pay Per Month (If Any) (<i class="fa fa-inr"></i>) <span class="optional-text-style">(Optional)</span>
+																<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" class="tooltip-link" title="" data-placement="top" data-original-title="For Balance Transfer, exclude the EMI on the loan you want to transfer to ICICI Bank">
+																	<img class="questionmark" src="images/Question.png" alt="tooltip">
+																</a>
+															</span>
+														</label>
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										<!--Self Employed-->
+										<div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="yourBusinessProfile">Your Business Profile</label>
+														<div class="btn-group bootstrap-select bselect open">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select" aria-expanded="true"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open" style="max-height: 95.9063px; overflow: hidden; min-height: 98px;">
+																<ul class="dropdown-menu inner" role="menu" style="max-height: 93.9063px; overflow-y: auto; min-height: 96px;">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a tabindex="0"><span class="text">Trader</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a tabindex="0"><span class="text">Service Provider</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="3"><a tabindex="0"><span class="text">Manufacturer</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="yourBusinessProfile" class="bselect" data-types="businessProfile" required="required" tabindex="-98">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="3">Trader</option>
+																<option value="1">Service Provider</option>
+																<option value="2">Manufacturer</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6 select-dropdown">
+													<div class="row">
+														<div class="col-xs-12 clear">
+															<label>Start Date of Current Business</label>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a><span class="text">2019</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a><span class="text">2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="7"><a><span class="text">&lt;2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="joinDateYearOption" class="bselect" required="required">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="2019">2019</option>
+																	<option value="2018">2018</option>
+																	<option value="2017">2017</option>
+																	<option value="2016">2016</option>
+																	<option value="2015">2015</option>
+																	<option value="2014">2014</option>
+																	<option value="<2014">&lt;2014</option>
+																</select>
+															</div>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu" style="max-height: 126.906px; overflow-y: auto; min-height: 96px;">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="7"><a><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="8"><a><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="9"><a><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="10"><a><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="11"><a><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="12"><a><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="joinDateMonthOption" class="bselect" required="required" tabindex="-98">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="01">Jan</option>
+																	<option value="02">Feb</option>
+																	<option value="03">Mar</option>
+																	<option value="04">Apr</option>
+																	<option value="05">May</option>
+																	<option value="06">Jun</option>
+																	<option value="07">Jul</option>
+																	<option value="08">Aug</option>
+																	<option value="09">Sept</option>
+																	<option value="10">Oct</option>
+																	<option value="11">Nov</option>
+																	<option value="12">Dec</option>
+																</select>
+															</div>
+															<p class="errClass hidden">Should not be greater than current month</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="row">
+												<div class="col-xs-12 col-sm-6">
+													<div class="select-dropdown">
+														<label class="col-xs-12 col-sm-12 row" for="yourBusinessProfile">Profession</label>
+														<div class="btn-group bootstrap-select bselect open">
+															<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select" aria-expanded="true"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+															<div class="dropdown-menu open" style="max-height: 95.9063px; overflow: hidden; min-height: 98px;">
+																<ul class="dropdown-menu inner" role="menu" style="max-height: 93.9063px; overflow-y: auto; min-height: 96px;">
+																	<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="1"><a tabindex="0"><span class="text">Trader</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="2"><a tabindex="0"><span class="text">Service Provider</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	<li data-original-index="3"><a tabindex="0"><span class="text">Manufacturer</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																</ul>
+															</div>
+															<select name="yourBusinessProfile" class="bselect" data-types="businessProfile" required="required" tabindex="-98">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="3">Trader</option>
+																<option value="1">Service Provider</option>
+																<option value="2">Manufacturer</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-xs-12 col-sm-6 select-dropdown">
+													<div class="row">
+														<div class="col-xs-12 clear">
+															<label>Start Date of Current Profession</label>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a><span class="text">2019</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a><span class="text">2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="7"><a><span class="text">&lt;2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="joinDateYearOption" class="bselect" required="required">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="2019">2019</option>
+																	<option value="2018">2018</option>
+																	<option value="2017">2017</option>
+																	<option value="2016">2016</option>
+																	<option value="2015">2015</option>
+																	<option value="2014">2014</option>
+																	<option value="<2014">&lt;2014</option>
+																</select>
+															</div>
+														</div>
+														<div class="col-xs-6">
+															<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+																<div class="dropdown-menu open">
+																	<ul class="dropdown-menu inner" role="menu" style="max-height: 126.906px; overflow-y: auto; min-height: 96px;">
+																		<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="1"><a><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="2"><a><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="3"><a><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="4"><a><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="5"><a><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="6"><a><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="7"><a><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="8"><a><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="9"><a><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="10"><a><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="11"><a><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																		<li data-original-index="12"><a><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																	</ul>
+																</div>
+																<select name="joinDateMonthOption" class="bselect" required="required" tabindex="-98">
+																	<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																	<option value="01">Jan</option>
+																	<option value="02">Feb</option>
+																	<option value="03">Mar</option>
+																	<option value="04">Apr</option>
+																	<option value="05">May</option>
+																	<option value="06">Jun</option>
+																	<option value="07">Jul</option>
+																	<option value="08">Aug</option>
+																	<option value="09">Sept</option>
+																	<option value="10">Oct</option>
+																	<option value="11">Nov</option>
+																	<option value="12">Dec</option>
+																</select>
+															</div>
+															<p class="errClass hidden">Should not be greater than current month</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="grossSalaryMonthly" class="input__field input__field--hoshi" required="required">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="applicantGrossMonthlySalary">
+															<span class="input__label-content input__label-content--hoshi">Gross Turnover (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Below minimum norms</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input  pattern="[0-9]*" name="currFyGrossProfit" class="input__field input__field--hoshi" type="tel" id="grossProfit1" currencylength="10" maxlength="14" required="required">
+														<label for="grossProfit1" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Gross Profit (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="currFyNetProfit" class="input__field input__field--hoshi" type="tel" id="netProfit1" currencylength="10" maxlength="14" required="required">
+														<label for="netProfit1" class="input__label input__label--hoshi input__label--hoshi-color-1 truncated424">
+															<span class="input__label-content input__label-content--hoshi">Net Profit-PBT (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+													<p class="errClass hidden">Cannot be greater than Gross Profit</p>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi" ng-class="{'input--filled':(user.currFyDepreciation || checkEligibilityForm.currFyDepreciation.$error.pattern)}">
+														<input pattern="[0-9]*" name="currFyDepreciation" class="input__field input__field--hoshi" type="tel" id="depreciation1" currencylength="10" maxlength="14" required="required">
+														<label for="depreciation1" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Depreciation (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+											</div>
+											
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="currFyDirectorRemuneration" class="input__field input__field--hoshi" type="tel" id="directorRenumeration1" currencylength="10" maxlength="14" required="required">
+														<label for="directorRenumeration1" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Director Remuneration (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="currFyRentalIncome" class="input__field input__field--hoshi" type="tel" id="rentalIncome1" currencylength="10" maxlength="14" required="required">
+														<label for="rentalIncome1" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Rental Income (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+											</div>
+											
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="currFyOtherIncome" class="input__field input__field--hoshi" type="tel" id="otherIncome1" currencylength="10" maxlength="14" required="required">
+														<label for="otherIncome1" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Other Income (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="currFyCcOdInterest" class="input__field input__field--hoshi" type="tel" id="ccOdInterest1" currencylength="10" maxlength="14" required="required">
+														<label for="ccOdInterest1" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">CC/OD Interest (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+											</div>
+											
+											<div class="row taxInfo">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="currFyTax" class="input__field input__field--hoshi" type="tel" id="applicantCurrentYearTax" currencylength="10" maxlength="14" required="required">
+														<label for="applicantCurrentYearTax" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Tax (Current Financial Year) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+												<div class="col-xs-12 col-sm-6 form-group radio-btn custom-radio-panel">
+													<label>Income Details For Previous Financial Year Same as That of Current Financial Year?</label>
+													<div class="radios row marginTop10">
+														<div class="col-xs-6 col-md-3 radio-options">
+															<input id="prevYearIncomeDetailsYes" name="prevYearIncomeDetails" type="radio" value="Y" tabindex="0">
+															<label for="prevYearIncomeDetailsYes"><span></span>Yes</label>
+														</div>
+														<div class="col-xs-6 col-md-3 radio-options">
+															<input id="prevYearIncomeDetailsNo" name="prevYearIncomeDetails" type="radio" value="N" tabindex="0">
+															<label for="prevYearIncomeDetailsNo"><span></span>No</label>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div>
+												<div class="row">
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyGrossTurnover" class="input__field input__field--hoshi" type="tel" id="grossTurnoverPreviousYear" currencylength="10" maxlength="14" required="required">
+															<label for="grossTurnoverPreviousYear" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">Gross Turnover (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+													</div>
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyGrossProfit" class="input__field input__field--hoshi" type="tel" id="grossTurnOverPreviousYear" currencylength="10" maxlength="14" required="required">
+															<label for="grossTurnOverPreviousYear" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">Gross Profit  (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyNetProfit" class="input__field input__field--hoshi" type="tel" id="netProfit2" currencylength="10" maxlength="14" required="required">
+															<label for="netProfit2" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">Net Profit-PBT  (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+														<p class="errClass hidden">Cannot be greater than Gross Profit</p>
+													</div>
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyDepreciation" class="input__field input__field--hoshi" type="tel" id="depreciation2" currencylength="10" maxlength="14" required="required">
+															<label for="depreciation2" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">Depreciation  (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyDirectorRemuneration" class="input__field input__field--hoshi" type="tel" id="directorRenumeration2" currencylength="10" maxlength="14" required="required">
+															<label for="directorRenumeration2" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">Director Remuneration  (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+													</div>
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyRentalIncome" class="input__field input__field--hoshi" type="tel" id="rentalIncomePreviousYear" currencylength="10" maxlength="14" required="required">
+															<label for="rentalIncomePreviousYear" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">Rental Income  (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyOtherIncome" class="input__field input__field--hoshi" type="tel" id="otherIncome2" currencylength="10" maxlength="14" required="required">
+															<label for="otherIncome2" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">Other Income  (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+													</div>
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyCcOdInterest" class="input__field input__field--hoshi" type="tel" id="ccOdInterest2" currencylength="10" maxlength="14" required="required">
+															<label for="ccOdInterest2" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">CC/OD Interest (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-xs-12 col-sm-6 form-details">
+														<span class="input input--hoshi">
+															<input pattern="[0-9]*" name="prevFyTax" class="input__field input__field--hoshi" type="tel" id="tax2" currencylength="10" maxlength="14" required="required">
+															<label for="tax2" class="input__label input__label--hoshi input__label--hoshi-color-1">
+																<span class="input__label-content input__label-content--hoshi">Tax  (Previous Financial Year) (<i class="fa fa-inr"></i>) </span>
+															</label>
+														</span>
+													</div>
+												</div>
+											</div>
+											
+											<div class="row">
+												<div class="col-xs-12 col-sm-6 form-details">
+													<span class="input input--hoshi">
+														<input pattern="[0-9]*" name="existingMonthlyObligation" class="input__field input__field--hoshi" type="tel" id="existingMonthlyObligations" currencylength="10" maxlength="14" required="required">
+														<label for="existingMonthlyObligations" class="input__label input__label--hoshi input__label--hoshi-color-1">
+															<span class="input__label-content input__label-content--hoshi">Existing Monthly Obligation  (More Than 12 EMIs Left) (<i class="fa fa-inr"></i>) </span>
+														</label>
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										
+										<div class="row sectionHeadingsWrapper">
+											<p class="sectionHeadings workInfo"><strong>Others</strong></p>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 form-group radio-btn custom-radio-panel">
+												<label>I Want To Include Co-Applicant Income To Increase My Eligibility <span class="optional-text-style">(Optional)</span></label>
+												<div class="radios row clearfix">
+													<div class="col-xs-4 col-sm-3 col-md-3 radio-options">
+														<input id="coappConsiderIncomeYes" name="coappConsiderIncomeYes" type="radio" value="Y" tabindex="0">
+														<label for="coappConsiderIncomeYes"><span></span>Yes</label>
+													</div>
+													<div class="col-xs-4 col-sm-3 col-md-3 radio-options">
+														<input id="coappConsiderIncomeNo" name="coappConsiderIncome" type="radio" value="N" tabindex="0">
+														<label for="coappConsiderIncomeNo"><span></span>No</label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="tab-pane fade in" id="CoApplicant">
+										<div class="row sectionHeadingsWrapper">
+											<p class="sectionHeadings"><strong>Personal Information</strong></p>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-6">
+												<div class="select-dropdown">
+													<label class="col-xs-12 col-sm-12 row" for="coAppRelationship">Relationship Of Co-Applicant With Applicant</label>
+													<div class="btn-group bootstrap-select bselect">
+														<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+														<div class="dropdown-menu open">
+															<ul class="dropdown-menu inner" role="menu">
+																<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="1"><a tabindex="0"><span class="text">Appointee Name</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="2"><a tabindex="0"><span class="text">Brother</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="3"><a tabindex="0"><span class="text">Brother In Law</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="4"><a tabindex="0"><span class="text">Chairman</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="5"><a tabindex="0"><span class="text">Co-Applicant/Guarantor</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="6"><a tabindex="0"><span class="text">Director</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="7"><a tabindex="0"><span class="text">Daughter</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="8"><a tabindex="0"><span class="text">Friend</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="9"><a tabindex="0"><span class="text">Father</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="10"><a tabindex="0"><span class="text">Father In Law</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="11"><a tabindex="0"><span class="text">Grand Daughter</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="12"><a tabindex="0"><span class="text">Grand Father</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="13"><a tabindex="0"><span class="text">Grand Son</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="14"><a tabindex="0"><span class="text">Grandmother</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="15"><a tabindex="0"><span class="text">Insurance Nominee</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="16"><a tabindex="0"><span class="text">Mother</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="17"><a tabindex="0"><span class="text">Mother In Law</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="18"><a tabindex="0"><span class="text">Neighbour</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="19"><a tabindex="0"><span class="text">Partner</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="20"><a tabindex="0"><span class="text">Proprietor</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="21"><a tabindex="0"><span class="text">Sister</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="22"><a tabindex="0"><span class="text">Son</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="23"><a tabindex="0"><span class="text">Others</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="24"><a tabindex="0"><span class="text">Spouse</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="25"><a tabindex="0"><span class="text">Son-In-Law</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="26"><a tabindex="0"><span class="text">Daughter-In-Law</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="27"><a tabindex="0"><span class="text">Sister-In-Law</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															</ul></div>
+															<select name="coAppRelationship" class="bselect" required="required" tabindex="-98">
+																<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+																<option value="35">Appointee Name</option>
+																<option value="4">Brother</option>
+																<option value="3">Brother In Law</option>
+																<option value="36">Chairman</option>
+																<option value="37">Co-Applicant/Guarantor</option>
+																<option value="38">Director</option>
+																<option value="8">Daughter</option>
+																<option value="10">Friend</option>
+																<option value="11">Father</option>
+																<option value="9">Father In Law</option>
+																<option value="13">Grand Daughter</option>
+																<option value="39">Grand Father</option>
+																<option value="14">Grand Son</option>
+																<option value="40">Grandmother</option>
+																<option value="41">Insurance Nominee</option>
+																<option value="17">Mother</option>
+																<option value="16">Mother In Law</option>
+																<option value="18">Neighbour</option>
+																<option value="42">Partner</option>
+																<option value="43">Proprietor</option>
+																<option value="23">Sister</option>
+																<option value="24">Son</option>
+																<option value="27">Others</option>
+																<option value="28">Spouse</option>
+																<option value="31">Son-In-Law</option>
+																<option value="33">Daughter-In-Law</option>
+																<option value="34">Sister-In-Law</option>
+															</select>
+													</div>
+												</div>
+											</div>
+											<div class="col-xs-12 col-sm-6">
+												<div class="select-dropdown">
+													<label class="col-xs-12 col-sm-12 row" for="coAppResidencyType">Residency Status</label>
+													<div class="btn-group bootstrap-select bselect">
+														<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+														<div class="dropdown-menu open">
+															<ul class="dropdown-menu inner" role="menu">
+																<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="1"><a tabindex="0"><span class="text">Resident Indian</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															</ul>
+														</div>
+														<select name="coAppResidencyType" class="bselect" data-types="residencyType" required="required" tabindex="-98">
+															<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+															<option value="1">Resident Indian</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-6 form-details select-wrapper calender-box clearfix">
+												<div class="custom-date-holder date-masking">
+													<span class="input input--hoshi">
+														<input name="date" id="checkDob" class="input__field input__field--hoshi calendar1 desktop-datepicker dobnotchanged" required="required">
+														<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-date">
+															<span class="input__label-content input__label-content--hoshi pull-left" id="date-content">
+																Date of Birth (DD/MM/YYYY)
+																<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+															</span>
+														</label>
+														<span id="city-map-icon" class="input__label-content pull-right cal-icon"><img src="images/calendar.svg" height="20px"></span>
+													</span>
+													<input type="text" name="date" class="form-control input__field input__field--hoshi date-input" id="step1-date" required="required">
+													<span class="input-group-btn input__label-content pull-right clearfix cal-icon"></span>
+												</div>
+												<span class="otp-date errClass hidden">Invalid date</span>
+												<span class="otp-date errClass hidden">You should be above 18 years to apply for loan.</span>
+												<span class="otp-date errClass hidden">You should be below 65 years to apply for loan.</span>
+											</div>
+										</div>
+										<div class="row sectionSeparator visible-xs"></div>
+										<div class="row sectionHeadingsWrapper">
+											<p class="sectionHeadings workInfo"><strong>Work Information</strong></p>
+										</div>
+										<div class="row">
+											<div class="col-xs-12 col-sm-6">
+												<div class="select-dropdown tooltip-text">
+													<label class="col-xs-12 col-sm-12 row" for="coAppEmploymentType">Type of Employment
+														<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" class="tooltip-link" title="" data-placement="top" data-original-title="Select Self Employed Professional if you are a self employed Chartered Accountant, Doctor Lawyer, Architect or Engineer ">
+															<img class="questionmark" src="images/Question.png" alt="tooltip">
+														</a>
+													</label>
+													<div class="btn-group bootstrap-select bselect">
+														<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+														<div class="dropdown-menu open">
+															<ul class="dropdown-menu inner" role="menu">
+																<li data-original-index="0" class="disabled selected disabled-result result-selected visible-xs"><a tabindex="-1" class="hidden-xs" href="#"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="1"><a tabindex="0"><span class="text">Salaried</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="2"><a tabindex="0"><span class="text">Self Employed</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+																<li data-original-index="3"><a tabindex="0"><span class="text">Self Employed Professional</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+															</ul>
+														</div>
+														<select name="coAppEmploymentType" class="bselect" data-types="employmentTypeOptions" required="required" tabindex="-98">
+															<option value="" class="hidden-xs" selected="" disabled="">Select</option>
+															<option value="1">Salaried</option>
+															<option value="15">Self Employed</option>
+															<option value="3">Self Employed Professional</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="individual-btn-div clearfix">
+								<div class="col-xs-12 col-md-12 clearfix termsStep1 marginTop20">
+									<div class="step checkbox_wrapper">
+										<input type="checkbox" class="col-xs-1">
+										<label class="chktp"></label>
+									</div>
+									<span class="col-xs-12 col-md-12 termsStep1Span">I declare that the information I have provided above is accurate and complete to the best of my knowledge. I authorize ICICI Bank &amp; its representatives to call or sms me with reference to my loan application.</span>
+								</div>
+								<div class="eligibilityBtn">
+									<button class="btn blue btnMainStep1 marginTop20" type="submit" onclick="window.location.href='hl-offer-for-u.html';" id="eligibility-btn">Check Eligibility</button>
+								</div>
+							</div>
+							<!-- </form> -->
+						</div>
+						<div class="marginBottom20 clearfix"></div>
+					</div>
+					<!-- mainbox div ends -->
+				</div>
+			</div>
+			<!--Main Content End-->
+			
+			<!--Footer Start-->
+			<div id="footer" class="row">
+				<div class="container-fluid">
+					<p class="text-center">
+						<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+						<span id="footer-links"><a target="_blank" href="auto-loan-disclaimer.html">Disclaimer</a> <span>|</span>
+							<a target="_blank" href="pdfs/AL_TnC.pdf">Terms & conditions</a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<!--Footer End-->
+		</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="js/icici.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		var date_input=$('input[name="date"]'); //our date input has the name "date"
+		var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+		date_input.datepicker({
+			format: 'mm/dd/yyyy',
+			container: container,
+			todayHighlight: true,
+			autoclose: true,
+		})
+	})
+</script>
+</html>																																

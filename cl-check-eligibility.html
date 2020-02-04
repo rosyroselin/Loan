@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ICICI Bank</title>
+	<meta http-equiv="X-Frame-Options" content="deny">
+	<meta name="description" content="ICICI" />
+	<meta name="keywords" content="ICICI" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icici.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body class="disableRightClick cc al">
+	<!--Loader Start-->
+	<!--<div class="portal-throbber" style="display:block">
+	   <div class="mask"></div>
+		<div class="cssload-loader"><span class="cssload-loader-inner"></span></div>
+		<div class="processRequest">Processing your request</div>
+	</div>-->
+	<!--Loader End-->
+	<div class="container-fluid">
+		<!--Header Start-->
+		<div class="row">
+			<div class="col-xs-12 menu subheader-wrapper">
+				<div class="header-container">
+					<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+						<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+						<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+					</a>
+					<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+						<ul class="col-xs-12 menu-items">
+							<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+							<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+							<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+							<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+							<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+						</ul>
+						<div class="mask hamburgerIcon"></div>
+					</div>
+					<span>
+					<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+					</span>
+					<p class="pull-left"><span class="moduleName">Car Loans</span></p>
+				</div>
+			</div>
+		</div>
+		<!--Header End-->
+        <!--Main Content Start-->
+		<div id="check-eligibility-page">
+			<div class="row">
+				<div class="info col-xs-12 clearfix subheader-wrapper subheader-wrapper-info">
+					<div class="header-container">
+						<p class="pull-left">Fill form to get a customized salary overdraft quote instantly.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="check-eligibility-steps text-center">
+					<div class="steps-inner-container">
+						<div class="col-xs-12 col-sm-3 text-center">
+							<p class="steps-count">Step 1 of 4</p>
+							<p class="heading">Check Eligibility</p>
+						</div>
+						<div class="hidden-xs col-sm-3 text-center">
+							<p>Step 2 of 4</p>
+							<p>Offer For You</p>
+						</div>
+						<div class="hidden-xs col-sm-3 text-center">
+							<p>Step 3 of 4</p>
+							<p>Complete Application</p>
+						</div>
+						<div class="hidden-xs col-sm-3 text-center">
+							<p>Step 4 of 4</p>
+							<p>Upload Documents</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="steps clearfix">
+				<div class="col-xs-3 text-center">
+					<a href="pl-salaryod-checkeligibility.html"><span class="current-step center-block check-eligibility"></span></a>
+				</div>
+				<div class="col-xs-3 text-center">
+					<span class="uncompleted-step center-block offer-for-you"></span>
+				</div>
+				<div class="col-xs-3 text-center">
+					<span class="uncompleted-step center-block complete-application"></span>
+				</div>
+				<div class="col-xs-3 text-center">
+					<span class="uncompleted-step center-block upload-doc"></span>
+				</div>
+			</div>
+			<div class="mainbox clearfix lop-mobilebased">
+				<div class="step1-wrapper">
+					<div class="step1Div">
+						<form name="checkEligibilityForm" class="step1UserForm">
+							<div class="row sectionHeadingsWrapper">
+								<p class="sectionHeadings"><strong>Loan Type</strong></p>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-6">
+									<div class="select-dropdown tooltip-text tol">
+										<label class="col-xs-12 col-sm-12 row" for="loan-type">Type of loan<a role="button" href="javascript:void(0)">
+												<span href="javascript:void(0)" class="tooltip-link" popover-template="dynamicPopover.templateUrl" popover-trigger="focus mouseenter" popover-placement="bottom" tabindex="0">
+													<img class="questionmark" alt="tooltip" src="images/Question.png">
+												</span>
+												<!--<div class="popover-content" tooltip-template-transclude-scope="originScope()">
+													<div class="clearfix">
+														<ul class="list-unstyled">
+															<li>New Car Loan: Get finance to buy a new car.</li>
+															<li>Used Car Loan: Get finance to buy a pre-owned car.</li>
+															<li>Auto Top up: Get additional loan on the Top of your existing ICICI Bank Car loan.</li>
+															<li>Refinance: Get finance by hypothecating your existing debt-free car.</li>
+															<li>Balance Transfer: Get your existing other bank car loan transferred to ICICI Bank.</li>
+															<li>Balance Transfer+TOP UP: Transfer your car loan from any other bank and avail of a Top up loan</li>
+														</ul>
+													</div>
+												</div>-->
+											</a>
+										</label>
+										<div class="btn-group bootstrap-select bselect dropup">
+										<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Auto Loan Top Up" aria-expanded="false">
+											<span class="filter-option pull-left">Auto Loan Top Up</span>
+											<span class="bs-caret"><span class="caret"></span></span>
+										</button>
+										<div class="dropdown-menu open" style="max-height: 222.6px; overflow: hidden; min-height: 101px;">
+											<ul class="dropdown-menu inner" role="menu" style="max-height: 220.6px; overflow-y: auto; min-height: 99px;">
+												<li data-original-index="0" class="disabled-result result-selected visible-xs"><a tabindex="0" class="hidden-xs" style="" data-tokens="null"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="1"><a tabindex="0"><span class="text">New Car Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="2"><a tabindex="0"><span class="text">Used Car Loan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="3" class="selected"><a tabindex="0"><span class="text">Auto Loan Top Up</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="4"><a tabindex="0"><span class="text">Balance transfer</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="5"><a tabindex="0"><span class="text">Balance transfer + Top up</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="6"><a tabindex="0"><span class="text">Refinance</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											</ul>
+										</div>
+										<select class="bselect" name="loanTypeId" required="required" tabindex="-98">
+											<option value="" class="hidden-xs">Select</option>
+											<option value="10">New Car Loan</option>
+											<option value="11">Used Car Loan</option>
+											<option value="12">Auto Loan Top Up</option>
+											<option value="13">Balance transfer</option>
+											<option value="14">Balance transfer + Top up</option>
+											<option value="15">Refinance</option>
+										</select>
+										</div>
+										<p class="otp">Avail additional loan on existing ICICI Bank Car loan</p>
+									</div>
+								</div>
+								<div class="col-sm-6 col-xs-12 col-md-6"  data-tip="Enter the mobile number which was registered with ICICI Bank at the time of your car loan application" data-fieldid="mobileNumber" data-submitted="submitted">
+									<span class="input input--hoshi mobile">
+										<input name="mobileNumber" class="input__field input__field--hoshi" type="tel" id="mobileNumber" maxlength="10" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="mobileNumber">
+											<span class="input__label-content input__label-content--hoshi">Enter Registered Mobile Number
+												<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" class="tooltip-link" data-original-title="Enter the mobile number which was registered with ICICI Bank at the time of your car loan application" data-placement="top">
+													<img class="questionmark" alt="tooltip" src="images/Question.png">
+												</a>
+												<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+											</span>
+										</label>
+									</span>
+									<span class="otp">You can use your mobile no. to retrieve your application.</span>
+									<span>
+										<img class="" src="images/secure_icon.png" alt="i">
+										<span class="mobile-privacy">Your privacy is protected</span>
+									</span>
+								</div>
+							</div>
+						<div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-6">
+							<span class="input input--hoshi tooltip-text">
+								<input name="1545974072618" class="input__field input__field--hoshi capitalizeAddress" type="text" id="1545974072618" maxlength="16">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1545974072618">
+								<span class="input__label-content input__label-content--hoshi">Enter Loan Account Number
+								<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Enter the loan account number of your ICICI Bank Car Loan. This is non mandatory">
+									<img class="questionmark" src="images/Question.png" alt="tooltip">
+								</a>
+								<span id="optional-text">(Optional)</span>
+							</span>
+							</label>
+							</span>
+						</div>
+						</div>
+					</div>
+					<div class="row sectionSeparator visible-xs"></div>
+					<div class="row sectionHeadingsWrapper workInfo">
+						<p class="sectionHeadings"><strong>Residence Stability</strong></p>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<div class="custom-date-holder location-drpdwn map">
+								<span class="input input--hoshi">
+									<div class="field-loader">
+									<div class="cssload-loader "><span class="cssload-loader-inner"></span></div>
+									</div>
+									<input name="1545974054447" class="input__field input__field--hoshi" type="text" id="1545974054447" maxlength="30" id="typeahead-1788-8536">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1545974054447">
+										<span class="input__label-content input__label-content--hoshi pull-left">Where do you live currently?
+										<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Enter the city of your current residence.">
+											<img class="questionmark" src="images/Question.png" alt="tooltip">
+										</a>
+										</span>
+									</label>
+									<span id="city-map-icon" class="input__label-content pull-right visible-xs visible-sm al-geo">
+										<img src="images/location_indicator_img.svg" width="18px" height="18px">
+									</span>
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="select-dropdown tooltip-text invalid">
+								<label class="col-xs-12 col-sm-12 row" for="residence-type">Residence type
+									<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Please select the ownership details">
+										<img class="questionmark" src="images/Question.png" alt="tooltip">
+									</a>
+								</label>
+								<div class="btn-group bootstrap-select bselect">
+								<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select">
+								<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret">
+								<span class="caret"></span></span>
+								</button>
+								<div class="dropdown-menu open">
+									<ul class="dropdown-menu inner" role="menu">
+										<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a tabindex="0" class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="1"><a tabindex="0"><span class="text">Company Provided</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="2"><a tabindex="0"><span class="text">Employer Leased</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="3"><a tabindex="0"><span class="text">Owned</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="4"><a tabindex="0"><span class="text">Owned By Parents/Siblings</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="5"><a tabindex="0"><span class="text">Owned By Self/Spouse</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="6"><a tabindex="0"><span class="text">Paying Guest/Hostel</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="7"><a tabindex="0"><span class="text">Rented Staying Alone</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="8"><a tabindex="0"><span class="text">Rented With Family</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="9"><a tabindex="0"><span class="text">Rented With Friends</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="10"><a tabindex="0"><span class="text">With Relatives</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									</ul>
+								</div>
+								<select name="residenceTypeId" class="bselect" required="required" tabindex="-98">
+									<option value="" class="hidden-xs">Select</option>
+									<option value="1">Company Provided</option>
+									<option value="2">Employer Leased</option>
+									<option value="9">Owned</option>
+									<option value="6">Owned By Parents/Siblings</option>
+									<option value="10">Owned By Self/Spouse</option>
+									<option value="3">Paying Guest/Hostel</option>
+									<option value="8">Rented Staying Alone</option>
+									<option value="4">Rented With Family</option>
+									<option value="5">Rented With Friends</option>
+									<option value="7">With Relatives</option>
+								</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 dbldrp">
+							<label class="col-xs-12 col-sm-12 row spldrp" for="current-residence">When did you move to your current residence
+								<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="How many years have you been staying at your current residence?">
+									<img class="questionmark" src="images/Question.png" alt="tooltip">
+								</a>
+							</label>
+							<div class="row">
+								<div class="select-dropdown col-xs-6 col-sm-6  no-left invalid">
+									<label class="col-xs-12 col-sm-12 row" for="1545974054456"></label>
+									<div class="btn-group bootstrap-select bselect">
+										<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="1545974054456" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+										<div class="dropdown-menu open">
+											<ul class="dropdown-menu inner" role="menu">
+												<li class="selected disabled-result result-selected visible-xs"><a tabindex="0" class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">2013</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">&lt;2013</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											</ul>
+										</div>
+										<select class="bselect" id="1545974054456" name="1545974054456" required="required" tabindex="-98">
+											<option value="" class="hidden-xs">Select</option>
+											<option value="2018">2018</option>
+											<option value="2017">2017</option>
+											<option value="2016">2016</option>
+											<option value="2015">2015</option>
+											<option value="2014">2014</option>
+											<option value="2013">2013</option>
+											<option value="2012">&lt;2013</option>
+										</select>
+									</div>
+								</div>
+								<div class="select-dropdown col-xs-6 col-sm-6 no-right">
+									<label class="col-xs-12 col-sm-12 row" for="month1545974054456"></label>
+									<div class="btn-group bootstrap-select bselect">
+										<button type="button" class="btn dropdown-toggle btn-default" data-id="month1545974054456" title="Select">
+										<span class="filter-option pull-left">Select</span>
+										<span class="bs-caret"><span class="caret"></span></span>
+										</button>
+										<div class="dropdown-menu open">
+											<ul class="dropdown-menu inner" role="menu">
+												<li class="selected disabled-result result-selected visible-xs"><a tabindex="0" class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li><a tabindex="0"><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											</ul>
+										</div>
+										<select class="bselect" id="month1545974054456">
+											<option value="" class="hidden-xs">Select</option>
+											<option value="01">Jan</option>
+											<option value="02">Feb</option>
+											<option value="03">Mar</option>
+											<option value="04">Apr</option>
+											<option value="05">May</option>
+											<option value="06">Jun</option>
+											<option value="07">Jul</option>
+											<option value="08">Aug</option>
+											<option value="09">Sept</option>
+											<option value="10">Oct</option>
+											<option value="11">Nov</option>
+											<option value="12">Dec</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 calender-box clearfix" >
+						
+						
+						<label>Select Date: </label>
+						<div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+							<input class="form-control custom-input" type="text" />
+							<span class="input-group-addon  bg-white"><img src="image/wall-calendar-with-lines.svg" height="20" width="20"></span>
+						</div>
+						
+						
+						
+							<div class="custom-date-holder">
+								<span class="input input--hoshi">
+									<input type="text" name="aldob" class="input__field input__field--hoshi date-input desktop-datepicker" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="aldob">
+										<span class="input__label-content input__label-content--hoshi pull-left" id="aldob-content">
+											Date of Birth (DD/MM/YYYY)
+										</span>
+									</label>
+									<span id="city-map-icon" class="input__label-content pull-right"><img src="images/calendar.svg" height="20px"></span>
+								</span>
+								<span class="input-group-btn input__label-content pull-right clearfix cal-icon"></span>
+							</div>
+						</div>
+					</div>
+					
+                    <div class="row sectionSeparator visible-xs"></div>
+					<div class="row sectionHeadingsWrapper workInfo">
+						<p class="sectionHeadings"><strong>Specified Dealer Product</strong></p>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 marginTop20 radio-btn tooltip-text">
+							<label>Dealer Identified
+								<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="In case you have identified a dealer, please enter Yes.">
+									<img class="questionmark" src="images/Question.png" alt="tooltip">
+								</a>
+							</label>
+							<div class="radios row marginTop10">
+								<div class="col-xs-6 col-sm-4 col-md-3">
+									<input id="dealerIdentifiedYes" name="dealerName" tabindex="0" type="radio" value="Y" required="required">
+									<label for="dealerIdentifiedYes" tabindex="-1"><span></span>Yes</label>
+								</div>
+								<div class="col-xs-6 col-sm-5 col-md-5">
+									<input id="dealerIdentifiedNo name="dealerName" type="radio" tabindex="0" value="N" required="required">
+									<label for="dealerIdentifiedNo" tabindex="-1"><span></span>No</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 marginTop10">
+							<div data-form="checkEligibilityForm" data-need="true">
+								<div class="custom-date-holder location-drpdwn">
+									<div class="input input--hoshi">
+									<input name="1548911896979" class="input__field input__field--hoshi uppercase" type="text" id="1548911896979" maxlength="128" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1548911896979">
+										<span class="input__label-content input__label-content--hoshi pull-left">
+											<span>Name Of Dealer</span>
+											<a href="javascript:void(0)" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Please enter the name of your preferred dealer or select from options">
+												<img class="questionmark" src="images/Question.png" alt="tooltip">
+											</a>
+										</span>
+									</label>
+									</div>
+								</div>
+								<p class="errClass" hidden>Unable to fetch Dealer, please type your Dealer name</p>
+							</div>
+						</div>
+					</div>
+
+					
+					<div class="row sectionSeparator visible-xs"></div>
+					<div class="row sectionHeadingsWrapper workInfo">
+						<p class="sectionHeadings"><strong>Car Cost Calculation</strong></p>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<span class="input input--hoshi">
+							<input name="makeAndModel" class="input__field input__field--hoshi" type="text" id="makeAndModel">
+							<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="makeAndModel">
+							<span class="input__label-content input__label-content--hoshi pull-left">
+								<span>Make &amp; model of car (e.g. Honda City)</span>
+								<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Enter the Make Model and Manufacturer of the car you have shortlisted.">
+									<img class="questionmark" src="images/Question.png" alt="tooltip">
+								</a>
+							</span>
+							</label>
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="creditCardLimit col-xs-12 col-sm-6">
+							<span class="input input--hoshi tooltip-text">
+							<input name="1545974054536" class="input__field input__field--hoshi" type="tel" id="1545974054536" maxlength="13" disabled="disabled" required="required">
+							<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1545974054536">
+								<span class="input__label-content input__label-content--hoshi">Ex-Showroom price- Delhi (indicative prices) (<i class="fa fa-inr"></i>)</span>
+							</label>
+							</span>
+						</div>
+						<div class="col-xs-12 col-sm-6 ">
+							<div class="row dbldrp">
+								<label class="col-xs-12">Month &amp; Year of Manufacturing
+									<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" class="tooltip-link" title="" data-placement="top" data-original-title="Enter the month and year of the shortlisted car's manufacturing.">
+										<img class="questionmark" src="images/Question.png" alt="tooltip">
+									</a>
+								</label>
+								<div>
+									<div class="select-dropdown col-xs-6 col-sm-6  no-left">
+										<label class="col-xs-12 col-sm-12 row" for="1546592633176"></label>
+										<div class="btn-group bootstrap-select bselect dropup">
+											<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="1546592633176" title="2018" aria-expanded="false">
+											<span class="filter-option pull-left">2018</span>&nbsp;<span class="bs-caret"><span class="caret"></span>
+											</span></button><div class="dropdown-menu open" style="max-height: 530.6px; overflow: hidden; min-height: 101px;">
+											<ul class="dropdown-menu inner" role="menu" style="max-height: 528.6px; overflow-y: auto; min-height: 99px;">
+												<li data-original-index="0" class="disabled-result result-selected visible-xs"><a tabindex="0" class="hidden-xs" style="" data-tokens="null"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="1"><a tabindex="0"><span class="text">2019</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="2" class="selected"><a tabindex="0"><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="3"><a tabindex="0"><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="4"><a tabindex="0"><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="5"><a tabindex="0"><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="6"><a tabindex="0"><span class="text">2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="7"><a tabindex="0"><span class="text">2013</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="8"><a tabindex="0"><span class="text">2012</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											</ul>
+											</div>
+											<select class="bselect" id="1546592633176" name="1546592633176" required="required" tabindex="-98">
+												<option value="" class="hidden-xs">Select</option>
+												<option value="2019">2019</option>
+												<option value="2018">2018</option>
+												<option value="2017">2017</option>
+												<option value="2016">2016</option>
+												<option value="2015">2015</option>
+												<option value="2014">2014</option>
+												<option value="2013">2013</option>
+												<option value="2012">2012</option>
+											</select>
+										</div>
+									</div>
+									<div class="select-dropdown col-xs-6 col-sm-6 no-right">
+									<label class="col-xs-12 col-sm-12 row" for="month1546592633176"></label>
+									<div class="btn-group bootstrap-select bselect">
+										<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="month1546592633176" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+										<div class="dropdown-menu open">
+											<ul class="dropdown-menu inner" role="menu">
+												<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a tabindex="0" class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="1"><a tabindex="0"><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="2"><a tabindex="0"><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="3"><a tabindex="0"><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="4"><a tabindex="0"><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="5"><a tabindex="0"><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="6"><a tabindex="0"><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="7"><a tabindex="0"><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="8"><a tabindex="0"><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="9"><a tabindex="0"><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="10"><a tabindex="0"><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="11"><a tabindex="0"><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="12"><a tabindex="0"><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											</ul>
+										</div>
+										<select class="bselect" id="month1546592633176"  name="month1546592633176" required="required">
+											<option value="" class="hidden-xs">Select</option>
+											<option value="01">Jan</option>
+											<option value="02">Feb</option>
+											<option value="03">Mar</option>
+											<option value="04">Apr</option>
+											<option value="05">May</option>
+											<option value="06">Jun</option>
+											<option value="07">Jul</option>
+											<option value="08">Aug</option>
+											<option value="09">Sept</option>
+											<option value="10">Oct</option>
+											<option value="11">Nov</option>
+											<option value="12">Dec</option>
+										</select>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<span class="input input--hoshi tooltip-text">
+							<input name="1545974072645" class="input__field input__field--hoshi" type="tel" id="1545974072645" maxlength="14" required="required">
+							<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1545974072645">
+							<span class="input__label-content input__label-content--hoshi"> 
+							<span><span>IDV Value (as per insurance note)(</span><i class="fa fa-inr"></i><span>)</span></span>
+							<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="Enter the Insured's Declared Value which is visible on your current year's Car insurance. Your policy expiry date should not be less than 30 days from the day of loan application." data-placement="top" data-original-title="Enter the Insured's Declared Value which is visible on your current year's Car insurance. Your policy expiry date should not be less than 30 days from the day of loan application.">
+								<img class="questionmark" alt="tooltip" src="images/Question.png">
+							</a>
+							</span>
+							</label>
+							</span>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="select-dropdown tooltip-text invalid">
+								<label class="col-xs-12 col-sm-12 row" for="ownership">No. Of Ownerships
+									<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Enter the number of ownerships of the Car till now. E.g. In case you are the second owner of the car, enter 2">
+										<img class="questionmark" src="images/Question.png" alt="tooltip">
+									</a>
+								</label>
+								<div class="btn-group bootstrap-select bselect">
+								<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select">
+								<span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+								<div class="dropdown-menu open">
+								<ul class="dropdown-menu inner" role="menu">
+								<li class="selected disabled-result result-selected visible-xs"><a class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a><span class="text">1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a><span class="text">2</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a><span class="text">3</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								<li><a><span class="text">&gt;3</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								</ul>
+								</div>
+								<select name="noOfOwnerships" class="bselect" required="required">
+									<option value="" class="hidden-xs">Select</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">&gt;3</option>
+								</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<span class="input input--hoshi tooltip-text">
+							<input name="1545974072655" class="input__field input__field--hoshi" type="tel" id="1545974072655" maxlength="14" required="required">
+							<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1545974072655">
+							<span class="input__label-content input__label-content--hoshi"> 
+							<span><span>Principal Outstanding of Loan(</span><i class="fa fa-inr"></i><span>)</span></span>
+							<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="What is the current outstanding of your Car loan?" data-placement="top" data-original-title="What is the current outstanding of your Car loan?">
+							<img class="questionmark" alt="tooltip" src="images/Question.png">
+							</a>
+							</span>
+							</label>
+							</span>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<span class="input input--hoshi tooltip-text">
+								<input name="tenureOfCarLoan" class="input__field input__field--hoshi" type="text" id="step1-tenureOfCarLoan" maxlength="2" required="required">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-tenureOfCarLoan">
+									<span class="input__label-content input__label-content--hoshi">Total tenure for the current car loan in months
+									<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Please enter total tenure for the car loan on which you wish to avail a Top up">
+									<img class="questionmark" src="images/Question.png" alt="tooltip">
+									</a>
+									</span>
+								</label>
+							</span>
+						</div>
+					</div>
+					<div class="row sectionSeparator visible-xs"></div>
+					
+					<div class="row sectionHeadingsWrapper workInfo">
+						<p class="sectionHeadings"><strong>Work Information</strong></p>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<div class="select-dropdown tooltip-text invalid">
+								<label class="col-xs-12 col-sm-12 row" for="employment-type">Type of employment
+									<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Select your employment type?">
+										<img class="questionmark" src="images/Question.png" alt="tooltip">
+									</a>
+								</label>
+								<div class="btn-group bootstrap-select bselect">
+								<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+								<div class="dropdown-menu open">
+								<ul class="dropdown-menu inner" role="menu">
+									<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="1"><a><span class="text">Salaried</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="2"><a><span class="text">Self Employed</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="3"><a><span class="text">Self Employed Professional</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+								</ul>
+								</div>
+								<select name="employmentTypeId" class="bselect" required="required">
+									<option value="" class="hidden-xs">Select</option>
+									<option value="1">Salaried</option>
+									<option value="15">Self Employed</option>
+									<option value="3">Self Employed Professional</option>
+								</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Salaried Start-->
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<div class="custom-date-holder location-drpdwn">
+								<span class="input input--hoshi">
+									<input name="1546595688763" class="input__field input__field--hoshi uppercase" type="text" id="1546595688763" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1546595688763">
+										<span class="input__label-content input__label-content--hoshi pull-left">
+											Company (Pick from our list of accurate offers)
+											<a href="javascript:void(0)" data-toggle="tooltip" class="tooltip-link" data-original-title="Please enter your current company name" data-placement="top">
+												<img class="questionmark" src="images/Question.png" alt="tooltip">
+											</a>
+										</span>
+									</label>
+								</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 marginTop20 dbldrp">
+							<label>Joining date with current employer
+								<a href="javascript:void(0)" data-toggle="tooltip" class="tooltip-link" title="" data-placement="top" data-original-title="When did you join your current employer?">
+									<img class="questionmark" src="images/Question.png" alt="tooltip">
+								</a>
+							</label>
+							<div class="row">
+								<div class="col-xs-6 col-sm-6 select-dropdown invalid">
+									<div class="btn-group bootstrap-select bselect">
+									<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="joiningDate" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+									<div class="dropdown-menu open">
+									<ul class="dropdown-menu inner" role="menu">
+									<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a class="hidden-xs" data-tokens="null"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="1"><a data-tokens="null"><span class="text">2019</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="2"><a data-tokens="null"><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="3"><a data-tokens="null"><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="4"><a data-tokens="null"><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="5"><a data-tokens="null"><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="6"><a data-tokens="null"><span class="text">2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="7"><a data-tokens="null"><span class="text">&lt;2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									</ul>
+									</div>
+									<select id="joiningDate" name="joiningDate" class="bselect" required="required">
+										<option value="" class="hidden-xs">Select</option>
+										<option value="2019">2019</option><option value="2018">2018</option>
+										<option value="2017">2017</option><option value="2016">2016</option>
+										<option value="2015">2015</option><option value="2014">2014</option>
+										<option value="2013">&lt;2014</option>
+									</select>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-6 select-dropdown invalid">
+									<div class="btn-group bootstrap-select bselect">
+									<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+									<div class="dropdown-menu open">
+									<ul class="dropdown-menu inner" role="menu">
+									<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="1"><a><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="2"><a><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="3"><a><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="4"><a><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="5"><a><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="6"><a><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="7"><a><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="8"><a><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="9"><a><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="10"><a><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="11"><a><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									<li data-original-index="12"><a><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									</ul>
+									</div>
+									<select class="bselect" name="joiningDateMonths">
+										<option value="" class="hidden-xs">Select</option>
+										<option value="01">Jan</option>
+										<option value="02">Feb</option>
+										<option value="03">Mar</option>
+										<option value="04">Apr</option>
+										<option value="05">May</option>
+										<option value="06">Jun</option>
+										<option value="07">Jul</option>
+										<option value="08">Aug</option>
+										<option value="09">Sept</option>
+										<option value="10">Oct</option>
+										<option value="11">Nov</option>
+										<option value="12">Dec</option>
+									</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<div class="select-dropdown invalid">
+								<label class="col-xs-12 col-sm-12 row" for="employment-type">Your Total Work Experience</label>
+								<div class="btn-group bootstrap-select bselect">
+									<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+									<div class="dropdown-menu open">
+										<ul class="dropdown-menu inner" role="menu">
+											<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="1"><a><span class="text">&lt;1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="2"><a><span class="text">1</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="3"><a><span class="text">2</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="4"><a><span class="text">3</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="5"><a><span class="text">4</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="6"><a><span class="text">5</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="7"><a><span class="text">&gt;5</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										</ul>
+									</div>
+									<select name="totalWorkEx" class="bselect" tabindex="-98">
+										<option value="" class="hidden-xs">Select</option>
+										<option value="0">&lt;1</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">&gt;5</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<span class="input input--hoshi tooltip-text">
+								<input name="monthlyTakeHomeSalary" class="input__field input__field--hoshi" type="tel" id="step1-salary" required="required">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-salary">
+									<span class="input__label-content input__label-content--hoshi">Monthly Net Take Home salary (<i class="fa fa-inr"></i>)
+										<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="What is your monthly salary after deductions?">
+											<img class="questionmark" src="images/Question.png" alt="tooltip">
+										</a>
+									</span>
+								</label>
+							</span>
+						</div>
+					</div>
+					<!--Salaried End-->
+					
+					
+					<!--Self Employed and Self Employed Professional Start-->
+					<div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<span class="input input--hoshi">
+									<input name="businessName" class="input__field input__field--hoshi" type="text" id="step1-businessName" required="required">
+									<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-businessName">
+										<span class="input__label-content input__label-content--hoshi">Name of Business</span>
+									</label>
+								</span>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="select-dropdown invalid">
+									<label class="col-xs-12 col-sm-12 row" for="employment-type">Nature of Business</label>
+									<div class="btn-group bootstrap-select bselect">
+									<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+									<div class="dropdown-menu open">
+									<ul class="dropdown-menu inner" role="menu">
+										<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="1"><a><span class="text">MANUFACTURING</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="2"><a><span class="text">OTHERS</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="3"><a><span class="text">RETAIL TRADERS</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="4"><a><span class="text">SERVICES</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="5"><a><span class="text">TRADING</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										<li data-original-index="6"><a><span class="text">PROFESSIONAL</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+									</ul>
+									</div>
+									<select class="bselect" name="natureOfBussiness" required="required" tabindex="-98">
+										<option value="" class="hidden-xs">Select</option>
+										<option value="2">MANUFACTURING</option>
+										<option value="5">OTHERS</option>
+										<option value="4">RETAIL TRADERS</option>
+										<option value="1">SERVICES</option>
+										<option value="3">TRADING</option>
+										<option value="6">PROFESSIONAL</option>
+									</select></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 dbldrp">
+								<label>Start date of current business/profession
+									<a href="javascript:void(0)" tabindex="-1" data-toggle="tooltip" class="tooltip-link" title="" data-placement="top" data-original-title="When did you start your current business?">
+										<img class="questionmark" src="images/Question.png" alt="tooltip">
+									</a>
+								</label>
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 select-dropdown invalid">
+										<div class="btn-group bootstrap-select bselect">
+										<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="businessStartDate" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+										<div class="dropdown-menu open">
+											<ul class="dropdown-menu inner" role="menu">
+												<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="1"><a><span class="text">2019</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="2"><a><span class="text">2018</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="3"><a><span class="text">2017</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="4"><a><span class="text">2016</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="5"><a><span class="text">2015</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="6"><a><span class="text">2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												<li data-original-index="7"><a><span class="text">&lt;2014</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											</ul>
+										</div>
+										<select id="businessStartDate" name="businessStartDate" class="bselect" required="required">
+											<option value="" class="hidden-xs">Select</option>
+											<option value="2019">2019</option><option value="2018">2018</option>
+											<option value="2017">2017</option><option value="2016">2016</option>
+											<option value="2015">2015</option><option value="2014">2014</option>
+											<option value="2013">&lt;2014</option>
+										</select>
+										</div>
+									</div>
+									<div class="col-xs-6 col-sm-6 select-dropdown invalid">
+										<div class="btn-group bootstrap-select bselect">
+											<button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+											<div class="dropdown-menu open">
+												<ul class="dropdown-menu inner" role="menu">
+													<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="1"><a><span class="text">Jan</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="2"><a><span class="text">Feb</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="3"><a><span class="text">Mar</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="4"><a><span class="text">Apr</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="5"><a><span class="text">May</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="6"><a><span class="text">Jun</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="7"><a><span class="text">Jul</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="8"><a><span class="text">Aug</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="9"><a><span class="text">Sept</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="10"><a><span class="text">Oct</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="11"><a><span class="text">Nov</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+													<li data-original-index="12"><a><span class="text">Dec</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+												</ul>
+											</div>
+											<select name="businessStartDateMonths" class="bselect">
+												<option value="" class="hidden-xs">Select</option>
+												<option value="01">Jan</option>
+												<option value="02">Feb</option>
+												<option value="03">Mar</option>
+												<option value="04">Apr</option>
+												<option value="05">May</option>
+												<option value="06">Jun</option>
+												<option value="07">Jul</option>
+												<option value="08">Aug</option>
+												<option value="09">Sept</option>
+												<option value="10">Oct</option>
+												<option value="11">Nov</option>
+												<option value="12">Dec</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="select-dropdown invalid">
+									<label class="col-xs-12 col-sm-12 row" for="employment-type">Total Years of Business Experience</label>
+									<div class="btn-group bootstrap-select bselect"><button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="Select"><span class="filter-option pull-left">Select</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
+									<div class="dropdown-menu open">
+										<ul class="dropdown-menu inner" role="menu">
+											<li data-original-index="0" class="selected disabled-result result-selected visible-xs"><a class="hidden-xs"><span class="text">Select</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="1"><a><span class="text">1 Year</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="2"><a><span class="text">2 Years</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="3"><a><span class="text">3 Years</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="4"><a><span class="text">4 Years</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="5"><a><span class="text">5 Years</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+											<li data-original-index="6"><a><span class="text">&gt;5 Years</span><span class="glyphicon glyphicon-ok check-mark"></span></a></li>
+										</ul>
+									</div>
+									<select name="totYearsOfBusinessExperience" class="bselect" required="required">
+										<option value="" class="hidden-xs">Select</option>
+										<option value="1">1 Year</option>
+										<option value="2">2 Years</option>
+										<option value="3">3 Years</option>
+										<option value="4">4 Years</option>
+										<option value="5">5 Years</option>
+										<option value="6">&gt;5 Years</option>
+									</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<span class="input input--hoshi tooltip-text">
+								<input name="grossTotalIncome" class="input__field input__field--hoshi specialInputs" type="tel" id="grossTotalIncome" maxlength="14" required="required">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="grossTotalIncome">
+									<span class="input__label-content input__label-content--hoshi">Latest year Gross Total Income (<i class="fa fa-inr"></i>)
+										<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="What is your total income of the current assessment year?">
+											<img class="questionmark" src="images/Question.png" alt="tooltip">
+										</a>
+									</span>
+								</label>
+								</span>
+							</div>
+						</div>
+					</div>
+					<!--Self Employed and Self Employed Professional End-->
+					
+					<div class="row sectionSeparator visible-xs"></div>
+					<div class="row sectionHeadingsWrapper workInfo">
+						<p class="sectionHeadings"><strong>Others</strong></p>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<span class="input input--hoshi tooltip-text">
+							<input name="emiPaid" class="input__field input__field--hoshi" type="tel" id="emiPaid" maxlength="14" required="required">
+							<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-emiPerMonth">
+							<span class="input__label-content input__label-content--hoshi">Current EMI paid for Car loan  (<i class="fa fa-inr"></i>) 
+							</span>
+							</label>
+							</span>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<span class="input input--hoshi tooltip-text">
+							<input name="emis" class="input__field input__field--hoshi" type="text" id="step1-emiPerMonth" maxlength="10" required="required">
+							<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-emiPerMonth">
+							<span class="input__label-content input__label-content--hoshi">No. of Car loans EMIs Served till now</span>
+							</label>
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<span class="input input--hoshi tooltip-text input--filled">
+							<input name="currentEmiPerMonth" number-with-comma="" class="input__field input__field--hoshi" type="tel" id="step1-emiPerMonth" maxlength="14" required="required">
+							<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="step1-emiPerMonth">
+							<span class="input__label-content input__label-content--hoshi">Total other EMIs you currently pay per
+							month (<i class="fa fa-inr"></i>) 
+							<a href="javascript:void(0)" tabindex="-1" class="tooltip-link" data-toggle="tooltip" title="" data-placement="top" data-original-title="Please exclude your Car loan EMI">
+							<img class="questionmark" src="images/Question.png" alt="tooltip">
+							</a>
+							</span>
+							</label>
+							</span>
+						</div>
+					</div>
+					<div class="individual-btn-div clearfix">
+						<div class="col-xs-12 col-md-12 clearfix termsStep1 marginTop20">
+							<div class="step checkbox_wrapper box-align-ce">
+								<input type="checkbox" class="col-xs-1" required="required">
+								<label></label>
+							</div>
+							<span class="col-xs-12 col-md-12 termsStep1Span">I declare that the Information I have provided above is accurate and complete to the best of my knowledge.I authorize ICICI Bank &amp;  its representatives to call or SMS me with reference to my loan application.</span>
+						</div>
+						<div class="eligibilityBtn">
+							<button class="btn blue btnMainStep1" type="submit" id="eligibility-btn" onclick="window.location.href='cl-offer-for-u.html';">Check Eligibility</button>
+						</div>
+					</div>
+				</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Main Content End-->
+		
+		<!--Footer Start-->
+		<div id="footer" class="row">
+			<div class="container-fluid">
+			   <p class="text-center">
+				  <span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+				  <span id="footer-links"><a target="_blank" href="auto-loan-disclaimer.html">Disclaimer</a> <span>|</span>
+				  <a target="_blank" href="pdfs/AL_TnC.pdf">Terms & conditions</a>
+				  </span>
+			   </p>
+			</div>
+		</div>
+		<!--Footer End-->
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/icici.min.js"></script>
+<script>
+	$(document).ready(function(){
+		var date_input=$('input[name="date"]'); //our date input has the name "date"
+		var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+		date_input.datepicker({
+			format: 'mm/dd/yyyy',
+			container: container,
+			todayHighlight: true,
+			autoclose: true,
+		})
+	})
+</script>
+</html>

@@ -1,0 +1,2103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICICI Bank</title>
+		<meta http-equiv="X-Frame-Options" content="deny">
+		<meta name="description" content="ICICI" />
+		<meta name="keywords" content="ICICI" />
+		<meta http-equiv="X-UA-Compatible" content="IE=11" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/icici.min.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body class="hlClass">
+		<!--Loader Start-->
+		<!--<div class="portal-throbber" style="display:block">
+			<div class="mask"></div>
+			<div class="cssload-loader"><span class="cssload-loader-inner"></span></div>
+			<div class="processRequest">Processing your request</div>
+		</div>-->
+		<!--Loader End-->
+		<div class="container-fluid">
+			<!--Header Start-->
+			<div class="row">
+				<div class="col-xs-12 menu subheader-wrapper">
+					<div class="header-container">
+						<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+						</a>
+						<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+							<ul class="col-xs-12 menu-items">
+								<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+								<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+							</ul>
+							<div class="mask hamburgerIcon"></div>
+						</div>
+						<span>
+							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+						</span>
+						<p class="pull-left"><span class="moduleName">Home Loans</span></p>
+					</div>
+				</div>
+			</div>
+			<!--Header End-->
+			<!--Main Content Start-->
+			<div id="content">
+				<div id="upload-documents-page">
+					<div class="row">
+						<div class="col-xs-12 info clearfix subheader-wrapper subheader-wrapper-info">
+							<div class="header-container">
+								<p class="pull-left">Upload your documents for faster processing</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="check-eligibility-steps text-center">
+							<div class="steps-inner-container">
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 1 of 4</p>
+									<p>Check Eligibility</p>
+								</div>
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 2 of 4</p>
+									<p>Offer For You</p>
+								</div>
+								<div class="hidden-xs col-sm-3 text-center">
+									<p>Step 3 of 4</p>
+									<p>Complete Application</p>
+								</div>
+								<div class="col-xs-12 col-sm-3 text-center">
+									<p class="steps-count">Step 4 of 4</p>
+									<p class="heading">Upload Documents</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="steps clearfix">
+						<div class="col-xs-3 text-center">
+							<a href="hl-check-eligibility.html"><span class="completed-step center-block check-eligibility"></span></a>
+						</div>
+						<div class="col-xs-3 text-center">
+							<a href="hl-offer-for-u.html"><span class="completed-step center-block offer-for-you"></span></a>
+						</div>
+						<div class="col-xs-3 text-center">
+							<a href="hl-complete-application.html"><span class="completed-step center-block complete-application"></span></a>
+						</div>
+						<div class="col-xs-3 text-center">
+							<a href="hl-upload-documents.html"><span class="current-step center-block upload-doc"></span></a>
+						</div>
+					</div>
+					<div class="clearfix uploadProgress">
+						<div class="progressCompleted pull-left progress" max="100" value="completedValue">
+							<div class="progress-bar" role="progressbar" aria-valuetext="0%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;"></div>
+						</div>
+						<span class="pull-right">0%</span>
+					</div>
+					<div class="row step3-main-wrapper clearfix">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12">
+								<ul class="nav nav-tabs">
+									<li class="text-center clearfix col-xs-6 col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-5 offer-tab active">
+										<a href="#Applicant" data-toggle="tab" aria-expanded="true">Applicant</a>
+									</li>
+									<li class="text-center clearfix col-xs-6 col-sm-4 col-md-3">
+										<a href="#CoApplicant" data-toggle="tab" aria-expanded="false">Co Applicant</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="Applicant">
+										<div class="col-md-4 documents-main-menu step3-leftNav" id="step3-leftNavApp">
+											<div class="menu-area clearfix">
+												<ul class="list-group tabs" id="selectuplaodtype">
+													<li class="list-group-item clearfix selected-tab active">
+														<span>Signature Verification Document</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#SignatureVerification" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Address Document</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#AddressDocument" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Identity Document</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#IdentityDocument" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Bank Statement</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#BankStatement" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Application Form</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#ApplicationForm" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Photograph</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#Photograph" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Income Document</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#IncomeDocument" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Existing Loans Document</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#ExitingLoanDocument" class="fill-now pull-right"></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="tab_container">
+											<div class="col-md-8 step3-rightNav tab_content" id="SignatureVerification" style="display:block;">
+												<div class="content-area" id="step3-rightNav1">
+													<div class="homeLoan">
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="javascript:void(0);" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="javascript:void(0);" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Signature Verification Document</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 494px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" id="accordion" role="tablist" aria-multiselectable="true">
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="javascript:void(0)" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">PAN Card<span ng-show="subdocument.id != null" href="javascript:void(0)" class="popoverChange-other popoverClick" uib-popover-template="dynamicPopover.templateUrl" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="javascript:void(0)" class="popoverChange-window"  tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="javascript:void(0)" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<a href="javascript:void(0)" class="pull-right attachment"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in" role="tabpanel">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div class="row clearfix cancelUploading hidden">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 100%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark hidden" data-parent="PAN Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="javascript:void(0)">Cancel </a>
+																							<a id="ud-retry" href="javascript:void(0)">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button">Next <i class="fa fa-chevron-right"></i></button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">*Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">PL TnC </a>
+																<span class="noStyle">For T&amp;C pertaining to MySavings Rewards (<a target="_blank" href="http://www.icicibank.com/Personal-Banking/account-deposit/savings-account/rewards/msr-terms-and-conditions.page?#toptitle">Click Here</a>)</span></span>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="AddressDocument">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Address Document</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" id="accordion" role="tablist">
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">Valid Passport<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="PassportFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="Passport" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">                                                                            
+																							<div id="pbar1" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress " max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width:0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Passport"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Voter Identity Card with photograph<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="VoterIDCardFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="VoterIDCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																					
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar2" class="row clearfix cancelUploading" onclick ="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress ng-isolate-scope" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width:0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Voter ID Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading2">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Driving License<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="DrivingLicenseFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="DrivingLicense" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse2" class="panel-collapse collapse in">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar2" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width: 0%;"></div>
+																									<a class="pull-right cancelMark" data-parent="Driving License"><strong class="pull-right">X</strong></a>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="pl-upload-error">
+																							<p class="pl-upload-error-message"></p>
+																							<div>
+																								<a id="ud-cancel" href="#">Cancel </a>
+																								<a id="ud-retry" href="#">| Retry</a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading3">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">AADHAR ID Card<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="AadharCardFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="AadharCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar3" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;"></div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Aadhar Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a></span>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="IdentityDocument">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Identity Document</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" id="accordion" role="tablist">
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">Valid Passport<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="PassportFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="Passport" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">                                                                            
+																							<div id="pbar1" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress " max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width:0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Passport"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Voter Identity Card with photograph<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="VoterIDCardFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="VoterIDCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																					
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar2" class="row clearfix cancelUploading" onclick ="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress ng-isolate-scope" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width:0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Voter ID Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading2">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Driving License<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="DrivingLicenseFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="DrivingLicense" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse2" class="panel-collapse collapse in">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar2" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width: 0%;"></div>
+																									<a class="pull-right cancelMark" data-parent="Driving License"><strong class="pull-right">X</strong></a>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="pl-upload-error">
+																							<p class="pl-upload-error-message"></p>
+																							<div>
+																								<a id="ud-cancel" href="#">Cancel </a>
+																								<a id="ud-retry" href="#">| Retry</a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading3">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">PAN Card<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="AadharCardFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="AadharCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar3" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;"></div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Aadhar Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading3">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">AADHAR ID Card<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="AadharCardFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="AadharCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar3" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;"></div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Aadhar Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+																</span></p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="BankStatement">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Bank Statement</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" ng-class="!completedApplicationFlow?'f1':'f2'" id="accordion" role="tablist" aria-multiselectable="true">
+																		<div class="panel panel-default list-group-item clearfix" style="">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">All operative account bank statement (last 6 months)</a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<a href="#" class="pull-right attachment"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0">
+																				<div class="panel-body">
+																					
+																					
+																					
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar20" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Bank Statement (last 3 months) with latest salary credit"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a></span>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="ApplicationForm">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Application Form</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" ng-class="!completedApplicationFlow?'f1':'f2'" id="accordion" role="tablist" aria-multiselectable="true">
+																		<div class="panel panel-default list-group-item clearfix" style="">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">Application Form<span href="#" class="popoverChange-other popoverClick ng-hide" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																						
+																					<span href="#" class="popoverChange-window ng-hide" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="ApplicationFormFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="ApplicationForm " onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0">
+																				<div class="panel-body">
+																					
+																					
+																					
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar21" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Application Form"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+																	
+																</span></p>
+																
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="Photograph">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Photograph</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" id="accordion" role="tablist" aria-multiselectable="true">
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">1 Recent Passport size colour photo<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="PhotographFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="Photograph" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar22" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Passport size photo"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+																	
+																</span></p>
+																
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="IncomeDocument">
+												<div class="content-area">
+													<div class="personalLoan">
+														
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Income Document</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" id="accordion" role="tablist" aria-multiselectable="true">
+																		<div class="panel panel-default list-group-item clearfix" style="">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">Pay Slip (Last 3 months)<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																						
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="PaySlipFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="PaySlip" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar23" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Pay Slip (Last 3 months)"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Latest Form 16</a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="IDForm16File" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="IDForm16" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar24" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Form 16"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Latest ITR</a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="LatestITR" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="IDForm16" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar24" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Form 16"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Form 26AS</a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="Form26AS" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="IDForm16" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar24" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Form 16"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading2">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Appointment letter mentioning Annual Benefits</a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="BankStatementFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="BankStatement" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																					
+																				</div>
+																			</div>
+																			<div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
+																				<div class="panel-body">
+																					
+																					
+																					
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar25" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Last 3 months Bank Statement with Salary Credits"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+																	
+																</span></p>
+																
+														</div>
+													</div>
+													
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="ExitingLoanDocument">
+												<div class="content-area">
+													<div class="personalLoan">
+														
+														<div class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Existing Loans Document</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload any one of the following documents</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" id="accordion" role="tablist" aria-multiselectable="true">
+																		<div class="panel panel-default list-group-item clearfix" style="">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">Closure Proof of Loans closed in last 6 months</a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>						
+																					<a href="#" class="pull-right attachment"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar23" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Closure Proof of Loans closed in last 6 months"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Sanction Letter</a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="IDForm16File" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="IDForm16" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar24" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Form 16"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Repayment track record of the loan</a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="LatestITR" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="IDForm16" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar24" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Form 16"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+																	
+																</span></p>
+																
+														</div>
+													</div>
+													
+												</div>
+											</div>
+											
+										</div>
+										<div class="documents-menu row col-sm-6 hidden" hidden="displayMenuItems">
+											<div class="hidden-md hidden-lg">
+												<div class="menu-area clearfix">
+													<div class="list-group">
+														<a class="list-group-item active" href="#SignatureVerification">
+															<span>Signature Verification Document</span>
+														</a>
+														<a class="list-group-item" href="#AddressDocument">
+															<span>Address Document</span>
+														</a>
+														<a class="list-group-item" href="#IdentityDocument">
+															<span>Identity Document</span>
+														</a>
+														<a class="list-group-item" href="javascript:void(0);">
+															<span>Bank Statement</span>
+														</a>
+														<a class="list-group-item" href="#ApplicationForm">
+															<span>Application Form</span>
+														</a>
+														<a class="list-group-item" href="#Photograph">
+															<span>Photograph</span>
+														</a>
+														<a class="list-group-item" href="#IncomeDocument">
+															<span>Income Document</span>
+														</a>
+														<a class="list-group-item" href="#ExitingLoanDocument">
+															<span>Existing Loans Document</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>	
+									</div>
+									<div class="tab-pane fade in" id="CoApplicant">
+										<div class="col-md-4 documents-main-menu step3-leftNav" id="step3-leftNavCoApp">
+											<div class="menu-area clearfix">
+												<ul class="list-group tabs" id="selectuplaodtype">
+													<li class="list-group-item clearfix selected-tab active">
+														<span>Signature Verification Document</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#Co-SignatureVerification" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Address Document</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#Co-AddressDocument" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Identity Document</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#Co-IdentityDocument" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Application Form</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#Co-ApplicationForm" class="fill-now pull-right"></a>
+													</li>
+													<li class="list-group-item clearfix selected-tab">
+														<span>Photograph</span>
+														<img class="pull-right" src="images/uploaddocuments_normal.png">
+														<a href="#Co-Photograph" class="fill-now pull-right"></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="tab_container">
+											<div class="col-md-8 step3-rightNav tab_content" id="Co-SignatureVerification">
+												<div class="content-area">
+													<div id="address-document-page" class="individual-doc-page">
+														<div class="container-fluid">
+															<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																<a href="javascript:void(0);" class="back-btn pull-left"></a>
+																<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																<a href="javascript:void(0);" class="pull-left individual-doc-heading">
+																	<span class="moreText customWidth">Signature Verification Document</span>
+																	<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																</a>
+															</div>
+															<div class="row visible-xs visible-sm">
+																<div class="col-xs-12 info clearfix subheader-wrapper">
+																	<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																</div>
+															</div>
+															<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 308px;">
+																<p class="help-msg-documents">Upload any one of the following documents</p>
+																<div class="panel-group doc-acc list-group documents-list coApp f1" id="accordion" role="tablist" aria-multiselectable="true">
+																	<div class="panel panel-default list-group-item clearfix">
+																		<div class="panel-heading clearfix" role="tab" id="heading0">
+																			<div class="block popoverElement doc-name subdocName panel-title">
+																				<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="javascript:void(0)" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">PAN Card<span href="javascript:void(0)" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																				<span href="javascript:void(0)" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				
+																			</div>
+																			<div class="acc-athmt">
+																				<a href="javascript:void(0)" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																				<a href="javascript:void(0)" class="pull-right attachment"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																			</div>
+																		</div>
+																		<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0">
+																			<div class="panel-body">
+																				<div class="individual-statement-doc clearfix">
+																					<div class="individual-statement-progress clearfix">
+																						<div class="row clearfix cancelUploading hidden">
+																							<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																								<div class="progress-bar" role="progressbar" style="min-width: 0px; width: 100%;">
+																								</div>
+																							</div>
+																							<a class="pull-right cancelMark hidden"><strong class="pull-right">X</strong></a>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="pl-upload-error">
+																					<p class="pl-upload-error-message"></p>
+																					<div>
+																						<a id="ud-cancel" href="javascript:void(0)">Cancel </a>
+																						<a id="ud-retry" href="javascript:void(0)">| Retry</a>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="document-btns clearfix">
+																	<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button">Next <i class="fa fa-chevron-right"></i></button>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div id="footer" class="hidden-md hidden-lg">
+														<p class="text-center">
+															<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+															<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">*Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">PL TnC </a>
+															<span class="noStyle">For T&amp;C pertaining to MySavings Rewards (<a target="_blank" href="http://www.icicibank.com/Personal-Banking/account-deposit/savings-account/rewards/msr-terms-and-conditions.page?#toptitle">Click Here</a>)</span></span>
+														</p>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="Co-AddressDocument">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Address Document</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" id="accordion" role="tablist">
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">Valid Passport<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="PassportFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="Passport" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">                                                                            
+																							<div id="pbar1" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress " max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width:0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Passport"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Voter Identity Card with photograph<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="VoterIDCardFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="VoterIDCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																					
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar2" class="row clearfix cancelUploading" onclick ="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress ng-isolate-scope" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width:0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Voter ID Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading2">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Driving License<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="DrivingLicenseFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="DrivingLicense" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse2" class="panel-collapse collapse in">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar2" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width: 0%;"></div>
+																									<a class="pull-right cancelMark" data-parent="Driving License"><strong class="pull-right">X</strong></a>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="pl-upload-error">
+																							<p class="pl-upload-error-message"></p>
+																							<div>
+																								<a id="ud-cancel" href="#">Cancel </a>
+																								<a id="ud-retry" href="#">| Retry</a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading3">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">AADHAR ID Card<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="AadharCardFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="AadharCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar3" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;"></div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Aadhar Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading4">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Relationship Proof with Applicant issued by Govt Authority (applicable only if co-applicants address is same as that of applicant)</a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="NREGACardFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="NREGACard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading4">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar4" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;"></div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="NREGA Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a></span>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="Co-IdentityDocument">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Identity Document</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" id="accordion" role="tablist">
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">Valid Passport<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="PassportFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="Passport" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">                                                                            
+																							<div id="pbar1" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress " max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width:0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Passport"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																			
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading1">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Voter Identity Card with photograph<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="VoterIDCardFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="VoterIDCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																					
+																				</div>
+																			</div>
+																			<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar2" class="row clearfix cancelUploading" onclick ="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress ng-isolate-scope" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width:0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Voter ID Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading2">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Driving License<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="DrivingLicenseFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="DrivingLicense" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse2" class="panel-collapse collapse in">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							<div id="pbar2" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" style="min-width: 0px; width: 0%;"></div>
+																									<a class="pull-right cancelMark" data-parent="Driving License"><strong class="pull-right">X</strong></a>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="pl-upload-error">
+																							<p class="pl-upload-error-message"></p>
+																							<div>
+																								<a id="ud-cancel" href="#">Cancel </a>
+																								<a id="ud-retry" href="#">| Retry</a>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading3">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">PAN Card<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="AadharCardFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="AadharCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar3" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;"></div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Aadhar Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																		<div class="panel panel-default list-group-item clearfix">
+																			<div class="panel-heading clearfix" role="tab" id="heading3">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">AADHAR ID Card<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="AadharCardFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="AadharCard" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar3" class="row clearfix cancelUploading" onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;"></div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Aadhar Card"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+																</span></p>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="Co-ApplicationForm">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Application Form</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" ng-class="!completedApplicationFlow?'f1':'f2'" id="accordion" role="tablist" aria-multiselectable="true">
+																		<div class="panel panel-default list-group-item clearfix" style="">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">Application Form<span href="#" class="popoverChange-other popoverClick ng-hide" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																						
+																					<span href="#" class="popoverChange-window ng-hide" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																					
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="ApplicationFormFile" style="display:none;"/>								
+																					<a href="#" class="pull-right attachment" id="ApplicationForm " onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0">
+																				<div class="panel-body">
+																					
+																					
+																					
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar21" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Application Form"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+																	
+																</span></p>
+																
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-8 step3-rightNav tab_content" id="Co-Photograph">
+												<div class="content-area">
+													<div class="personalLoan">
+														<div id="address-document-page" class="individual-doc-page" style="min-height: inherit;">
+															<div class="container-fluid">
+																<div class="row menu subheader-wrapper hidden-md hidden-lg">
+																	<a href="#" class="back-btn pull-left"></a>
+																	<a class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+																	<a href="#" class="pull-left individual-doc-heading">
+																		<span class="moreText customWidth">Photograph</span>
+																		<i class="fa fa-chevron-down visible-inline-xs uploadDocsDownArrow pull-left"></i>
+																	</a>
+																</div>
+																<div class="row visible-xs visible-sm">
+																	<div class="col-xs-12 info clearfix subheader-wrapper">
+																		<p class="pull-left">Upload documents for quick loan disbursement.</p>
+																	</div>
+																</div>
+																<div class="mainbox clearfix docsDiv bgequilizer" id="docsDivApp" style="min-height: 514px;">
+																	<p class="help-msg-documents">Upload any one of the following documents</p>
+																	<div class="panel-group doc-acc list-group documents-list f1" ng-class="!completedApplicationFlow?'f1':'f2'" id="accordion" role="tablist" aria-multiselectable="true">
+																		<div class="panel panel-default list-group-item clearfix" style="">
+																			<div class="panel-heading clearfix" role="tab" id="heading0">
+																				<div class="block popoverElement doc-name subdocName panel-title">
+																					<a role="button" data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#" data-target="#collapse0" aria-expanded="false" aria-controls="collapse0">1 Recent Passport size colour photo<span href="#" class="popoverChange-other popoverClick" popover-trigger="focus mouseenter" popover-title="" popover-placement="bottom" tabindex="0" style="display: inline-block;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span>
+																					<span href="#" class="popoverChange-window" popover-trigger="focus" popover-title="" popover-placement="bottom" tabindex="0" style="display: none;"><img class="questionmark" alt="tooltip" src="images/Question.png"></span></a>
+																				</div>
+																				<div class="acc-athmt">
+																					<a href="#" class="pull-right attachment" accept="image/*" capture="camera"><img src="images/camera.png" alt="camera" class="cameraIcon visible-xs visible-sm"></a>
+																					<input type="file" id="PhotographFile" style="display:none;"/>
+																					<a href="#" class="pull-right attachment" id="Photograph" onclick="UploadDocs(id);"><img src="images/attachment.png" alt="attachment"><span class="hidden-xs hidden-sm colorBlue">Attach file</span></a>
+																				</div>
+																			</div>
+																			<div id="collapse0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading0">
+																				<div class="panel-body">
+																					<div class="individual-statement-doc clearfix">
+																						<div class="individual-statement-progress clearfix">
+																							
+																							<div id="pbar22" class="row clearfix cancelUploading"onclick="deleteprogress(id);">
+																								<div class="individualDocUpload pull-left progress" max="max" value="dynamic">
+																									<div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" aria-valuetext="%" aria-labelledby="progressbar" style="min-width: 0px; width: 0%;">
+																									</div>
+																								</div>
+																								<a class="pull-right cancelMark" data-parent="Passport size photo"><strong class="pull-right">X</strong></a>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="pl-upload-error">
+																						<p class="pl-upload-error-message"></p>
+																						<div>
+																							<a id="ud-cancel" href="#">Cancel </a>
+																							<a id="ud-retry" href="#">| Retry</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="document-btns clearfix">
+																		<button class="col-xs-3 col-sm-2 col-md-2" type="button" style=""><i class="fa fa-chevron-left"></i> Back</button>
+																		<button class="pull-right col-xs-3 col-sm-2 col-md-2" type="button" style="">Next <i class="fa fa-chevron-right"></i></button>
+																		
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div id="footer" class="hidden-md hidden-lg">
+															<p class="text-center">
+																<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd. </span>
+																<span id="footer-links"><a target="_blank" href="partials/disclaimer.html">Disclaimer </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC.pdf">Terms &amp; Conditions </a><span>| </span><a target="_blank" href="assets/pdfs/PL_TnC1.pdf">Personal Loan Terms and Conditions </a>
+																	
+																</span></p>
+																
+														</div>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+										<div class="documents-menu row col-xs-12 col-sm-6 hidden" hidden="displayMenuItems">
+											<div class="hidden-md hidden-lg">
+												<div class="menu-area clearfix">
+													<div class="list-group">
+														<a class="list-group-item active" href="javascript:void(0);">
+															<span>Signature Verification Document</span>
+														</a>
+														<a class="list-group-item" href="javascript:void(0);">
+															<span>Address Document</span>
+														</a>
+														<a class="list-group-item" href="javascript:void(0);">
+															<span>Identity Document</span>
+														</a>
+														<a class="list-group-item" href="javascript:void(0);">
+															<span>Application Form</span>
+														</a>
+														<a class="list-group-item" href="javascript:void(0);">
+															<span>Photograph</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row step3-main-wrapper subBtn clearfix ">
+							<div class="col-md-3"></div>
+							<div class="col-xs-12 col-md-7 submitMargin">
+								<div class="container-fluid">
+									<div class=" mainbox clearfix text-center padding2em">
+										<button class="btn blue upload-submit-btn" data-target="#ThankYouBox" data-toggle="modal">Submit</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Main Content End-->
+				
+				<!--Popup Window-->
+				<div role="dialog" class="modal fade in" id="ThankYouBox">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div id="uploadSuccessful-modal">
+								<div class="row logo clearfix">
+									<img class="upload-logo pull-left" src="images/icici_logo_img_popup.png">
+									<a href="javascript:void(0);" data-dismiss="modal" class="close-img pull-right"></a>
+								</div>
+								<div class="row upload-header">
+									<div class="upload-success clearfix">
+										<h4 class="text-center col-xs-12">Thank you for your Home Loan application.</h4>
+									</div>
+									<div class="upload-success-content clearfix">
+										<p class="col-xs-12">You can track your application by visiting "Track your Application" Section</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 form-group radio-btn other-offers">
+										<div class="row">
+											<div class="col-xs-12">
+												<label class=""><b>Would you like us to connect with you for any other product?</b></label>
+												<div class="list-group clearfix col-xs-12 col-sm-offset-1 col-sm-10">
+													<a class="list-group-item active" id="cc-icon" href="javascript:void(0);" ng-click="activeClass($index);countthecheck();" ng-class="{active: selected[$index]}" ng-repeat="item in allProducts" style="">
+														<span>Credit Card</span><span class="tick-icon pull-right"></span>
+													</a>
+													<a class="list-group-item active" id="personal-loan-icon" href="javascript:void(0);" ng-click="activeClass($index);countthecheck();" ng-class="{active: selected[$index]}" ng-repeat="item in allProducts" style="">
+														<span>Personal Loan</span><span class="tick-icon pull-right"></span>
+													</a>
+													<a class="list-group-item active" id="auto-loan-icon" href="javascript:void(0);" ng-click="activeClass($index);countthecheck();" ng-class="{active: selected[$index]}" ng-repeat="item in allProducts" style="">
+														<span>Auto Loan</span><span class="tick-icon pull-right"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="ok-btn clearfix text-center col-xs-12" ng-if="checkItemActive" style="">
+										<div class="col-xs-12 col-sm-12 col-md-12 col-sm-offset-1 clearfix text-left">
+											<div class="step checkbox_wrapper marginTop-20">
+												<input type="checkbox" class="col-xs-1" ng-model="callme">
+												<label></label>
+											</div>
+											<span class="col-xs-12 col-sm-12 termsStep1Span">I authorize ICICI Bank &amp;  its representatives to call, sms or email me for selected offers.</span>
+										</div>
+										<button class="btn blue" type="button" ng-click="uploadSuccessOk()" ng-disabled="!callme">OK</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!--Footer Start-->
+				<div id="footer" class="row">
+					<div class="container-fluid">
+						<p class="text-center">
+							<span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+							<span id="footer-links"><a target="_blank" href="auto-loan-disclaimer.html">Disclaimer</a> <span>|</span>
+								<a target="_blank" href="pdfs/AL_TnC.pdf">Terms & conditions</a>
+							</span>
+						</p>
+					</div>
+				</div>
+				<!--Footer End-->
+			</div>
+		</body>
+		<script src="js/icici.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function($) {
+				$('.tab_content').hide();
+				$('.tab_content:first').show();
+				$('.tabs li:first').addClass('active');
+				$('.tabs li').click(function(event) {
+					$('.tabs li').removeClass('active');
+					$(this).addClass('active');
+					$('.tab_content').hide();
+					var selectTab = $(this).find('a').attr("href");
+					$(selectTab).fadeIn();
+				});
+			});
+		</script>
+	</html>	

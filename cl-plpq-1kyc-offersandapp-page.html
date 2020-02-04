@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='iciciApp' ng-controller="iciciAppCtrl">
+<head>
+	<title>ICICI Bank</title>
+	<meta http-equiv="X-Frame-Options" content="deny">
+	<meta name="description" content="ICICI" />
+	<meta name="keywords" content="ICICI" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icici.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<!--Header Start-->
+		<div class="row">
+			<div class="col-xs-12 menu subheader-wrapper">
+				<div class="header-container">
+					<a class="back-btn pull-left ng-scope" href="apply-now.html"></a>
+					<span>
+					<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+					</span>
+					<p class="pull-left"><span class="moduleName">Net Banking</span></p>
+				</div>
+			</div>
+		</div>
+		<!--Header End-->
+        <!--Main Content Start-->
+		<div id="content" ui-view="main" data-spy="scroll" class="ng-scope" style=""><div id="pl-pq-1kyc-page" ng-class="{'no-bg': cur_step > 1}" class="row ng-scope">
+			<fieldset ng-disabled="isTma">
+				<!-- <img class="pull-left hidden-xs" src="assets/images/i_small.png" alt="i"/> -->
+				<!-- <div class="header-container">
+						<p class="pull-left">Hey Arun! Get your loan upto <i class="fa fa-inr"></i> 15,00,000 for 5 years in 3 simple steps.</p>
+					</div> -->
+				<!-- ngIf: cur_step > 1 || isTma -->
+			</fieldset>
+			<!-- ngIf: cur_step > 1 || isTma -->
+			<fieldset ng-disabled="isTma">
+				<!-- ngIf: cur_step == 1 --><div ng-if="cur_step == 1" class="row fixed-wrapper page-title ng-scope">
+					<h2 class="title-text ng-binding">Hey Mukesh! <!-- ngIf: vm.modified --><!-- ngIf: !vm.modified --><span style="font-family: inherit;" ng-if="!vm.modified" class="ng-scope">You</span><!-- end ngIf: !vm.modified --> are <!-- ngIf: vm.modified -->eligible for a Personal Loan of <span style="white-space: nowrap;"><i class="fa fa-inr color-text"></i> <b class="color-text ng-binding">875,000</b></span> for <b class="color-text ng-binding">5 years</b>.</h2>
+				</div><!-- end ngIf: cur_step == 1 -->
+				<div class="row fixed-wrapper">
+					<!-- ngIf: cur_step == 1 && !isTma --><div ng-if="cur_step == 1 &amp;&amp; !isTma" class="step-1 container-box marginBottom20 paddingTop12 ng-scope">
+						<p class="card-title"><span class="hidden-xs">Customize your loan plan</span><span class="visible-xs">Customize loan</span></p>
+						<div class="step-container">
+							STEP
+							<div class="visible-xs steps-bg"></div>
+							<ul>
+								<li ng-class="{ 'incomplete': comp_step == 1 &amp;&amp; !isTma,'complete': ((comp_step >= 2) || isTma),'blank': false }" class="incomplete">
+									<div class="triangle"><i class="fa fa-check"></i></div>
+									<div class="step-fill"></div>
+									<div class="step-label">1</div>
+								</li>
+								<li ng-class="{ 'incomplete': comp_step == 2 &amp;&amp; !isTma,'complete': ((comp_step >= 3) || isTma),'blank': comp_step <= 1 }" class="blank">
+									<div class="triangle"><i class="fa fa-check"></i></div>
+									<div class="step-fill"></div>
+									<div class="step-label">2</div>
+								</li>
+								<li ng-class="{ 'incomplete': comp_step == 3 &amp;&amp; !isTma,'complete': ((comp_step >= 4) || isTma),'blank': comp_step <= 2 }" class="blank">
+									<div class="triangle"><i class="fa fa-check"></i></div>
+									<div class="step-fill"></div>
+									<div class="step-label">3</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix card-specs">
+							<div class="clearfix">
+								<form name="vm.plPqOffersForm" autocomplete="off" novalidate="" class="step1UserForm ng-pristine ng-valid ng-valid-required ng-valid-pattern" id="plPqOffersForm">
+									<div class="col-xs-12 col-sm-5 no-pad-left">
+										<fieldset ng-disabled="vm.breDone">
+											<div data-listed="false" dta="" data-plpk="true" data-model="vm.user.company" data-form="vm.plPqOffersForm" data-fieldid="'plpq-company'" data-assignchanged="vm.assignChanged()" data-need="true" class="companycss two-line-label ng-isolate-scope" ng-keyup="checkCompanyEnter(vm.user.company, event, 'cmp')">
+			<div class="custom-date-holder location-drpdwn">
+				<span class="input input--hoshi input--filled" ng-class="{'input--filled':(model || form[fieldid].$error.pattern)}">
+					<div class="field-loader ng-hide" ng-show="isFieldLoading">
+						<div class="cssload-loader ">
+							<span class="cssload-loader-inner"></span>
+						</div>
+					</div>
+					<!-- ng-pattern="/.*[a-zA-Z].*/" 24.02.2017 -->
+					<input status="" name="'plpq-company'" class="input__field input__field--hoshi uppercase ng-pristine ng-untouched ng-valid ng-valid-required ng-valid-pattern" type="text" id="'plpq-company'" ng-model="model" ng-trim="false" ng-required="true" typeahead-wait-ms="500" icici-typeahead="obj.companyName for obj in showCompanies($viewValue)" typeahead-loading="isFieldLoading" ng-pattern="/.*[a-zA-Z].*/" placeholder="Enter employer name to get personalised rate of intrest" ng-model-options="{allowInvalid: true}" data-listed="false" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-378-2107" required="required"><ul class="dropdown-menu ng-isolate-scope ng-hide" ng-show="isOpen() &amp;&amp; !moveInProgress" ng-style="{top: position().top+'px', left: position().left+'px'}" role="listbox" aria-hidden="true" icici-typeahead-popup="" id="typeahead-378-2107" matches="matches" active="activeIdx" select="select(activeIdx, evt)" move-in-progress="moveInProgress" query="query" position="position" assign-is-open="assignIsOpen(isOpen)" debounce="debounceUpdate">
+			<!-- ngRepeat: match in matches track by $index -->
+		</ul>
+					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="'plpq-company'">
+						<span class="input__label-content input__label-content--hoshi pull-left">
+							<span ng-transclude=""><span class="ng-scope">
+												Employer Name
+											</span></span>
+							<!-- ngIf: titl -->
+						</span>
+					</label>
+				</span>
+			</div>
+			 <!-- ngIf: form[fieldid].$error.pattern && !form[fieldid].$status --> 
+		  <!--  <p ng-if='form[fieldid].$error.pattern' class='errClass'>Please enter valid Company Name.</p>-->
+			<!-- ngIf: isNotAvail -->
+			<!-- ngIf: fetchError -->
+			<!-- ngIf: comerr -->
+			<!-- ngIf: form[fieldid].$error.required -->
+		</div>
+										</fieldset>
+									</div>
+									<div class="col-sm-1 hidden-xs">
+									</div>
+									<div class="col-xs-12 col-sm-6 loan-benifits-container hidden-xs">
+										<div class="col-sm-3 loan-icon-div">
+											<img src="assets/images/loans_benifits.png" alt="Loan Benifits">
+											<br> Loan Benefits
+										</div>
+										<div class="col-sm-9 loan-benifits-list">
+											<ul class="clearfix">
+												<li><i class="fa fa-check"></i> Minimum documentation required.</li>
+												<li><i class="fa fa-check"></i> Lower rate of interest &amp; Processing fee.</li>
+												<li><i class="fa fa-check"></i> Faster processing.</li>
+												<!--  <li><i class="fa fa-check"></i> Lifetime <a ng-click="showCCModal()" href="#">Credit Card</a> absolutely free for you.</li> -->
+											</ul>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="row sectionSeparator managepad-15"></div>
+							<div class="clearfix">
+								<div id="slidersDiv" class="two-slider col-sm-6 col-sm-12">
+									<!-- <icici-auto-slider class="plpk-slider clearfix" data-llabel="{{vm.sliderObj.label}}" data-lvalue="vm.sliderObj.sliderOpt.slideValue" data-lmin="vm.sliderObj.sliderOpt.min" data-lstep="vm.testOptions.step" data-lmax="vm.sliderObj.sliderOpt.max" data-tlabel="{{vm.sliderObj.steplabel}}" data-tvalue="vm.sliderObj.sliderOpt.secondSlideValue" data-minyear="vm.tenureOptions.minyear" data-maxyear="vm.tenureOptions.maxyear"></icici-auto-slider> -->
+									<fieldset ng-disabled="vm.breDone">
+										<input-field-slider data-tenuretitle="vm.tenureTitle" data-loantitle="vm.loanTitle" ng-class="{'slider-disable': vm.breDone}" data-needmore="needMore()" data-plpk="true" data-assignchanged="vm.assignChanged()" class="plpk-slider ng-isolate-scope" options="vm.sliderObj"><div class="row">
+			<div ng-class=" isPlpk ? '' : 'col-sm-6 col-md-5'" class="col-xs-12 slider-custom">
+				<span class="input input--hoshi  input--filled" ng-init="inputType='text'">
+					<input ng-focus="loanfocussed();" value="12.6 Lakhs" ng-blur="convertToFloat();loanblur(this);mouseleaved();" ng-model="options.inputText" class="input__field input__field--hoshi ng-pristine ng-untouched ng-valid" type="text" id="input-4" ng-change="removeLastchar()" ng-trim="false">
+					<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+						<!-- ngIf: !isPlpk -->
+						<span class="input__label-content pull-right input-icon"><img src="assets/images/pencil_icon.svg"></span>
+					</label>
+					<!-- ngIf: isPlpk --><div class="plpk-morph-labels ng-scope" ng-if="isPlpk">
+						<span class="input__label-content input__label-content--hoshi pull-left ng-binding" id="loan-amount-label">Required Loan Amount (<i class="fa fa-inr rupee"></i>)
+							<span class="need-more-morph" ng-click="needMoreN()">&nbsp;<u>Need more</u></span>
+						</span>
+					</div><!-- end ngIf: isPlpk -->
+				</span>
+				<!-- ngIf: maxLoanAmtErr -->
+				<div>
+					<div class="slider slider-horizontal"><div class="slider-track"><div class="slider-selection" style="left: 0%; width: 100%;"></div><div class="slider-handle round" style="left: 100%;"></div><div class="slider-handle round hide" style="left: 0%;"></div></div><div id="tooltip" class="tooltip top" style="top: -24px; left: 479px;"></div><div id="tooltip_min" class="tooltip top" style="top: -30px;"><div class=""></div><div class="tooltip-inner"></div></div><div id="tooltip_max" class="tooltip top" style="top: -30px;"><div class=""></div><div class="tooltip-inner"></div></div><input type="text" on-stop-slide="mouseleaved();" ng-model="options.slideValue" min="options.sliderOpt.min" step="options.sliderOpt.step" max="options.sliderOpt.max" class="ng-isolate-scope ng-valid ng-dirty ng-valid-parse" style="display: none;"></div>
+					<div class="clearfix">
+						<div class="pull-left">
+							<span class="min-max">Min. Eligible</span>
+							<!-- <span class="min-max-value"><i class="fa fa-inr"></i> {{options.sliderOpt.min}}</span> -->
+							<span class="min-max-value ng-binding"><i class="fa fa-inr"></i> 0.50 Lakh</span>
+						</div>
+						<div class="text-right pull-right">
+							<span class="min-max">Max. Eligible</span>
+							<span class="min-max-value ng-binding"><i class="fa fa-inr"></i> 8.75 Lakh</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div ng-class=" isPlpk ? '' : 'col-sm-6 col-md-offset-2 col-md-5'" class="col-xs-12 slider-custom">
+				<span class="input input--hoshi  input--filled">
+								<input class="input__field input__field--hoshi ng-pristine ng-untouched ng-valid" ng-focus="tenurefocussed()" ng-blur="convertToInt(options.secondinputText);mouseleaved();" ng-model="options.secondinputText" type="text" id="input-5" ng-keypress="limitChar($event)">
+								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-5">
+										<span class="input__label-content input__label-content--hoshi pull-left ng-binding" id="tenure-label">Preferred Tenure (Years)</span>
+				<span class="input__label-content pull-right input-icon"><img src="assets/images/pencil_icon.svg"></span>
+				</label>
+				</span>
+				<div class="slider slider-horizontal"><div class="slider-track"><div class="slider-selection" style="left: 0%; width: 100%;"></div><div class="slider-handle round" style="left: 100%;"></div><div class="slider-handle round hide" style="left: 0%;"></div></div><div id="tooltip" class="tooltip top" style="top: -24px; left: 479px;"></div><div id="tooltip_min" class="tooltip top" style="top: -30px;"><div class=""></div><div class="tooltip-inner"></div></div><div id="tooltip_max" class="tooltip top" style="top: -30px;"><div class=""></div><div class="tooltip-inner"></div></div><input type="text" ng-model="options.secondSlideValue" on-stop-slide="mouseleaved();" min="options.tenureyears.minyear" step="0.5" max="options.tenureyears.maxyear" slider-id="idTest" class="ng-isolate-scope ng-valid ng-dirty ng-valid-parse" style="display: none;"></div>
+				<div class="clearfix">
+					<div class="pull-left">
+						<span class="min-max">Min</span><span class="min-max-value ng-binding">1.0 Years</span>
+					</div>
+					<div class="text-right pull-right">
+						<span class="min-max">Max</span>
+						<span class="min-max-value ng-binding">5.0 Years</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</input-field-slider>
+									</fieldset>
+								</div>
+								<div style="padding-bottom:10px;" class="row sectionSeparator visible-xs managepad-15"></div>
+								<div class="col-sm-6 col-sm-12 customized-loan-details">
+									<div class="offersDetails">
+										<div class="clearfix">
+											<div class="offer hidden-xs col-xs-12">
+												<span><b>Your customized Personal Loan Plan</b></span>
+											</div>
+										</div>
+										<div class="col-sm-7 offers-applied" ng-class="{'offers-applied':vm.tabs[0].yousave}">
+											<div class="offerblocks col-md-10 col-sm-12 interest-container">
+												<label class="block" for="loan-amount"><strong>Interest Rate (Fixed)</strong></label>
+												<span ng-hide="hideStrikePart" class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block ng-binding">14.25% Fixed</span>
+												<!-- ngIf: vm.tabs[0].offerRate==0 -->
+												<!-- ngIf: vm.tabs[0].offerRate!=0 --><span ng-if="vm.tabs[0].offerRate!=0" class="light-orange ng-binding ng-scope"> 13%</span><!-- end ngIf: vm.tabs[0].offerRate!=0 -->
+											</div>
+											<div class="offerblocks col-md-10 col-sm-12 emi-container2">
+												
+												<label class="block" for="loan-amount"><strong>EMI</strong></label>
+												<span ng-hide="hideStrikePart" class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block ng-binding"><i class="fa fa-inr"></i>20,473</span>
+												<!-- ngIf: vm.tabs[0].offerEMI==0 -->
+												<!-- ngIf: vm.tabs[0].offerEMI!=0 --><span ng-if="vm.tabs[0].offerEMI!=0" class="light-orange ng-binding ng-scope">  <i class="fa fa-inr"></i> 19,909</span><!-- end ngIf: vm.tabs[0].offerEMI!=0 -->
+											</div>
+											<div class="offerblocks col-md-10 col-sm-12 fees-container">
+												<label class="block" for="loan-amount"><strong>Fees</strong></label>
+												<span ng-hide="hideStrikePart" class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block ng-binding"><i class="fa fa-inr"></i>20,650</span>
+												<!-- ngIf: vm.tabs[0].offerProcessingfee==0 -->
+												<!-- ngIf: vm.tabs[0].offerProcessingfee!=0 --><span ng-if="vm.tabs[0].offerProcessingfee!=0" class="light-orange ng-binding ng-scope">  <i class="fa fa-inr"></i>  15,488</span><!-- end ngIf: vm.tabs[0].offerProcessingfee!=0 -->
+											</div>
+											<!--  <div class="offerblocks col-sm-12">
+										<label class="block" for="loan-amount"><strong>Insurance Premium</strong></label>
+										<span ng-hide="hideStrikePart" class="strike-through visible-xs-inline visible-md-inline visible-lg-inline visible-sm-block"><i class="fa fa-inr"></i>{{vm.tabs[0].processingFee | number}}</span>
+										<span ng-if="vm.tabs[0].offerProcessingfee==0" class="light-orange">  <i class="fa fa-inr"></i>  {{vm.tabs[0].processingFee | number}}</span>
+										<span ng-if="vm.tabs[0].offerProcessingfee!=0" class="light-orange">  <i class="fa fa-inr"></i>  {{vm.tabs[0].offerProcessingfee | number}}</span>
+									</div> -->
+										</div>
+										<!-- ngIf: vm.tabs[0].yousave || true --><div class="savesection custom-pl-sec col-sm-5 clearfix ng-scope" ng-if="vm.tabs[0].yousave || true">
+											<div class="align-content-center sec-part col-xs-10">
+												<img class="flip-me pull-left" src="assets/images/save_icon.png" alt="">
+											</div>
+											<div class="align-content-center sec-part col-xs-10 saveinr pull-left">
+												<div>
+													<label class="block" for="loan-amount"><strong>You <!-- ngIf: vm.showNow1 --> Save</strong></label>
+													<div style="text-align:center" class="light-orange ng-binding"><i class="fa fa-inr"></i> 39,002</div>
+												</div>
+											</div>
+										</div><!-- end ngIf: vm.tabs[0].yousave || true -->
+										<!-- ngIf: vm.tabs.length>1 -->
+										<!-- <div ng-show="loading" class="mask"></div>
+				<div ng-show="loading" class="spinner"></div> -->
+										<div class="marginTop20 text-center visible-xs visible-sm ng-hide" ng-show="callBack">
+											<button class="btn blue btnMainStep1" ng-click="callBackRequest()">Call Me</button>
+											<p class="marginTop10 font12">For assistance in filling application form</p>
+											<p class="marginTop10">OR</p>
+										</div>
+										<div class="clearfix text-center offer-for-you">
+											<!--<button class="btn blue btnMainStep1 marginTop10" ng-click="step2Completed()">Disburse Now</button>-->
+											<p class="marginTop5 font12 ng-hide" ng-show="callBack">To fill application form online</p>
+										</div>
+										<!-- ngIf: vm.user.relationWithIcici != 2 -->
+									</div>
+								</div>
+							</div>
+							<div class="row sectionSeparator managepad-15 marginBottom10"></div>
+							<div>
+								<!--<div class="col-xs-12 col-md-12 clearfix align-content-center">
+								<div class="step checkbox_wrapper">
+									<input type="checkbox" class="col-xs-1" ng-model="step1CheckBox" ng-click="checkeligibilitytick(step1CheckBox)" />
+									<label></label>
+								</div>
+								<input type="checkbox" class="col-xs-1"/>
+								<div class="checkbox_wrapper_text"><span class="col-xs-12 col-md-12 termsStep1Span" ng-if="!sod">Lorem Ipsum</span></div>                        
+							</div> -->
+								<div class="continue-btn col-xs-12 col-md-12 clearfix marginTop0">
+									<div>
+										<fieldset ng-disabled="vm.breDone">
+											<div class="step checkbox_wrapper">
+												<input type="checkbox" class="col-xs-1 ng-pristine ng-untouched ng-valid" ng-model="vm.step1CheckBox">
+												<label></label>
+											</div>
+											<!-- <input type="checkbox" class="col-xs-1"/> -->
+											<div class="checkbox_wrapper_text"><span class="col-xs-12 col-md-12 termsStep1Span">The information declared above is accurate and complete to the best of my knowledge. I authorize ICICI Bank &amp; their representatives to call or SMS me with reference to my loan application.</span></div>
+										</fieldset>
+									</div>
+								</div>
+								<div class="continue-btn col-xs-12 col-md-12 clearfix">
+									<div class="eligibilityBtn">
+										<button ng-click="vm.saveBreOffers()" class="btn blue marginBottom10" type="submit" ng-disabled="!vm.step1CheckBox || vm.plPqOffersForm.$invalid || vm.user.monthlyTakeHomeSal == 0" id="savebre-btn">Continue</button>
+										<!-- ngIf: mandatoryFieldMsg && checkEligibilityForm.$submitted && !checkEligibilityForm.$valid -->
+									</div>
+								</div>
+							</div>
+							<!-- <a class="bounceArrow" href=""><span><img src="assets/images/Bounce_arrow.svg" height="30" width="30" /></span></a> -->
+						</div>
+					</div><!-- end ngIf: cur_step == 1 && !isTma -->
+					<!-- ngIf: cur_step == 2 || isTma -->
+					<!-- ngIf: cur_step == 2 -->
+					<!-- ngIf: cur_step == 3 || isTma -->
+					<!-- ngIf: cur_step == 0 -->
+					<div class="cc-modal modal fade" tabindex="1" role="dialog" aria-labelledby="popupModal" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header clearfix">
+									<p class="pull-left knowmorestyle"><strong>Know More</strong></p>
+									<!--<button aria-hidden="true" class="close pull-right" ng-click="cancel()" type="button">X</button>-->
+									<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+								</div>
+								<div class="modal-body marginTop10">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="need-more-modal modal fade" tabindex="1" role="dialog" aria-labelledby="popupModal" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header clearfix">
+									<p class="pull-left knowmorestyle"><strong>Know More</strong></p>
+									<!--<button aria-hidden="true" class="close pull-right" ng-click="cancel()" type="button">X</button>-->
+									<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+								</div>
+								<div class="modal-body marginTop10">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="aadhar-fail-modal modal fade" tabindex="1" role="dialog" aria-labelledby="popupModal" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header clearfix">
+									<p class="pull-left knowmorestyle"><strong>Know More</strong></p>
+									<a href="javascript:void(0);" data-dismiss="modal" aria-label="Close" class="close-img marginTop5 pull-right"></a>
+								</div>
+								<div class="modal-body marginTop10">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</div></div>
+		<!--Main Content End-->
+		
+		<!--Footer Start-->
+		<div id="footer" class="row">
+			<div class="container-fluid">
+			   <p class="text-center">
+				  <span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+				  <span id="footer-links"><a target="_blank" href="auto-loan-disclaimer.html">Disclaimer</a> <span>|</span>
+				  <a target="_blank" href="pdfs/AL_TnC.pdf">Terms & conditions</a>
+				  </span>
+			   </p>
+			</div>
+		</div>
+		<!--Footer End-->
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min-1.11.3.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/icici.min.js"></script>
+</html>
+

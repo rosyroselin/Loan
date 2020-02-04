@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ICICI Bank</title>
+	<meta http-equiv="X-Frame-Options" content="deny">
+	<meta name="description" content="ICICI" />
+	<meta name="keywords" content="ICICI" />
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icici.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body class="disableRightClick cc al">
+	<!--Loader Start-->
+	<!--<div class="portal-throbber" style="display:block">
+	   <div class="mask"></div>
+		<div class="cssload-loader"><span class="cssload-loader-inner"></span></div>
+		<div class="processRequest">Processing your request</div>
+	</div>-->
+	<!--Loader End-->
+	<div class="container-fluid">
+		<!--Header Start-->
+		<div class="row">
+			<div class="col-xs-12 menu subheader-wrapper">
+				<div class="header-container">
+					<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+						<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
+						<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
+					</a>
+					<div class="dropdown-menu hamberger-menu col-xs-11 col-sm-5 col-md-3">
+						<ul class="col-xs-12 menu-items">
+							<li class="col-xs-12"><a href="hl-apply-now.html" class="center-block" id="home-loan-menu">Home Loan</a></li>
+							<li class="col-xs-12"><a href="apply-now.html" class="center-block" id="personal-loan-menu">Personal Loan</a></li>
+							<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
+							<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
+							<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+						</ul>
+						<div class="mask hamburgerIcon"></div>
+					</div>
+					<span>
+					<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
+					</span>
+					<p class="pull-left"><span class="moduleName">Car Loans</span></p>
+				</div>
+			</div>
+		</div>
+		<!--Header End-->
+        <!--Main Content Start-->
+		<div id="content">
+			<div id="keyInformation-modal" class="autoLoan-info">
+				<div class="row">
+					<div class="info col-xs-12 clearfix subheader-wrapper subheader-wrapper-info">
+						<div class="header-container">
+							<p class="pull-left privacy">Please check important information details to proceed further</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="check-eligibility-steps text-center">
+						<div class="steps-inner-container">
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 1 of 4</p>
+								<p>Check Eligibility</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 2 of 4</p>
+								<p>Offer For You</p>
+							</div>
+							<div class="col-xs-12 col-sm-3 text-center">
+								<p class="steps-count">Step 3 of 4</p>
+								<p class="heading">Complete Application</p>
+							</div>
+							<div class="hidden-xs col-sm-3 text-center">
+								<p>Step 4 of 4</p>
+								<p>Upload Documents</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="steps clearfix">
+					<div class="col-xs-3 text-center">
+						<a ui-sref="iciciauto-checkeligibility" href="/asset-portal-redi/auto-loan/check-eligibility"><span class="completed-step center-block check-eligibility"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<a ui-sref="iciciauto-offers-for-you" href="/asset-portal-redi/auto-loan/offers-for-you"><span class="completed-step center-block offer-for-you"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<a ui-sref="iciciauto-personal-info" href="/asset-portal-redi/auto-loan/complete-application/personal-info"><span class="current-step center-block complete-application"></span></a>
+					</div>
+					<div class="col-xs-3 text-center">
+						<span class="uncompleted-step center-block upload-doc"></span>
+					</div>
+				</div>
+				<div class="mainbox marginTop20 clearfix">
+					<form name="keyInfoForm">
+						<div class="row">
+							<p class="col-xs-12 keyInfoMsg">Ensuring correctness of below details will help us get your confirmation faster.</p>
+						</div>
+						<div class="clearfix">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<span class="input input--hoshi tooltip-text input--filled">
+										<input name="1546513519858" class="input__field input__field--hoshi" type="text" id="1546513519858" maxlength="50" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1546513519858">
+											<span class="input__label-content input__label-content--hoshi">
+												First Name <a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+											</span>
+										</label>
+									</span>
+									<span class="otp">Ensure name is as per PAN</span>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<span class="input input--hoshi tooltip-text input--filled">
+										<input name="1546513519860" class="input__field input__field--hoshi" type="text" id="1546513519860" maxlength="50" emoji="false"  required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1546513519860">
+											<span class="input__label-content input__label-content--hoshi">
+												Last Name <a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+											</span>
+										</label>
+									</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 disable-mask">
+									<span class="input input--hoshi input--filled input--mask">
+										<input name="dob" class="input__field input__field--hoshi" type="text" id="suppdob" value="21/05/1974" disabled="disabled">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="suppdob">
+											<span class="input__label-content input__label-content--hoshi">
+												Date of Birth (DD/MM/YYYY)
+												<a href="javascript:;" class="edit"><img alt="Edit" src="images/edit_ico.svg"></a>
+											</span>
+										</label>
+									</span>
+									<span class="otp">To edit your Date of Birth, Please go back to <a ui-sref="iciciauto-checkeligibility" href="cl-check-eligibility.html">Step 1- Check Eligibility</a></span>
+								</div>
+
+								<div class="col-xs-12 col-sm-6">
+									<span class="input input--hoshi input--filled">
+										<input name="dob" class="input__field input__field--hoshi" type="text" id="suppdob" disabled="disabled">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="suppdob">
+											<span class="input__label-content input__label-content--hoshi">Date of Birth (DD/MM/YYYY)</span>
+										</label>
+									</span>
+									<span class="otp">To edit your Date of Birth, Please go back to <a href="cl-check-eligibility.html">Step 1- Check Eligibility</a></span>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<span class="input input--hoshi input--filled">
+										<input name="pan" class="input__field input__field--hoshi" type="text" id="pan" maxlength="10" minlength="10" required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1 text-uppercase" for="pan">
+											<span class="input__label-content input__label-content--hoshi">PAN <a class="edit"><img alt="Edit" src="images/edit_ico.svg"></a></span>
+										</label>
+									</span>
+									<span class="otp">Ensure entered PAN is valid</span>
+									<div class="errClass"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<span class="input input--hoshi tooltip-text input--filled">
+										<input name="1546513519868" class="input__field input__field--hoshi moreText" type="text" id="1546513519868" maxlength="60"  required="required">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1546513519868">
+											<span class="input__label-content input__label-content--hoshi">Address line 1 <a href="javascript:void(0)" class="tooltip-link"><img class="questionmark" alt="tooltip" src="images/Question.png"></a>
+											</span>
+										</label>
+									</span>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<span class="input input--hoshi tooltip-text">
+										<input name="1546513519870" class="input__field input__field--hoshi moreText" type="text" id="1546513519870">
+										<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="1546513519870">
+											<span class="input__label-content input__label-content--hoshi">
+												Address line 2 <a href="javascript:void(0)" class="tooltip-link"><img class="questionmark" alt="tooltip" src="images/Question.png"></a><span class="optional-text-style">(Optional)</span>
+											</span>
+										</label>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="termWrapperStep3 step3-rightNav clearfix">
+							<div class="termsStep3 clearfix">
+								<div class="">
+									<div class="text-center bottom-content marginTop20">
+										<span class="step checkbox_wrapper">
+											<input type="checkbox" style="position:relative">
+											<label></label>
+										</span>
+										<span class="no-padding">I confirm the above details and accept the <a target="_blank" href="pdfs/AL_TnC.pdf" class="terms-cond"><strong>Terms and Conditions</strong></a> of this offer.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="text-center">
+							<div class="col-xs-12 col-sm-4 col-md-3 submyapp marginTop20">
+								<button class="btn btn-block blue" onclick="window.location.href='cl-application-confirmation.html';">Submit Application</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--Main Content End-->
+		
+		<!--Footer Start-->
+		<div id="footer" class="row">
+			<div class="container-fluid">
+			   <p class="text-center">
+				  <span id="footer-text">Loans are the sole discretion of ICICI Bank Ltd.</span>
+				  <span id="footer-links"><a target="_blank" href="auto-loan-disclaimer.html">Disclaimer</a> <span>|</span>
+				  <a target="_blank" href="pdfs/AL_TnC.pdf">Terms & conditions</a>
+				  </span>
+			   </p>
+			</div>
+		</div>
+		<!--Footer End-->
+	</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min-1.11.3.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/icici.min.js"></script>
+</html>
