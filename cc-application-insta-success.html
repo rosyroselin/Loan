@@ -2,26 +2,24 @@
 <html lang="en">
 	<head>
 		<title>ICICI Bank</title>
-		<meta http-equiv="X-Frame-Options" content="deny">
+		<!-- <meta http-equiv="X-Frame-Options" content="deny"> -->
 		<meta name="description" content="ICICI" />
 		<meta name="keywords" content="ICICI" />
 		<meta http-equiv="X-UA-Compatible" content="IE=11" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,minimal-ui" />
 		<meta charset="UTF-8" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-		<link rel="shortcut icon" href="personalloans/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/icici.min.css">
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</head>
-	<body class="disableRightClick cc two-step-insta" style="display: block; padding-right: 0px;">
+	<body class="cc two-step-insta">
 		<div id="mainContDiv" class="container-fluid">
 			<!--Header Start-->
 			<div class="row">
 				<div class="col-xs-12 dropdown subheader-wrapper menu">
 					<div class="header-container">
-						<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
+						<a href="javascript:void(0)" class="dropdown-toggle">
 							<img class="pull-left hamburgerImage" src="images/hamburger_2px.svg" alt="menu">
 							<img class="pull-left hamburgerImage" src="images/hamburger_close.svg" hidden>
 						</a>
@@ -32,8 +30,42 @@
 								<li class="col-xs-12"><a href="cc-apply-now.html" class="center-block" id="credit-menu">Credit Card</a></li>
 								<li class="col-xs-12"><a href="cl-apply-now.html" class="center-block" id="car-loan-menu">Car Loan</a></li>
 								<li class="col-xs-12"><a href="my-applications-login.html" class="center-block" id="my-app-menu">My Applications</a></li>
+								<li class="col-xs-12 ham-heading">
+									<div class="panel-group" role="tablist" aria-multiselectable="true">
+										<div class="panel panel-defaults">
+											<div class="panel-heading" role="tab" id="headingOne">
+												<h4 class="panel-title"><a data-toggle="collapse" data-target="#sub-menu" class="collapsed">My Disbursement Requests</a></h4>
+											</div>
+											<div id="sub-menu" class="panel-collapse collapse">
+												<div class="panel-body">
+													<ul><li class="col-xs-12 acc-links"><a href="pl-disburse-login.html" class="center-block" id="home-loan-menu">Home Loan</a></li></ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
 							</ul>
-							<div class="mask hamburgerIcon"></div>
+							<ul class="col-xs-12 login">
+								<li class="col-xs-12 ham-heading">
+									<strong>Existing Customer Login</strong>
+									<span><a href="apply-now.html" id="login-icon">Login</a></span>
+								</li>
+								<li class="col-xs-12 row network">
+									<span class="col-xs-12 center-block"><strong>Login via Social Media</strong></span>
+									<ul class="col-xs-12">
+										<li class="col-xs-12">
+											<a href="javascript:void(0)" class="center-block" id="existing-twitter">Twitter</a>
+										</li>
+										<li class="col-xs-12">
+											<a href="javascript:void(0)" class="center-block" id="existing-facebook">Facebook</a>
+										</li>
+										<li class="col-xs-12">
+											<a href="javascript:void(0)" class="center-block" id="existing-linked-in">LinkedIn</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<!-- <div class="mask hamburgerIcon"></div> -->
 						</div>
 						<span>
 							<a href="index.html" class="logo pull-left hidden-xs"><img class="logo-margin-left" src="images/icici_logo_img.png" alt="logo"></a>
@@ -116,7 +148,8 @@
 			</div>
 			<!--Footer End-->
 		</div>
-		<script type="text/javascript" src="js/icici.vendor.min.js"></script>
-		<script type="text/javascript" src="js/icici.templates.min.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/icici.min.js"></script>
 	</body>
 </html>
